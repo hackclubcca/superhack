@@ -1,13 +1,13 @@
-{% macro card(title, content, color) %}
-    <div class="card wow animated flipInX" style="background: {{ color }};">
+{% macro card(title, content, color, gradient) %}
+    <div class="card wow animated flipInX" style="{% if color %}background: {{ color }}; {% elif gradient %}  background: linear-gradient({{ gradient[0] }},{{ gradient[1] }}); {% endif %}">
         <div class="card-body text-light">
         <h5 class="card-title important">{{ title }}</h5>
         <div class="card-content">
-            <p class="text-light">{{ content }}</p>
+            <p class="text-light">{{ content|safe }}</p>
         </div>
         </div>
   </div>
 {% endmacro %}
 {% macro image(src) %}
-    <img class="image-smooth" width="100%" src={{ src|default("https://via.placeholder.com/1920x1080") }} />
+    <img class="image-smooth" width="100%" src={{ src|default("https://via.placeholder.com/1920x540") }} />
 {% endmacro %}

@@ -4,17 +4,16 @@
 {% from "partials/divider.html" import Divider with context %}
 
 {% block content %}
-    <div style="background: #d53032; margin-top:-1px; height: 100%; text-align: center;">
+    <div style="background-image: linear-gradient(32deg, #d53032, #aa2a65); margin-top:-1px; height: 100%; text-align: center;">
         <span id="logo-helper"></span><img src="{{ url_for('static', filename='svg/ravenhacklogo.svg') }}" alt="Logo" id="logo" class="rellax" data-rellax-speed="-2" width="40%" />
     </div>
-    {{ Divider("#d53032") }}
+    {{ Divider(gradient=["#d53032","#bd2c4d"]) }}
     <div class="container">
     <h1 class="yellow-text important animated bounceInUp"  id="welcome" style="font-size: 50px; margin-top: 100px; margin-bottom: 20px;">Welcome to Raven Hack '20</h1>
     {{ card(title="So what's Raven Hack all about?", content="Raven Hack is an attempt to unite the algorithm enthusiasts of Canyon Crest Academy under a unique and rare opportunity - in fact, this is the first hackathon at CCA, Carmel Valley, and one of the few in San Diego. So yeah, it's cool. Will it be a success? We hope so, but this hackathon is also about setting a precedent.") }}
     {{ leader("Schedule 📅", id="schedule") }}
-    {{ image(url_for('static', filename='images/schedule.png')) }}
+    {% include "partials/calendar.html" %}
     {{ leader("Frequently Asked Questions ❓", id="faq")}}
-    {{ image() }}
     <div class="row wow animated bounceInUp">
       <div class="col-sm-4" style="margin-bottom: 20px">
         {{
@@ -22,14 +21,31 @@
         }}
       </div>
       <div class="col-sm-4" style="margin-bottom: 20px">
-        {{ card(content="As much as we'd like to include anyone, currently, the event is only open for students at Canyon Crest Academy. Other than that, any student may attend.", title="Who can attend?")}}
+        {{ card(content="As much as we'd like to include anyone, currently, the event is only open for students at Canyon Crest Academy. Other than that, any student may attend.", title="Who can attend?", gradient=["#11998e","#38ef7d"])}}
       </div>
       <div class="col-sm-4" style="margin-bottom: 20px">
           {{
-        card(content="The hosting details are still being formalized, but it's looking like it'll be held in Canyon Crest Academy's Media Center from 12-6PM.", title="Where is it?")
+        card(content="The hosting details are still being formalized, but it's looking like it'll be held in Canyon Crest Academy's Media Center from 12-6PM.", title="Where is it?", gradient=["#FDC830", "#F37335"])
           }}
     </div>
-
+    </div>
+      <div class="row wow animated bounceInUp">
+      <div class="col-sm-4" style="margin-bottom: 20px">
+        {{
+          card(content="Of course not! This event's primary goal is to invent an entertaining yet competitive experience for all, with programming simply being the medium.",title="Do I need to know how to code?", gradient=["#FF416C","#FF4B2B"])
+        }}
+      </div>
+      <div class="col-sm-4" style="margin-bottom: 20px">
+        {{ card(content="As much as we'd like to include anyone, currently, the event is only open for students at Canyon Crest Academy. Other than that, any student may attend.", title="Who can attend?", gradient=["#654ea3","#eaafc8"])}}
+      </div>
+      <div class="col-sm-4" style="margin-bottom: 20px">
+          {{
+        card(content="The hosting details are still being formalized, but it's looking like it'll be held in Canyon Crest Academy's Media Center from 12-6PM.", title="Where is it?", gradient=["#8360c3","#2ebf91"])
+          }}
+      </div>
+    </div>
+    {{ leader("Meet the Team 👋", id="team") }}
+    {{ image() }}
   </div>
 <div id="map"></div>
     <script>
@@ -125,11 +141,11 @@
     async defer></script>
 </div>
     <div class="bg-raven" width="100%">
-      {{ Divider("#222") }}
+      {{ Divider("#242f3e") }}
       <div class="container">
-        {{ leader("Give us a shout!") }}
+        {{ leader("Want to sponsor us?") }}
         {{
-        card(title="But don't be too loud.", content="JK that's filler text... why are you even reading this? I mean, I literally just said it's filler and yet you're still here.", color="#222")
+        card(title="Thanks!", content="It's because of companies like yours that the students of today will emerge as the leaders of tomorrow. Please follow <a href=''>this</a> link to go through the screening process, or contact us directly.", color="#222")
         }}
       </div>
   </div>

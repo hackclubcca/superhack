@@ -1,0 +1,41 @@
+{% from "partials/leader.html" import leader with context %}
+<style type="text/css">
+    tr {
+        transition: all 0.2s ease-in-out;
+    }
+    thead {
+        background: linear-gradient(#e00404, #aa1382);
+    }
+    tr:hover {
+        background: rgba(0,0,0,0.4);
+        text-shadow: #ae4061 1px 1px 2px;
+    }
+</style>
+<div class="calendar">
+    <table class="table table-dark" id="calendar-table">
+      <thead>
+        <tr>
+          <th scope="col" class="important">Time</th>
+          <th scope="col" class="important">Event</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>12:00 AM</td>
+          <td>Check-in</td>
+        </tr>
+        <tr>
+          <td>1:00 PM</td>
+          <td>Workshop</td>
+        </tr>
+        <tr>
+          <td>3:00 PM</td>
+          <td>Food</td>
+        </tr>
+        <tr>
+          <td>6:00 PM</td>
+          <td>Judging</td>
+        </tr>
+      </tbody>
+</table>
+</div>
