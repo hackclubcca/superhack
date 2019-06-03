@@ -1,10 +1,9 @@
 {% from "partials/leader.html" import leader with context %}
+{% from "partials/button.html" import button with context %}
+
 <style type="text/css">
     tr {
         transition: all 0.2s ease-in-out;
-    }
-    thead {
-        background: linear-gradient(#e00404, #aa1382);
     }
     tr:hover {
         background: rgba(0,0,0,0.4);
@@ -13,7 +12,7 @@
 </style>
 <div class="calendar">
     <table class="table table-dark" id="calendar-table">
-      <thead>
+      <thead class="bg-raven">
         <tr>
           <th scope="col" class="important">Time</th>
           <th scope="col" class="important">Event</th>
@@ -38,4 +37,5 @@
         </tr>
       </tbody>
 </table>
+    {{ button(text='ADD TO CALENDAR', url="https://google.com") }}
 </div>
