@@ -58,7 +58,10 @@ h1 {
     /*
     Cool snippet from CodePen :)
     */
-  }
+}
+.underline:hover {
+    background-size: 100% 88%;
+}
 .yellow-gradient {
     background: yellow !important;
 }
