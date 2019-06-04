@@ -2,151 +2,149 @@
 {% from "partials/card.html" import card, image with context %} {# Default card template #}
 {% from "partials/leader.html" import leader with context %}
 {% from "partials/divider.html" import Divider with context %}
-
 {% block content %}
-    <div style="background-image: linear-gradient(32deg, #d53032, #aa2a65); margin-top:-1px; height: 100%; text-align: center;">
-        <span id="logo-helper"></span><img src="{{ url_for('static', filename='svg/ravenhacklogo.svg') }}" alt="Logo" id="logo" class="rellax" data-rellax-speed="-2" width="40%" />
-    </div>
-    {{ Divider(gradient=["#d53032","#bd2c4d"]) }}
-    <div class="container">
-    <h1 class="yellow-text important animated bounceInUp"  id="welcome" style="font-size: 50px; margin-top: 100px; margin-bottom: 20px;">Welcome to Raven Hack '20</h1>
-    {{ card(title="So what's Raven Hack all about?", content="Raven Hack is an attempt to unite the algorithm enthusiasts of Canyon Crest Academy under a unique and rare opportunity - in fact, this is the first hackathon at CCA, Carmel Valley, and one of the few in San Diego. So yeah, it's cool. Will it be a success? We hope so, but this hackathon is also about setting a precedent.") }}
-    {{ leader("Schedule 📅", id="schedule") }}
-    {% include "partials/calendar.html" %}
-    {{ leader("Frequently Asked Questions ❓", id="faq")}}
-    <div class="row wow animated bounceInUp">
-      <div class="col-sm-4" style="margin-bottom: 20px">
-        {{
-          card(content="Of course not! This event's primary goal is to invent an entertaining yet competitive experience for all, with programming simply being the medium.",title="Do I need to know how to code?")
-        }}
-      </div>
-      <div class="col-sm-4" style="margin-bottom: 20px">
-        {{ card(content="As much as we'd like to include anyone, currently, the event is only open for students at Canyon Crest Academy. Other than that, any student may attend.", title="Who can attend?", gradient=["#11998e","#38ef7d"])}}
-      </div>
-      <div class="col-sm-4" style="margin-bottom: 20px">
-          {{
-        card(content="The hosting details are still being formalized, but it's looking like it'll be held in Canyon Crest Academy's Media Center from 12-6PM.", title="Where is it?", gradient=["#FDC830", "#F37335"])
-          }}
-    </div>
-    </div>
-      <div class="row wow animated bounceInUp">
-      <div class="col-sm-4" style="margin-bottom: 20px">
-        {{
-          card(content="Of course not! This event's primary goal is to invent an entertaining yet competitive experience for all, with programming simply being the medium.",title="Do I need to know how to code?", gradient=["#FF416C","#FF4B2B"])
-        }}
-      </div>
-      <div class="col-sm-4" style="margin-bottom: 20px">
-        {{ card(content="As much as we'd like to include anyone, currently, the event is only open for students at Canyon Crest Academy. Other than that, any student may attend.", title="Who can attend?", gradient=["#654ea3","#eaafc8"])}}
-      </div>
-      <div class="col-sm-4" style="margin-bottom: 20px">
-          {{
-        card(content="The hosting details are still being formalized, but it's looking like it'll be held in Canyon Crest Academy's Media Center from 12-6PM.", title="Where is it?", gradient=["#8360c3","#2ebf91"])
-          }}
-      </div>
-    </div>
-    {{ leader("Meet the Team 👋", id="team") }}
-    {{ image() }}
-  </div>
-<div id="map"></div>
-    <script>
-      function initMap() {
-        // Styles a map in night mode.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 32.959076, lng: -117.189430},
-          zoom: 17,
-          styles: [
-            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-            {
-              featureType: 'administrative.locality',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#d59563'}]
-            },
-            {
-              featureType: 'poi',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#d59563'}]
-            },
-            {
-              featureType: 'poi.park',
-              elementType: 'geometry',
-              stylers: [{color: '#263c3f'}]
-            },
-            {
-              featureType: 'poi.park',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#6b9a76'}]
-            },
-            {
-              featureType: 'road',
-              elementType: 'geometry',
-              stylers: [{color: '#38414e'}]
-            },
-            {
-              featureType: 'road',
-              elementType: 'geometry.stroke',
-              stylers: [{color: '#212a37'}]
-            },
-            {
-              featureType: 'road',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#9ca5b3'}]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'geometry',
-              stylers: [{color: '#746855'}]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'geometry.stroke',
-              stylers: [{color: '#1f2835'}]
-            },
-            {
-              featureType: 'road.highway',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#f3d19c'}]
-            },
-            {
-              featureType: 'transit',
-              elementType: 'geometry',
-              stylers: [{color: '#2f3948'}]
-            },
-            {
-              featureType: 'transit.station',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#d59563'}]
-            },
-            {
-              featureType: 'water',
-              elementType: 'geometry',
-              stylers: [{color: '#17263c'}]
-            },
-            {
-              featureType: 'water',
-              elementType: 'labels.text.fill',
-              stylers: [{color: '#515c6d'}]
-            },
-            {
-              featureType: 'water',
-              elementType: 'labels.text.stroke',
-              stylers: [{color: '#17263c'}]
-            }
-          ]
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAujkibpyc00cL01654mEAtiJ4BXrYb_KU&callback=initMap"
-    async defer></script>
+<div style="background-image: linear-gradient(32deg, #d53032, #aa2a65); margin-top:-1px; height: 100%; text-align: center;">
+   <span id="logo-helper"></span><img src="{{ url_for('static', filename='svg/ravenhacklogo.svg') }}" alt="Logo" id="logo" class="rellax" data-rellax-speed="-2" width="40%" />
 </div>
-    <div class="bg-raven" width="100%">
-      {{ Divider("#242f3e") }}
-      <div class="container">
-        {{ leader("Want to sponsor us?") }}
-        {{
-        card(title="Thanks!", content="It's because of companies like yours that the students of today will emerge as the leaders of tomorrow. Please follow <a href=''>this</a> link to go through the screening process, or contact us directly.", color="#222")
-        }}
+{{ Divider(gradient=["#d53032","#bd2c4d"]) }}
+<div class="container">
+   <h1 class="yellow-text important animated bounceInUp"  id="welcome" style="font-size: 50px; margin-top: 100px; margin-bottom: 20px;">Welcome to Raven Hack '20</h1>
+   {{ card(title="So what's Raven Hack all about?", content="Raven Hack is an attempt to unite the algorithm enthusiasts of Canyon Crest Academy under a unique and rare opportunity - in fact, this is the first hackathon at CCA, Carmel Valley, and one of the few in San Diego. So yeah, it's cool. Will it be a success? We hope so, but this hackathon is also about setting a precedent.") }}
+   {{ leader("Schedule 📅", id="schedule") }}
+   {% include "partials/calendar.html" %}
+   {{ leader("Frequently Asked Questions ❓", id="faq")}}
+   <div class="row wow animated bounceInUp">
+      <div class="col-sm-4" style="margin-bottom: 20px">
+         {{
+         card(content="Of course not! This event's primary goal is to invent an entertaining yet competitive experience for all, with programming simply being the medium.",title="Do I need to know how to code?")
+         }}
       </div>
-  </div>
+      <div class="col-sm-4" style="margin-bottom: 20px">
+         {{ card(content="As much as we'd like to include anyone, currently, the event is only open for students at Canyon Crest Academy. Other than that, any student may attend.", title="Who can attend?", gradient=["#11998e","#38ef7d"])}}
+      </div>
+      <div class="col-sm-4" style="margin-bottom: 20px">
+         {{
+         card(content="The hosting details are still being formalized, but it's looking like it'll be held in Canyon Crest Academy's Media Center from 12-6PM.", title="Where is it?", gradient=["#FDC830", "#F37335"])
+         }}
+      </div>
+   </div>
+   <div class="row wow animated bounceInUp">
+      <div class="col-sm-4" style="margin-bottom: 20px">
+         {{
+         card(content="Of course not! This event's primary goal is to invent an entertaining yet competitive experience for all, with programming simply being the medium.",title="Do I need to know how to code?", gradient=["#FF416C","#FF4B2B"])
+         }}
+      </div>
+      <div class="col-sm-4" style="margin-bottom: 20px">
+         {{ card(content="As much as we'd like to include anyone, currently, the event is only open for students at Canyon Crest Academy. Other than that, any student may attend.", title="Who can attend?", gradient=["#654ea3","#eaafc8"])}}
+      </div>
+      <div class="col-sm-4" style="margin-bottom: 20px">
+         {{
+         card(content="The hosting details are still being formalized, but it's looking like it'll be held in Canyon Crest Academy's Media Center from 12-6PM.", title="Where is it?", gradient=["#8360c3","#2ebf91"])
+         }}
+      </div>
+   </div>
+   {{ leader("Meet the Team 👋", id="team") }}
+   {{ image() }}
+</div>
+<div id="map"></div>
+<script>
+   function initMap() {
+     // Styles a map in night mode.
+     var map = new google.maps.Map(document.getElementById('map'), {
+       center: {lat: 32.959076, lng: -117.189430},
+       zoom: 17,
+       styles: [
+         {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+         {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+         {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+         {
+           featureType: 'administrative.locality',
+           elementType: 'labels.text.fill',
+           stylers: [{color: '#d59563'}]
+         },
+         {
+           featureType: 'poi',
+           elementType: 'labels.text.fill',
+           stylers: [{color: '#d59563'}]
+         },
+         {
+           featureType: 'poi.park',
+           elementType: 'geometry',
+           stylers: [{color: '#263c3f'}]
+         },
+         {
+           featureType: 'poi.park',
+           elementType: 'labels.text.fill',
+           stylers: [{color: '#6b9a76'}]
+         },
+         {
+           featureType: 'road',
+           elementType: 'geometry',
+           stylers: [{color: '#38414e'}]
+         },
+         {
+           featureType: 'road',
+           elementType: 'geometry.stroke',
+           stylers: [{color: '#212a37'}]
+         },
+         {
+           featureType: 'road',
+           elementType: 'labels.text.fill',
+           stylers: [{color: '#9ca5b3'}]
+         },
+         {
+           featureType: 'road.highway',
+           elementType: 'geometry',
+           stylers: [{color: '#746855'}]
+         },
+         {
+           featureType: 'road.highway',
+           elementType: 'geometry.stroke',
+           stylers: [{color: '#1f2835'}]
+         },
+         {
+           featureType: 'road.highway',
+           elementType: 'labels.text.fill',
+           stylers: [{color: '#f3d19c'}]
+         },
+         {
+           featureType: 'transit',
+           elementType: 'geometry',
+           stylers: [{color: '#2f3948'}]
+         },
+         {
+           featureType: 'transit.station',
+           elementType: 'labels.text.fill',
+           stylers: [{color: '#d59563'}]
+         },
+         {
+           featureType: 'water',
+           elementType: 'geometry',
+           stylers: [{color: '#17263c'}]
+         },
+         {
+           featureType: 'water',
+           elementType: 'labels.text.fill',
+           stylers: [{color: '#515c6d'}]
+         },
+         {
+           featureType: 'water',
+           elementType: 'labels.text.stroke',
+           stylers: [{color: '#17263c'}]
+         }
+       ]
+     });
+   }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAujkibpyc00cL01654mEAtiJ4BXrYb_KU&callback=initMap"
+   async defer></script>
+<div class="bg-raven" width="100%">
+   {{ Divider("#242f3e") }}
+   <div class="container">
+      {{ leader("Want to sponsor us?") }}
+      {{
+      card(title="Thanks!", content="It's because of companies like yours that the students of today will emerge as the leaders of tomorrow. Please follow <a href=''>this</a> link to go through the screening process, or contact us directly.", color="#222")
+      }}
+   </div>
+</div>
 {% endblock %}

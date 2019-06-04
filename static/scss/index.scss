@@ -1,0 +1,174 @@
+@import './variables.scss';
+
+@font-face {
+    font-family: "Gilroy Bold";
+    src: url("../gen/Gilroy-ExtraBold.otf");
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../gen/Gilroy-Light.otf");
+}
+
+@media screen and (max-width: 700px) {
+    #logo {
+        width: 100% !important;
+    }
+    .divider {
+        margin-top: -15px;
+    }
+    .calendar {
+        width: 100% !important;
+    }
+    .footer {
+        margin-bottom: 80px;
+    }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $off-black;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  @include cool-rgb;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $secondary;
+}
+
+* {
+    font-family: $normal;
+    .important {
+        font-family: $bold;
+    }
+}
+.center {
+    text-align: center;
+}
+body {
+    background: $off-black !important;
+    padding-bottom: 0;
+}
+.grey-text {
+    color: $off-black !important;
+}
+.yellow-text {
+    @include text-gradient;
+}
+.calendar {
+    width: 40%;
+    #calendar-table {
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        border-radius: 20px;
+    }
+}
+
+.black-text {
+    color: black !important;
+}
+
+.btn-primary {
+    border-color: transparent !important;
+}
+
+#mobile {
+    position: fixed;
+    bottom: 0;
+    background: black;
+    width: 100%;
+    font-size: 50pt;
+    z-index: 999;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.mobile-col {
+    width: 33%;
+    text-align: center;
+}
+
+.mobile-icon {
+    font-size: 30pt !important;
+    @include default-padding;
+}
+
+.image-smooth {
+    border-radius: 20px !important;
+    @include default-padding;
+}
+
+.underline {
+    background-image: linear-gradient(120deg, #e52d27 0%, #6b0a0e 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+
+.underline:hover {
+    background-size: 100% 88%;
+}
+
+.yellow-gradient {
+    background: yellow !important;
+}
+
+.card {
+    @include gradient;
+    border: 0 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.2s ease-in-out;
+    .card:hover {
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        transform: scale(1.1, 1.1) rotate(-1deg);
+    }
+}
+
+.text-raven {
+    @include text-gradient;
+}
+
+.bg-raven {
+    @include gradient;
+}
+
+.transparent {
+    background: transparent;
+}
+
+#logo-helper {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#map {
+    height: 100%;
+    border-radius: 20px;
+}
+
+.footer {
+    padding-top: 50px;
+    font-size: 24pt;
+    .btn-footer {
+        color: white;
+        font-size: 24pt;
+    }
+}

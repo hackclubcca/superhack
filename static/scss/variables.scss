@@ -1,0 +1,58 @@
+/*
+
+    Most Important Variables go here
+
+ */
+
+$primary: #d53032;
+$secondary: #aa2a65;
+
+@mixin g($start, $stop) {
+    background: linear-gradient($start, $stopy);
+    -moz-background-image: -moz-linear-gradient($start, $stop);
+    -webkit-background-image: -webkit-linear-gradient($start, $stop);
+}
+
+@mixin gradient {
+    background: linear-gradient(32deg, $primary, $secondary);
+    -moz-background-image: -moz-linear-gradient(32deg, $primary, $secondary);
+    -webkit-background-image: -webkit-linear-gradient(32deg, $primary, $secondary);
+}
+
+@mixin default-padding {
+    padding: 10px;
+}
+
+@mixin text-gradient {
+    background: -webkit-linear-gradient(rgba(207, 45, 228, 0.94) 0%, rgba(228, 115, 45, 0.753) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin cool-rgb {
+    background: linear-gradient(0deg, #ff1e1e, #ff9c00, #ffc900, #18c51e, #00a1df, #000eff, #9c00ff, #ff00da, #ff0000);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 1ms ease infinite;
+    -moz-animation: rainbow 1ms ease infinite;
+    animation: rainbow 1ms ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+$bold: 'Gilroy Bold';
+$normal: 'Gilroy';
+$off-black: #222;

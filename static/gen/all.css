@@ -1,0 +1,265 @@
+/*
+
+    Most Important Variables go here
+
+ */
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url("../gen/Gilroy-ExtraBold.otf");
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../gen/Gilroy-Light.otf");
+}
+@media screen and (max-width: 700px) {
+  /* line 13 */
+  #logo {
+    width: 100% !important;
+  }
+
+  /* line 16 */
+  .divider {
+    margin-top: -15px;
+  }
+
+  /* line 19 */
+  .calendar {
+    width: 100% !important;
+  }
+
+  /* line 22 */
+  .footer {
+    margin-bottom: 80px;
+  }
+}
+/* line 27 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 31 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* line 35 */
+::-webkit-scrollbar-track {
+  background: #222;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* line 40 */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(0deg, #ff1e1e, #ff9c00, #ffc900, #18c51e, #00a1df, #000eff, #9c00ff, #ff00da, #ff0000);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 1ms ease infinite;
+  -moz-animation: rainbow 1ms ease infinite;
+  animation: rainbow 1ms ease infinite;
+}
+
+/* line 44 */
+::-webkit-scrollbar-thumb:hover {
+  background: #aa2a65;
+}
+
+/* line 48 */
+* {
+  font-family: "Gilroy";
+}
+/* line 50 */
+* .important {
+  font-family: "Gilroy Bold";
+}
+
+/* line 54 */
+.center {
+  text-align: center;
+}
+
+/* line 57 */
+body {
+  background: #222 !important;
+  padding-bottom: 0;
+}
+
+/* line 61 */
+.grey-text {
+  color: #222 !important;
+}
+
+/* line 64 */
+.yellow-text {
+  background: -webkit-linear-gradient(rgba(207, 45, 228, 0.94) 0%, rgba(228, 115, 45, 0.753) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 67 */
+.calendar {
+  width: 40%;
+}
+/* line 69 */
+.calendar #calendar-table {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+/* line 75 */
+.black-text {
+  color: black !important;
+}
+
+/* line 79 */
+.btn-primary {
+  border-color: transparent !important;
+}
+
+/* line 83 */
+#mobile {
+  position: fixed;
+  bottom: 0;
+  background: black;
+  width: 100%;
+  font-size: 50pt;
+  z-index: 999;
+}
+
+/* line 92 */
+h1 {
+  margin-bottom: 0;
+}
+
+/* line 96 */
+.mobile-col {
+  width: 33%;
+  text-align: center;
+}
+
+/* line 101 */
+.mobile-icon {
+  font-size: 30pt !important;
+  padding: 10px;
+}
+
+/* line 106 */
+.image-smooth {
+  border-radius: 20px !important;
+  padding: 10px;
+}
+
+/* line 111 */
+.underline {
+  background-image: linear-gradient(120deg, #e52d27 0%, #6b0a0e 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+/* line 119 */
+.underline:hover {
+  background-size: 100% 88%;
+}
+
+/* line 123 */
+.yellow-gradient {
+  background: yellow !important;
+}
+
+/* line 127 */
+.card {
+  background: linear-gradient(32deg, #d53032, #aa2a65);
+  -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
+  -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #aa2a65);
+  border: 0 !important;
+  border-radius: 20px !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+/* line 133 */
+.card .card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1, 1.1) rotate(-1deg);
+}
+
+/* line 139 */
+.text-raven {
+  background: -webkit-linear-gradient(rgba(207, 45, 228, 0.94) 0%, rgba(228, 115, 45, 0.753) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 143 */
+.bg-raven {
+  background: linear-gradient(32deg, #d53032, #aa2a65);
+  -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
+  -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #aa2a65);
+}
+
+/* line 147 */
+.transparent {
+  background: transparent;
+}
+
+/* line 151 */
+#logo-helper {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+/* line 157 */
+#logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 162 */
+#map {
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* line 167 */
+.footer {
+  padding-top: 50px;
+  font-size: 24pt;
+}
+/* line 170 */
+.footer .btn-footer {
+  color: white;
+  font-size: 24pt;
+}

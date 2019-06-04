@@ -1,4 +1,36 @@
-<section class="footer bg-raven">
+<style>
+    .btn-mobile:hover {
+        background: transparent !important;
+    }
+</style>
+<section id="mobile" class="hd-none d-sm-block d-md-none">
+    <div class="container">
+      <div class="row">
+        <div class="mobile-col">
+            <a class="btn btn-primary transparent btn-mobile" href="#">
+                <i class="mobile-icon material-icons text-raven">
+                home
+                </i>
+            </a>
+        </div>
+        <div class="mobile-col">
+          <a class="btn btn-primary transparent btn-mobile" href="#schedule">
+                <i class="mobile-icon material-icons text-raven">
+                calendar_today
+                </i>
+            </a>
+        </div>
+        <div class="mobile-col">
+          <a class="btn btn-primary transparent btn-mobile" href="#faq">
+                <i class="mobile-icon material-icons text-raven">
+                question_answer
+                </i>
+            </a>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="footer" style="background: linear-gradient(90deg, #d53032,#b82c54)">
     <div class="container center">
         <div class="row">
             <div class="col-sm center">
@@ -6,20 +38,20 @@
             </div>
             <div class="col-sm important text-light center">
                 <button type="button" class="btn transparent btn-footer">
-                    <i class="fas fa-envelope"></i> email us <br/>
+                    <a href="mailto:harrisbegca@gmail.com"><i class="fas fa-envelope text-light"></i> <span class="text-light underline">email us</span><br/></a>
                 </button>
                 <button type="button" class="btn transparent btn-footer">
-                    <i class="fab fa-github"></i> src code <br/>
+                    <a href="https://github.com/ravenhackers/ravenhack-flask"><i class="fab fa-github text-light"></i> <span class="text-light underline">src code</span><br/></a>
                 </button>
                 <button type="button" class="btn transparent btn-footer">
-                    <i class="fab fa-twitter"></i> twitter <br/>
+                    <a href="https://twitter.com"><i class="fab fa-twitter text-light"></i><span class="text-light underline">twitter</span><br/></a>
                 </button>
                 <button type="button" class="btn transparent btn-footer">
-                    <i class="fas fa-ice-cream"></i> the full scoop
+                    <a href="https://www.icecream.com/"><!--LOL you actually fell for it--><i class="fas fa-ice-cream text-light"></i><span class="text-light underline">the full scoop</span></a>
                 </button>
             </div>
             <div class="col-sm">
-              <div class="important grey-text">
+              <div class="important text-light">
                   We're a nonprofit that's fiscally sponsored by Hack Club Bank.
               </div>
             </div>
