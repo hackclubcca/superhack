@@ -27,6 +27,13 @@
 html {
   scroll-behavior: smooth;
 }
+::selection {
+    transition: all ease-in-out 0.2s;
+    background: $primary;
+}
+::-moz-selection {
+  background: $primary;
+}
 
 ::-webkit-scrollbar {
   width: 8px;
