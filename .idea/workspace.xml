@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ms-icon-70x70.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/gen/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/gen/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/card.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/raven_hack$raven_hack.coverage" NAME="raven-hack Coverage Results" MODIFIED="1560110445148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/raven_hack$raven_hack.coverage" NAME="raven-hack Coverage Results" MODIFIED="1560707139667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -63,7 +37,10 @@
         <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+              <folding>
+                <element signature="e#324#348#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+            <state relative-caret-position="186">
+              <caret line="11" column="276" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="276" />
             </state>
           </provider>
         </entry>
@@ -80,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
+            <state relative-caret-position="230">
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -98,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="110">
+              <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -107,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="644">
               <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
@@ -138,6 +115,7 @@
       <find>hover</find>
       <find>gradient</find>
       <find>href=&quot;/</find>
+      <find>h1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,7 +127,6 @@
         <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/templates/partials/leader.html" />
-        <option value="$PROJECT_DIR$/templates/partials/card.html" />
         <option value="$PROJECT_DIR$/templates/partials/divider.html" />
         <option value="$PROJECT_DIR$/templates/partials/button.html" />
         <option value="$PROJECT_DIR$/templates/partials/calendar.html" />
@@ -158,17 +135,18 @@
         <option value="$PROJECT_DIR$/static/scss/color.scss" />
         <option value="$PROJECT_DIR$/static/scss/variables.scss" />
         <option value="$PROJECT_DIR$/templates/partials/footer.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/scss/index.scss" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/partials/card.html" />
         <option value="$PROJECT_DIR$/templates/partials/header.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-78" />
-    <option name="y" value="-20" />
-    <option name="width" value="1946" />
-    <option name="height" value="1106" />
+    <option name="y" value="-21" />
+    <option name="width" value="1947" />
+    <option name="height" value="1107" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,7 +199,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,23 +278,25 @@
       <workItem from="1559618102044" duration="7704000" />
       <workItem from="1559775232248" duration="1071000" />
       <workItem from="1559794733081" duration="10000" />
-      <workItem from="1560110359485" duration="1111000" />
+      <workItem from="1560110359485" duration="1760000" />
+      <workItem from="1560123335962" duration="9000" />
+      <workItem from="1560707083748" duration="893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32728000" />
+    <option name="totallyTimeSpent" value="34279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31093118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3222672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.897166" weight="0.24022347" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.79888266" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.897166" visible="true" weight="0.24022347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,7 +305,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.104453444" side_tool="true" weight="0.05586592" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.89554656" weight="0.05586592" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.89554656" weight="0.29236498" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -414,6 +394,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/static/images/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -427,45 +431,24 @@
     <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+          <folding>
+            <element signature="e#324#348#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        <state relative-caret-position="186">
+          <caret line="11" column="276" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="276" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/favicon.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
+        <state relative-caret-position="230">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
         </state>
       </provider>
     </entry>

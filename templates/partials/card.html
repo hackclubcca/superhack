@@ -1,9 +1,9 @@
 {% macro card(title, content, color, gradient) %}
     <div class="card wow animated flipInX" style="{% if color %}background: {{ color }}; {% elif gradient %}  background: linear-gradient({{ gradient[0] }},{{ gradient[1] }}); {% endif %}">
         <div class="card-body text-light">
-        <h5 class="card-title important">{{ title }}</h5>
+        <h5 class="card-title important" style="font-size: 32px;">{{ title }}</h5>
         <div class="card-content">
-            <p class="text-light">{{ content|safe }}</p>
+            <p class="text-light" style="font-size: 24px;">{{ content|safe }}</p>
         </div>
         </div>
   </div>

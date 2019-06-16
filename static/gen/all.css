@@ -170,28 +170,29 @@ body {
 
 /* line 99 */
 h1 {
+  margin-top: 100px !important;
   margin-bottom: 0;
 }
 
-/* line 103 */
+/* line 104 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 108 */
+/* line 109 */
 .mobile-icon {
   font-size: 30pt !important;
   padding: 10px;
 }
 
-/* line 113 */
+/* line 114 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 10px;
 }
 
-/* line 118 */
+/* line 119 */
 .underline {
   background-image: linear-gradient(120deg, #e52d27 0%, #6b0a0e 100%);
   background-repeat: no-repeat;
@@ -200,17 +201,17 @@ h1 {
   transition: background-size 0.25s ease-in;
 }
 
-/* line 126 */
+/* line 127 */
 .underline:hover {
   background-size: 100% 88%;
 }
 
-/* line 130 */
+/* line 131 */
 .yellow-gradient {
   background: yellow !important;
 }
 
-/* line 134 */
+/* line 135 */
 .card {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
@@ -221,56 +222,56 @@ h1 {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 142 */
+/* line 143 */
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.1, 1.1) rotate(-1deg);
 }
 
-/* line 147 */
+/* line 148 */
 .text-raven {
   background: -webkit-linear-gradient(rgba(207, 45, 228, 0.94) 0%, rgba(228, 115, 45, 0.753) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 151 */
+/* line 152 */
 .bg-raven {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
   -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #aa2a65);
 }
 
-/* line 155 */
+/* line 156 */
 .transparent {
   background: transparent;
 }
 
-/* line 159 */
+/* line 160 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 165 */
+/* line 166 */
 #logo {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 170 */
+/* line 171 */
 #map {
   height: 100%;
   border-radius: 20px;
 }
 
-/* line 175 */
+/* line 176 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 178 */
+/* line 179 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt;
