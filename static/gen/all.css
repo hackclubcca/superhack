@@ -94,6 +94,7 @@ html {
 
 /* line 47 */
 ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
   background: linear-gradient(0deg, #ff1e1e, #ff9c00, #ffc900, #18c51e, #00a1df, #000eff, #9c00ff, #ff00da, #ff0000);
   background-size: 1800% 1800%;
   -webkit-animation: rainbow 1ms ease infinite;
@@ -101,64 +102,65 @@ html {
   animation: rainbow 1ms ease infinite;
 }
 
-/* line 51 */
+/* line 52 */
 ::-webkit-scrollbar-thumb:hover {
   background: #aa2a65;
 }
 
-/* line 55 */
+/* line 56 */
 * {
   font-family: "Gilroy";
 }
-/* line 57 */
+/* line 58 */
 * .important {
   font-family: "Gilroy Bold";
 }
 
-/* line 61 */
+/* line 62 */
 .center {
   text-align: center;
 }
 
-/* line 64 */
+/* line 65 */
 body {
   background: #222 !important;
   padding-bottom: 0;
 }
 
-/* line 68 */
+/* line 69 */
 .grey-text {
   color: #222 !important;
 }
 
-/* line 71 */
+/* line 72 */
 .yellow-text {
-  background: -webkit-linear-gradient(rgba(207, 45, 228, 0.94) 0%, rgba(228, 115, 45, 0.753) 100%);
+  background: -webkit-linear-gradient(#d53032, #aa2a65);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 74 */
-.calendar {
-  width: 40%;
-}
 /* line 76 */
-.calendar #calendar-table {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
-}
-
-/* line 82 */
 .black-text {
   color: black !important;
 }
 
-/* line 86 */
+/* line 80 */
 .btn-primary {
   border-color: transparent !important;
 }
 
-/* line 90 */
+/* line 84 */
+.box-shadow {
+  transition: all ease-in-out 0.2s;
+  box-shadow: 5px 5px #2e2e2e;
+}
+
+/* line 88 */
+.box-shadow:hover {
+  box-shadow: 1px 1px #2e2e2e;
+}
+
+/* line 92 */
 #mobile {
   position: fixed;
   bottom: 0;
@@ -168,31 +170,31 @@ body {
   z-index: 999;
 }
 
-/* line 99 */
+/* line 101 */
 h1 {
   margin-top: 100px !important;
   margin-bottom: 0;
 }
 
-/* line 104 */
+/* line 106 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 109 */
+/* line 111 */
 .mobile-icon {
   font-size: 30pt !important;
   padding: 10px;
 }
 
-/* line 114 */
+/* line 116 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 10px;
 }
 
-/* line 119 */
+/* line 121 */
 .underline {
   background-image: linear-gradient(120deg, #e52d27 0%, #6b0a0e 100%);
   background-repeat: no-repeat;
@@ -201,17 +203,17 @@ h1 {
   transition: background-size 0.25s ease-in;
 }
 
-/* line 127 */
+/* line 129 */
 .underline:hover {
   background-size: 100% 88%;
 }
 
-/* line 131 */
+/* line 133 */
 .yellow-gradient {
   background: yellow !important;
 }
 
-/* line 135 */
+/* line 137 */
 .card {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
@@ -222,56 +224,56 @@ h1 {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 143 */
+/* line 145 */
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.1, 1.1) rotate(-1deg);
 }
 
-/* line 148 */
+/* line 150 */
 .text-raven {
-  background: -webkit-linear-gradient(rgba(207, 45, 228, 0.94) 0%, rgba(228, 115, 45, 0.753) 100%);
+  background: -webkit-linear-gradient(#d53032, #aa2a65);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 152 */
+/* line 154 */
 .bg-raven {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
   -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #aa2a65);
 }
 
-/* line 156 */
+/* line 158 */
 .transparent {
   background: transparent;
 }
 
-/* line 160 */
+/* line 162 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 166 */
+/* line 168 */
 #logo {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 171 */
+/* line 173 */
 #map {
   height: 100%;
   border-radius: 20px;
 }
 
-/* line 176 */
+/* line 178 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 179 */
+/* line 181 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt;

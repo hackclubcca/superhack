@@ -45,6 +45,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
   @include cool-rgb;
 }
 
@@ -71,13 +72,6 @@ body {
 .yellow-text {
     @include text-gradient;
 }
-.calendar {
-    width: 40%;
-    #calendar-table {
-        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-        border-radius: 20px;
-    }
-}
 
 .black-text {
     color: black !important;
@@ -85,6 +79,14 @@ body {
 
 .btn-primary {
     border-color: transparent !important;
+}
+
+.box-shadow {
+    transition: all ease-in-out 0.2s;
+    box-shadow: 5px 5px #2e2e2e;
+}
+.box-shadow:hover {
+    box-shadow: 1px 1px #2e2e2e;
 }
 
 #mobile {

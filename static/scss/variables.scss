@@ -24,7 +24,7 @@ $secondary: #aa2a65;
 }
 
 @mixin text-gradient {
-    background: -webkit-linear-gradient(rgba(207, 45, 228, 0.94) 0%, rgba(228, 115, 45, 0.753) 100%);
+    background: -webkit-linear-gradient($primary, $secondary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

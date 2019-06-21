@@ -1,5 +1,6 @@
 {% from "partials/leader.html" import leader with context %}
 {% from "partials/button.html" import button with context %}
+{% from "partials/card.html" import card with context %}
 
 <style type="text/css">
     tr {
@@ -10,32 +11,39 @@
         text-shadow: #ae4061 1px 1px 2px;
     }
 </style>
-<div class="calendar">
-    <table class="table table-dark" id="calendar-table">
-      <thead class="bg-raven">
-        <tr>
-          <th scope="col" class="important">Time</th>
-          <th scope="col" class="important">Event</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>12:00 AM</td>
-          <td>Check-in</td>
-        </tr>
-        <tr>
-          <td>1:00 PM</td>
-          <td>Workshop</td>
-        </tr>
-        <tr>
-          <td>3:00 PM</td>
-          <td>Food</td>
-        </tr>
-        <tr>
-          <td>6:00 PM</td>
-          <td>Judging</td>
-        </tr>
-      </tbody>
-</table>
-    {{ button(text='ADD TO CALENDAR', url="https://google.com") }}
+<div class="row wow animated bounceInUp">
+      <div class="col-sm-6" style="margin-bottom: 20px">
+        <div class="calendar">
+            <table class="table table-dark" id="calendar-table">
+              <thead class="bg-raven">
+                <tr>
+                  <th scope="col" class="important">Time</th>
+                  <th scope="col" class="important">Event</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr id="checkin">
+                  <td>12:00 AM</td>
+                  <td>Check-in</td>
+                </tr>
+                <tr id="workshop">
+                  <td>1:00 PM</td>
+                  <td>Workshop</td>
+                </tr>
+                <tr id="food">
+                  <td>3:00 PM</td>
+                  <td>Food</td>
+                </tr>
+                <tr id="judging">
+                  <td>6:00 PM</td>
+                  <td>Judging</td>
+                </tr>
+              </tbody>
+        </table>
+        </div>
+      </div>
+        <div class="col-sm-6" style="margin-bottom: 20px">
+          {{ card(calendar=true, title="Check In", content="For the first hour, participants of Raven Hack will get their goodies (such as stickers & API codes) as well as the basic rundown of the schedule.") }}
+        </div>
 </div>
+{{ button(text='ADD TO CALENDAR', url="https://google.com", shadow=true) }}
