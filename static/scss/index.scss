@@ -89,6 +89,24 @@ body {
     box-shadow: 1px 1px #2e2e2e;
 }
 
+.sponsorship-logo {
+    box-shadow: 0px 0px;
+    height: 100px;
+    transition: 200ms ease-in-out all;
+    margin: 20px;
+
+    &:hover {
+        -webkit-filter: drop-shadow(2px 2px 2px $off-black);
+        filter: drop-shadow(2px 2px 2px $off-black);
+    }
+}
+
+#sponsor-images {
+    background: white;
+    text-align: center;
+
+}
+
 #mobile {
     position: fixed;
     bottom: 0;
