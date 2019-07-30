@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, make_response
 from wtforms import Form
 from flask_assets import Environment, Bundle
 app = Flask(__name__)
@@ -12,6 +12,9 @@ assets.register('scss', scss)
 def index():
     return render_template("index.html")
 
+@app.route('/document/<name>')
+def document(name):
+    return render_template("document.html", document_name=name)
 
 """
 

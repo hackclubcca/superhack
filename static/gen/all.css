@@ -115,71 +115,78 @@ html {
 * .important {
   font-family: "Gilroy Bold";
 }
+/* line 61 */
+* button {
+  font-family: "Gilroy Bold";
+  border: 0px;
+  padding: 16px;
+  border-radius: 500px !important;
+}
 
-/* line 62 */
+/* line 68 */
 .center {
   text-align: center;
 }
 
-/* line 65 */
+/* line 71 */
 body {
   background: #222 !important;
   padding-bottom: 0;
 }
 
-/* line 69 */
+/* line 75 */
 .grey-text {
   color: #222 !important;
 }
 
-/* line 72 */
+/* line 78 */
 .yellow-text {
   background: -webkit-linear-gradient(#d53032, #aa2a65);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 76 */
+/* line 82 */
 .black-text {
   color: black !important;
 }
 
-/* line 80 */
+/* line 86 */
 .btn-primary {
   border-color: transparent !important;
 }
 
-/* line 84 */
+/* line 90 */
 .box-shadow {
   transition: all ease-in-out 0.2s;
-  box-shadow: 5px 5px #2e2e2e;
+  box-shadow: 5px 5px 6px rgba(46, 46, 46, 0.6);
 }
 
-/* line 88 */
+/* line 94 */
 .box-shadow:hover {
-  box-shadow: 1px 1px #2e2e2e;
+  box-shadow: 1px 1px 6px rgba(46, 46, 46, 0.6);
 }
 
-/* line 92 */
+/* line 98 */
 .sponsorship-logo {
   box-shadow: 0px 0px;
   max-width: 200px;
   transition: 200ms ease-in-out all;
   margin: 20px;
 }
-/* line 98 */
+/* line 104 */
 .sponsorship-logo:hover {
   -webkit-filter: drop-shadow(2px 2px 2px #222);
   filter: drop-shadow(2px 2px 2px #222);
 }
 
-/* line 104 */
+/* line 110 */
 #sponsor-images {
   background: white;
   text-align: center;
 }
 
-/* line 110 */
+/* line 116 */
 #mobile {
   position: fixed;
   bottom: 0;
@@ -189,31 +196,31 @@ body {
   z-index: 999;
 }
 
-/* line 119 */
+/* line 125 */
 h1 {
   margin-top: 100px !important;
   margin-bottom: 0;
 }
 
-/* line 124 */
+/* line 130 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 129 */
+/* line 135 */
 .mobile-icon {
   font-size: 30pt !important;
   padding: 10px;
 }
 
-/* line 134 */
+/* line 140 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 10px;
 }
 
-/* line 139 */
+/* line 145 */
 .underline {
   background-image: linear-gradient(120deg, #e52d27 0%, #6b0a0e 100%);
   background-repeat: no-repeat;
@@ -222,17 +229,17 @@ h1 {
   transition: background-size 0.25s ease-in;
 }
 
-/* line 147 */
+/* line 153 */
 .underline:hover {
   background-size: 100% 88%;
 }
 
-/* line 151 */
+/* line 157 */
 .yellow-gradient {
   background: yellow !important;
 }
 
-/* line 155 */
+/* line 161 */
 .card {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
@@ -243,56 +250,56 @@ h1 {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 163 */
+/* line 169 */
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.1, 1.1) rotate(-1deg);
 }
 
-/* line 168 */
+/* line 174 */
 .text-raven {
   background: -webkit-linear-gradient(#d53032, #aa2a65);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 172 */
+/* line 178 */
 .bg-raven {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
   -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #aa2a65);
 }
 
-/* line 176 */
+/* line 182 */
 .transparent {
   background: transparent;
 }
 
-/* line 180 */
+/* line 186 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 186 */
+/* line 192 */
 #logo {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 191 */
+/* line 197 */
 #map {
   height: 100%;
   border-radius: 20px;
 }
 
-/* line 196 */
+/* line 202 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 199 */
+/* line 205 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt;

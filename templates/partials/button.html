@@ -1,3 +1,3 @@
 {% macro button(text, url, shadow) %}
-    <a role="button"class="btn btn-primary bg-raven {% if shadow %}box-shadow{% endif %}" href="{{ url }}">{{ text }}</a>
+    <button role="button" class="btn btn-light {% if shadow %}box-shadow{% endif %}" onclick="location.href='{{ url }}'">{{ text }}</button>
 {% endmacro %}

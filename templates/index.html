@@ -8,19 +8,19 @@
 </div>
 {{ Divider(gradient=["#d53032","#bd2c4d"]) }}
 <div class="container">
-   <h1 class="yellow-text important animated bounceInUp"  id="welcome" style="font-size: 50px; margin-top: 100px; margin-bottom: 20px;">Welcome to Raven Hack '20</h1>
-   {{ card(title="What even is Raven Hack?", content="Raven Hack is an 8-hour hackathon hosted at Canyon Crest Academy on February 1, 2020. At Raven Hack, students will collaborate to work on unique projects that apply their computer science skills to real-world applications.") }}
+   <h1 class="yellow-text important animated fadeInUp"  id="welcome" style="font-size: 50px; margin-top: 100px; margin-bottom: 20px;">Welcome to Raven Hack '20</h1>
+   {{ card(title="What even is Raven Hack?", content="Raven Hack is an 8-hour hackathon that will be hosted at the San Diego Supercomputer Center on February 1, 2020. At Raven Hack, high school students will collaborate to work on unique projects that apply their computer science skills to real-world applications.") }}
    {{ leader("Schedule 📅", id="schedule") }}
    {% include "partials/calendar.html" %}
    {{ leader("Frequently Asked Questions ❓", id="faq")}}
-   <div class="row wow animated bounceInUp">
+   <div class="row wow animated fadeInUp">
       <div class="col-sm-4" style="margin-bottom: 20px">
          {{
          card(content="Of course not! This event's primary goal is to invent an entertaining yet competitive experience for all, with programming simply being the medium.",title="Do I need to know how to code?")
          }}
       </div>
       <div class="col-sm-4" style="margin-bottom: 20px">
-         {{ card(content="As much as we'd like to include everyone, currently, the event is only open for high-school students in San Diego. Other than that, any student may attend.", title="Who can attend?", gradient=["#11998e","#38ef7d"])}}
+         {{ card(content="Anyone!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", gradient=["#11998e","#38ef7d"])}}
       </div>
       <div class="col-sm-4" style="margin-bottom: 20px">
          {{
@@ -28,14 +28,14 @@
          }}
       </div>
    </div>
-   <div class="row wow animated bounceInUp">
+   <div class="row wow animated fadeInUp">
       <div class="col-sm-4" style="margin-bottom: 20px">
          {{
          card(content="No, we're not hacking whatsoever. Besides the fact that we could get in trouble for something like that, the usage of 'hacking' has been broadened to the prospect of collaborating on Computer Science-based projects.",title="Hacking??", gradient=["#FF416C","#FF4B2B"])
          }}
       </div>
       <div class="col-sm-4" style="margin-bottom: 20px">
-         {{ card(content="Sadly, we cannot offer traveling reimbursements of the moment, but stay tuned - as we get more sponsors, we may very well be able to offer this.", title="Do you provide reimbursements?", gradient=["#654ea3","#eaafc8"])}}
+         {{ card(content="Don't take my word for it, but we may be reimbursing 15 students from across the nation ;)", title="Do you provide reimbursements?", gradient=["#654ea3","#eaafc8"])}}
       </div>
       <div class="col-sm-4" style="margin-bottom: 20px">
          {{
@@ -44,7 +44,7 @@
       </div>
    </div>
     {{ leader("Sponsors", id="sponsors") }}
-    <div class="card wow animated flipInX" id="sponsor-images">
+    <div class="card wow animated fadeInUp" id="sponsor-images">
         <div class="row">
             <div class="col">
                 {{ sponsor(url="https://repl.it", file="replit.svg") }}
@@ -68,7 +68,7 @@
         </div>
     </div>
     {{ leader("Meet the Team 👋", id="team") }}
-   <div class="row wow animated bounceInUp">
+   <div class="row wow animated fadeInUp">
       <div class="col-sm-6" style="margin-bottom: 20px">
          {{
          card(content="Hey there! I'm a senior at Canyon Crest Academy and the creator of Raven Hack. While I love hackathons, I've also explored the world of research, product development, and, perhaps most importantly, Star Wars (I'm a big fan). ",title="Harris Beg, President", gradient=["#FF416C","#FF4B2B"], email="harris@ravenhack.org")
@@ -86,7 +86,7 @@
    function initMap() {
      // Styles a map in night mode.
      var map = new google.maps.Map(document.getElementById('map'), {
-       center: {lat: 32.959076, lng: -117.189430},
+       center: {lat: 32.8843509, lng: -117.2392354},
        zoom: 17,
        styles: [
          {elementType: 'geometry', stylers: [{color: '#242f3e'}]},

@@ -1,5 +1,5 @@
 {% macro card(title, content, color, gradient, email, calendar) %}
-    <div class="card wow animated flipInX" style="{% if color %}background: {{ color }}; {% elif gradient %}  background: linear-gradient({{ gradient[0] }},{{ gradient[1] }}); {% endif %}">
+    <div class="card wow animated fadeInUp" style="{% if color %}background: {{ color }}; {% elif gradient %}  background: linear-gradient({{ gradient[0] }},{{ gradient[1] }}); {% endif %}">
         <div class="card-body text-light">
         <h5 class="card-title important" style="font-size: 32px;" {% if calendar %}id="calendar-title"{% endif %}>{{ title }}</h5>
         <div class="card-content">

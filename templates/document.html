@@ -1,0 +1,7 @@
+{% extends "partials/header.html" %}
+{% from "partials/card.html" import card, image with context %} {# Default card template #}
+{% from "partials/leader.html" import leader, sponsor with context %}
+{% from "partials/divider.html" import Divider with context %}
+{% block content %}
+    <embed src="{{  url_for('static', filename='pdf/' + document_name) }}#toolbar=0&navpanes=0&scrollbar=0" style="height: 100vh; width: 100%; margin-top: 80px">
+{% endblock %}
