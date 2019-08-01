@@ -174,19 +174,19 @@ body {
   transition: 200ms ease-in-out all;
   margin: 20px;
 }
-/* line 104 */
+/* line 103 */
 .sponsorship-logo:hover {
-  -webkit-filter: drop-shadow(2px 2px 2px #222);
-  filter: drop-shadow(2px 2px 2px #222);
+  -webkit-filter: drop-shadow(0px 4px 5px #222);
+  filter: drop-shadow(0px 4px 5px #222);
 }
 
-/* line 110 */
+/* line 109 */
 #sponsor-images {
   background: white;
   text-align: center;
 }
 
-/* line 116 */
+/* line 115 */
 #mobile {
   position: fixed;
   bottom: 0;
@@ -196,31 +196,31 @@ body {
   z-index: 999;
 }
 
-/* line 125 */
+/* line 124 */
 h1 {
   margin-top: 100px !important;
   margin-bottom: 0;
 }
 
-/* line 130 */
+/* line 129 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 135 */
+/* line 134 */
 .mobile-icon {
   font-size: 30pt !important;
   padding: 10px;
 }
 
-/* line 140 */
+/* line 139 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 10px;
 }
 
-/* line 145 */
+/* line 144 */
 .underline {
   background-image: linear-gradient(120deg, #e52d27 0%, #6b0a0e 100%);
   background-repeat: no-repeat;
@@ -229,17 +229,17 @@ h1 {
   transition: background-size 0.25s ease-in;
 }
 
-/* line 153 */
+/* line 152 */
 .underline:hover {
   background-size: 100% 88%;
 }
 
-/* line 157 */
+/* line 156 */
 .yellow-gradient {
   background: yellow !important;
 }
 
-/* line 161 */
+/* line 160 */
 .card {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
@@ -250,56 +250,56 @@ h1 {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 169 */
+/* line 168 */
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.1, 1.1) rotate(-1deg);
 }
 
-/* line 174 */
+/* line 173 */
 .text-raven {
   background: -webkit-linear-gradient(#d53032, #aa2a65);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 178 */
+/* line 177 */
 .bg-raven {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
   -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #aa2a65);
 }
 
-/* line 182 */
+/* line 181 */
 .transparent {
   background: transparent;
 }
 
-/* line 186 */
+/* line 185 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 192 */
+/* line 191 */
 #logo {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 197 */
+/* line 196 */
 #map {
   height: 100%;
   border-radius: 20px;
 }
 
-/* line 202 */
+/* line 201 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 205 */
+/* line 204 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt;
