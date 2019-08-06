@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/partials/faq.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/sass/8632901b0876d6deb60669c18582d27da43833f9/variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/sass/8632901b0876d6deb60669c18582d27da43833f9/variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/gen/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/gen/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/document.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/document.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,16 +41,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1265">
+            <state relative-caret-position="-3199">
               <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
               <folding>
                 <element signature="e#877#904#0#HTML" expanded="true" />
                 <element signature="e#977#1004#0#HTML" expanded="true" />
                 <element signature="e#1077#1104#0#HTML" expanded="true" />
                 <element signature="e#1630#1657#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/document.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#558#610#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,7 +169,6 @@
         <option value="$PROJECT_DIR$/static/svg/document.html" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/partials/button.html" />
-        <option value="$PROJECT_DIR$/templates/document.html" />
         <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/templates/partials/header.html" />
         <option value="$PROJECT_DIR$/templates/partials/card.html" />
@@ -175,6 +178,7 @@
         <option value="$PROJECT_DIR$/templates/partials/map.html" />
         <option value="$PROJECT_DIR$/templates/partials/faq.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/document.html" />
       </list>
     </option>
   </component>
@@ -352,18 +356,18 @@
       <workItem from="1564600612021" duration="3149000" />
       <workItem from="1564676662209" duration="2661000" />
       <workItem from="1564765141094" duration="628000" />
-      <workItem from="1565108482675" duration="3692000" />
+      <workItem from="1565108482675" duration="6449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62846000" />
+    <option name="totallyTimeSpent" value="65603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2769231" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2769231" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,8 +380,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.104453444" side_tool="true" visible="true" weight="0.05586592" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.89554656" weight="0.29236498" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.10526316" side_tool="true" visible="true" weight="0.29236498" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.8947368" visible="true" weight="0.29236498" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -474,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/document.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -545,13 +542,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1265">
+        <state relative-caret-position="-3199">
           <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
             <element signature="e#877#904#0#HTML" expanded="true" />
             <element signature="e#977#1004#0#HTML" expanded="true" />
             <element signature="e#1077#1104#0#HTML" expanded="true" />
             <element signature="e#1630#1657#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/document.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#558#610#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
