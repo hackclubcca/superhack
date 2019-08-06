@@ -13,6 +13,12 @@ $secondary: #aa2a65;
     -webkit-background-image: -webkit-linear-gradient($start, $stop);
 }
 
+@mixin text-g($start, $stop) {
+    background: -webkit-linear-gradient($start, $stop);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @mixin gradient {
     background: linear-gradient(32deg, $primary, $secondary);
     -moz-background-image: -moz-linear-gradient(32deg, $primary, $secondary);
@@ -24,7 +30,7 @@ $secondary: #aa2a65;
 }
 
 @mixin text-gradient {
-    background: -webkit-linear-gradient($primary, $secondary);
+    background: -webkit-linear-gradient(32deg, $primary, $secondary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -38,21 +44,25 @@ $secondary: #aa2a65;
 }
 
 @-webkit-keyframes rainbow {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
 }
 @-moz-keyframes rainbow {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
 }
 @keyframes rainbow {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
 }
+@keyframes counter {
+
+}
+
 
 $bold: 'Gilroy Bold';
 $normal: 'Gilroy';
-$off-black: #222;
+$off-black: #1f1f1f;

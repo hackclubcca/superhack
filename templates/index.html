@@ -1,5 +1,5 @@
 {% extends "partials/header.html" %}
-{% from "partials/card.html" import card, image with context %} {# Default card template #}
+{% from "partials/card.html" import card, image, importantcard, collapsiblecard with context %} {# Default card template #}
 {% from "partials/leader.html" import leader, sponsor with context %}
 {% from "partials/divider.html" import Divider with context %}
 {% block content %}
@@ -9,41 +9,53 @@
 {{ Divider(gradient=["#d53032","#bd2c4d"]) }}
 <div class="container">
    <h1 class="yellow-text important animated fadeInUp"  id="welcome" style="font-size: 50px; margin-top: 100px; margin-bottom: 20px;">Welcome to Raven Hack '20</h1>
-   {{ card(title="What even is Raven Hack?", content="Raven Hack is a 12-hour hackathon that will be hosted at the San Diego Supercomputer Center on February 1, 2020, where 150 of the most creative high-schoolers (from artists to musicians to, well, programmers) will blend their passion and ideas into technical ideas.") }}
-   {{ leader("Schedule 📅", id="schedule") }}
-   {% include "partials/calendar.html" %}
-   {{ leader("Frequently Asked Questions ❓", id="faq")}}
+    <div class="row">
+        <div class="col-sm-4" style="margin-bottom: 20px">
+            {{ importantcard(title="150+", content="attendees from all over SD", class="purple-text-gradient") }}
+        </div>
+        <div class="col-sm-4" style="margin-bottom: 20px">
+            {{ importantcard(title="12 hrs", content="to build, explore, and deploy", class="yellow-text-gradient") }}
+        </div>
+        <div class="col-sm-4" style="margin-bottom: 20px">
+            {{ importantcard(title="1st", content="high school hackathon in SD", class="green-text-gradient") }}
+        </div>
+    </div>
+    {% include "partials/calendar.html" %}
+    {{ leader("Frequently Asked Questions ❓", id="faq")}}
    <div class="row wow animated fadeInUp">
       <div class="col-sm-4" style="margin-bottom: 20px">
          {{
-         card(content="Of course not! This event's primary goal is to invent an entertaining yet competitive experience for all, with programming simply being the medium.",title="Do I need to know how to code?")
+         collapsiblecard(id="faq1",content="Of course not! This event's primary goal is to invent an entertaining yet competitive experience for all, with programming simply being the medium.",title="Do I need to know how to code?")
          }}
       </div>
       <div class="col-sm-4" style="margin-bottom: 20px">
-         {{ card(content="Anyone!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", gradient=["#11998e","#38ef7d"])}}
+         {{ collapsiblecard(id="faq2",content="Anyone!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", gradient=["#11998e","#38ef7d"])}}
       </div>
       <div class="col-sm-4" style="margin-bottom: 20px">
          {{
-         card(content="The hosting details are still being formalized, but it's looking like it'll be held in Canyon Crest Academy's Media Center from 12-6PM.", title="Where is it?", gradient=["#FDC830", "#F37335"])
+         collapsiblecard(id="faq3",content="The hosting details are still being formalized, but it's looking like it'll be held at UCSD's San Diego Supercomputer Center (depicted in the map below)", title="Where is it?", gradient=["#FDC830", "#F37335"])
          }}
       </div>
    </div>
    <div class="row wow animated fadeInUp">
       <div class="col-sm-4" style="margin-bottom: 20px">
          {{
-         card(content="No, we're not hacking whatsoever. Besides the fact that we could get in trouble for something like that, the usage of 'hacking' has been broadened to the prospect of collaborating on Computer Science-based projects.",title="Hacking??", gradient=["#FF416C","#FF4B2B"])
+         collapsiblecard(id="faq4",content="No, we're not \"hacking\" in the typical sense whatsoever. Besides the fact that we could get in trouble for something like that, the usage of 'hacking' has been broadened to the prospect of collaborating on Computer Science-based projects.",title="Hacking??", gradient=["#FF416C","#FF4B2B"])
          }}
       </div>
       <div class="col-sm-4" style="margin-bottom: 20px">
-         {{ card(content="Don't take my word for it, but we may be reimbursing 15 students from across the nation ;)", title="Do you provide reimbursements?", gradient=["#654ea3","#eaafc8"])}}
+         {{
+         collapsiblecard(id="faq5",content="Don't take my word for it, but we may be reimbursing 15 students from across the nation ;)", title="Do you provide reimbursements?", gradient=["#654ea3","#eaafc8"])
+         }}
       </div>
       <div class="col-sm-4" style="margin-bottom: 20px">
          {{
-         card(content="Yes, as it turns out, we've been planning to come up with a method to elect leaders for next year. It is very likely that our selection will come from active participants from our local Hack Club chapter.", title="Can I do it next year?", gradient=["#8360c3","#2ebf91"])
+         collapsiblecard(id="faq6",content="Yes, as it turns out, we've been planning to come up with a method to elect leaders for next year. It is very likely that our selection will come from active participants from our local Hack Club chapter.", title="Can I do it next year?", gradient=["#8360c3","#2ebf91"])
          }}
       </div>
    </div>
     {{ leader("Sponsors", id="sponsors") }}
+    <h3 class="important text-light">Want to sponsor us? Contact <a href="mailto:harris@ravenhack.org">us</a>!!</h3>
     <div class="card wow animated fadeInUp" id="sponsor-images">
         <div class="row">
             <div class="col">
@@ -185,11 +197,5 @@
    async defer></script>
 <div class="bg-raven" width="100%">
    {{ Divider("#242f3e") }}
-   <div class="container">
-      {{ leader("Want to sponsor us?") }}
-      {{
-      card(title="Thanks!", content="It's because of companies like yours that the students of today will emerge as the leaders of tomorrow. Please follow <a href=''>this</a> link to go through the screening process, or contact us directly.", color="#222")
-      }}
-   </div>
 </div>
 {% endblock %}

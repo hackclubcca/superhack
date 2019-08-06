@@ -79,6 +79,16 @@ body {
   @include text-gradient;
 }
 
+.yellow-text-gradient {
+  @include text-g(#e98f00,#f8ff3f);
+}
+.purple-text-gradient {
+  @include text-g(#ff3bff,#250096);
+}
+.green-text-gradient {
+  @include text-g(#4a8f00,#069468);
+}
+
 .black-text {
   color: black !important;
 }
@@ -86,6 +96,7 @@ body {
 .btn-primary {
   border-color: transparent !important;
 }
+
 
 .box-shadow {
   transition: all ease-in-out 0.2s;
@@ -109,8 +120,8 @@ body {
 #sponsor-images {
   background: white;
   text-align: center;
-
 }
+
 
 #mobile {
   position: fixed;
@@ -167,7 +178,7 @@ h1 {
 
 .card:hover {
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  transform: scale(1.1, 1.1) rotate(-1deg);
+  transform: scale(1.05, 1.05) rotate(-0.8deg);
 }
 
 .text-raven {
@@ -180,6 +191,10 @@ h1 {
 
 .transparent {
   background: transparent;
+}
+
+.semi-transparent {
+  background: rgba(255, 255, 255, 0.2);
 }
 
 #logo-helper {

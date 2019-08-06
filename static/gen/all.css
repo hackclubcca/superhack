@@ -141,52 +141,73 @@ body {
 
 /* line 78 */
 .yellow-text {
-  background: -webkit-linear-gradient(#d53032, #aa2a65);
+  background: -webkit-linear-gradient(32deg, #d53032, #aa2a65);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 /* line 82 */
+.yellow-text-gradient {
+  background: -webkit-linear-gradient(#e98f00, #f8ff3f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 85 */
+.purple-text-gradient {
+  background: -webkit-linear-gradient(#ff3bff, #250096);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 88 */
+.green-text-gradient {
+  background: -webkit-linear-gradient(#4a8f00, #069468);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 92 */
 .black-text {
   color: black !important;
 }
 
-/* line 86 */
+/* line 96 */
 .btn-primary {
   border-color: transparent !important;
 }
 
-/* line 90 */
+/* line 101 */
 .box-shadow {
   transition: all ease-in-out 0.2s;
   box-shadow: 5px 5px 6px rgba(46, 46, 46, 0.6);
 }
 
-/* line 94 */
+/* line 105 */
 .box-shadow:hover {
   box-shadow: 1px 1px 6px rgba(46, 46, 46, 0.6);
 }
 
-/* line 98 */
+/* line 109 */
 .sponsorship-logo {
   box-shadow: 0px 0px;
   max-width: 200px;
   transition: 200ms ease-in-out all;
   margin: 20px;
 }
-/* line 103 */
+/* line 114 */
 .sponsorship-logo:hover {
   -webkit-filter: drop-shadow(0px 4px 5px #222);
   filter: drop-shadow(0px 4px 5px #222);
 }
 
-/* line 109 */
+/* line 120 */
 #sponsor-images {
   background: white;
   text-align: center;
 }
 
-/* line 115 */
+/* line 126 */
 #mobile {
   position: fixed;
   bottom: 0;
@@ -196,31 +217,31 @@ body {
   z-index: 999;
 }
 
-/* line 124 */
+/* line 135 */
 h1 {
   margin-top: 100px !important;
   margin-bottom: 0;
 }
 
-/* line 129 */
+/* line 140 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 134 */
+/* line 145 */
 .mobile-icon {
   font-size: 30pt !important;
   padding: 10px;
 }
 
-/* line 139 */
+/* line 150 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 10px;
 }
 
-/* line 144 */
+/* line 155 */
 .underline {
   background-image: linear-gradient(120deg, #e52d27 0%, #6b0a0e 100%);
   background-repeat: no-repeat;
@@ -229,17 +250,17 @@ h1 {
   transition: background-size 0.25s ease-in;
 }
 
-/* line 152 */
+/* line 163 */
 .underline:hover {
   background-size: 100% 88%;
 }
 
-/* line 156 */
+/* line 167 */
 .yellow-gradient {
   background: yellow !important;
 }
 
-/* line 160 */
+/* line 171 */
 .card {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
@@ -250,56 +271,61 @@ h1 {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 168 */
+/* line 179 */
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transform: scale(1.1, 1.1) rotate(-1deg);
+  transform: scale(1.05, 1.05) rotate(-0.8deg);
 }
 
-/* line 173 */
+/* line 184 */
 .text-raven {
-  background: -webkit-linear-gradient(#d53032, #aa2a65);
+  background: -webkit-linear-gradient(32deg, #d53032, #aa2a65);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 177 */
+/* line 188 */
 .bg-raven {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
   -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #aa2a65);
 }
 
-/* line 181 */
+/* line 192 */
 .transparent {
   background: transparent;
 }
 
-/* line 185 */
+/* line 196 */
+.semi-transparent {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* line 200 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 191 */
+/* line 206 */
 #logo {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 196 */
+/* line 211 */
 #map {
   height: 100%;
   border-radius: 20px;
 }
 
-/* line 201 */
+/* line 216 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 204 */
+/* line 219 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt;

@@ -14,3 +14,27 @@
 {% macro image(src) %}
     <img class="image-smooth" width="100%" src={{ src|default("https://via.placeholder.com/1920x540") }} />
 {% endmacro %}
+{% macro importantcard(title, content, class) %}
+    <div class="card wow animated fadeIn" style=" text-align: center; background: #000; height: 250px">
+          <div class="card-body {{ class }}">
+              <h5 class="card-title important" style="font-size: 72px;">{{ title }}</h5>
+              <div class="card-content">
+                  <p class="important" style="font-size: 36px;">{{ content|safe }}</p>
+              </div>
+          </div>
+    </div>
+{% endmacro %}
+{% macro collapsiblecard(title, content, color, gradient, id) %}
+    <div class="card wow animated fadeInUp" style="{% if color %}background: {{ color }}; {% elif gradient %}  background: linear-gradient({{ gradient[0] }},{{ gradient[1] }}); {% endif %}">
+        <div class="card-body text-light">
+        <h5 class="card-title important" style="font-size: 32px;" {% if calendar %}id="calendar-title"{% endif %}>{{ title }}</h5>
+          <a class="btn semi-transparent important text-light" style="width: 100%" data-toggle="collapse" href="#{{ id }}" role="button" aria-expanded="false" aria-controls="{{ id }}">...</a>
+            <div class="card-content collapse" id="{{ id }}">
+                <p class="text-light" style="font-size: 24px;" {% if calendar %}id="calendar-description"{% endif %}>{{ content|safe }}</p>
+            </div>
+            {% if email %}
+                <a href="mailto:{{ email }}"><i class="fas fa-envelope text-light" style="font-size: 36px"></i></a>
+            {% endif %}
+        </div>
+  </div>
+{% endmacro %}
