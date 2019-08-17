@@ -197,6 +197,19 @@ h1 {
   background: rgba(255, 255, 255, 0.2);
 }
 
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+td:nth-child(2) {
+}
+
 #logo-helper {
   display: inline-block;
   vertical-align: middle;

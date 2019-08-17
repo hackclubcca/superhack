@@ -9,7 +9,7 @@
 {{ Divider(gradient=["#d53032","#bd2c4d"]) }}
 <div class="container">
    <h1 class="yellow-text important animated fadeInUp"  id="welcome" style="font-size: 50px; margin-top: 100px; margin-bottom: 20px;">Welcome to Raven Hack '20</h1>
-    <div class="row">
+    <div class="row wow fadeInUp display-flex">
         <div class="col-sm-4" style="margin-bottom: 20px">
             {{ importantcard(title="150+", content="attendees from all over SD", class="purple-text-gradient") }}
         </div>
@@ -22,7 +22,7 @@
     </div>
     {% include "partials/calendar.html" %}
     {{ leader("Frequently Asked Questions ❓", id="faq")}}
-   <div class="row wow animated fadeInUp">
+   <div class="row wow fadeInUp display-flex">
       <div class="col-sm-4" style="margin-bottom: 20px">
          {{
          collapsiblecard(id="faq1",content="Of course not! This event's primary goal is to invent an entertaining yet competitive experience for all, with programming simply being the medium.",title="Do I need to know how to code?")
@@ -80,7 +80,7 @@
         </div>
     </div>
     {{ leader("Meet the Team 👋", id="team") }}
-   <div class="row wow animated fadeInUp">
+   <div class="row wow fadeInUp display-flex">
       <div class="col-sm-6" style="margin-bottom: 20px">
          {{
          card(content="Hey there! I'm a senior at Canyon Crest Academy and the creator of Raven Hack. While I love hackathons, I've also explored the world of research, product development, and, perhaps most importantly, Star Wars (I'm a big fan). ",title="Harris Beg, President", gradient=["#FF416C","#FF4B2B"], email="harris@ravenhack.org")
@@ -90,7 +90,7 @@
          {{ image(src="https://i.ibb.co/HBc61LS/IMG-6074.jpg") }}
       </div>
    </div>
-    <div class="row wow animated fadeInUp">
+    <div class="row wow fadeInUp display-flex">
       <div class="col-sm-6" style="margin-bottom: 20px">
          {{ image(src="https://i.ibb.co/GnmhDWN/image.png") }}
       </div>

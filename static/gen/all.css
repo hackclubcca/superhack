@@ -88,7 +88,7 @@ html {
 
 /* line 42 */
 ::-webkit-scrollbar-track {
-  background: #222;
+  background: #1f1f1f;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -130,13 +130,13 @@ html {
 
 /* line 71 */
 body {
-  background: #222 !important;
+  background: #1f1f1f !important;
   padding-bottom: 0;
 }
 
 /* line 75 */
 .grey-text {
-  color: #222 !important;
+  color: #1f1f1f !important;
 }
 
 /* line 78 */
@@ -197,8 +197,8 @@ body {
 }
 /* line 114 */
 .sponsorship-logo:hover {
-  -webkit-filter: drop-shadow(0px 4px 5px #222);
-  filter: drop-shadow(0px 4px 5px #222);
+  -webkit-filter: drop-shadow(0px 4px 5px #1f1f1f);
+  filter: drop-shadow(0px 4px 5px #1f1f1f);
 }
 
 /* line 120 */
@@ -302,30 +302,42 @@ h1 {
 }
 
 /* line 200 */
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 205 */
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 213 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 206 */
+/* line 219 */
 #logo {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 211 */
+/* line 224 */
 #map {
   height: 100%;
   border-radius: 20px;
 }
 
-/* line 216 */
+/* line 229 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 219 */
+/* line 232 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt;
