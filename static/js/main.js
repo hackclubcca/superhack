@@ -28,3 +28,13 @@ $("#closing").on("mouseover", function() {
    $("#calendar-title").html("Closing Remarks & Dinner");
     $("#calendar-description").html("You're tired. We're tired. Don't worry, we get it - we just want to thank everyone who helped at this point and get you back home (hopefully with good opinions of the event).");
 });
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop() < 60){
+            $(".navbar").css({"background-color":"rgba(0,0,0,0.3)"});
+        }
+        else {
+            $(".navbar").css({"background-color":"#000"});
+        }
+    })
+});

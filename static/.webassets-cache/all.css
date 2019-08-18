@@ -88,14 +88,14 @@ html {
 
 /* line 42 */
 ::-webkit-scrollbar-track {
-  background: #100e16;
+  background: #1f1f1f;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 /* line 47 */
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: linear-gradient(#ff1e1e, #ff9c00, #ffc900, #18c51e, #00a1df, #000eff, #9c00ff, #ff00da, #ff0000);
+  background: linear-gradient(0deg, #ff1e1e, #ff9c00, #ffc900, #18c51e, #00a1df, #000eff, #9c00ff, #ff00da, #ff0000);
   background-size: 1800% 1800%;
   -webkit-animation: rainbow 1ms ease infinite;
   -moz-animation: rainbow 1ms ease infinite;
@@ -130,13 +130,13 @@ html {
 
 /* line 71 */
 body {
-  background: #100e16 !important;
+  background: #1f1f1f !important;
   padding-bottom: 0;
 }
 
 /* line 75 */
 .grey-text {
-  color: #100e16 !important;
+  color: #1f1f1f !important;
 }
 
 /* line 78 */
@@ -197,8 +197,8 @@ body {
 }
 /* line 114 */
 .sponsorship-logo:hover {
-  -webkit-filter: drop-shadow(0px 4px 5px #100e16);
-  filter: drop-shadow(0px 4px 5px #100e16);
+  -webkit-filter: drop-shadow(0px 4px 5px #1f1f1f);
+  filter: drop-shadow(0px 4px 5px #1f1f1f);
 }
 
 /* line 120 */
@@ -253,15 +253,14 @@ h1 {
 /* line 163 */
 .underline:hover {
   background-size: 100% 88%;
-  cursor: pointer;
 }
 
-/* line 168 */
+/* line 167 */
 .yellow-gradient {
   background: yellow !important;
 }
 
-/* line 172 */
+/* line 171 */
 .card {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
@@ -270,82 +269,75 @@ h1 {
   border-radius: 20px !important;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   transition: all 0.2s ease-in-out;
-  margin-bottom: 20px;
 }
 
-/* line 181 */
-a {
-  font-family: "Gilroy Bold";
-  color: #5058b3;
-}
-
-/* line 186 */
+/* line 179 */
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transform: scale(1.05, 1.05) rotate(-0.18deg);
+  transform: scale(1.05, 1.05) rotate(-0.8deg);
 }
 
-/* line 191 */
+/* line 184 */
 .text-raven {
   background: -webkit-linear-gradient(32deg, #d53032, #aa2a65);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 195 */
+/* line 188 */
 .bg-raven {
   background: linear-gradient(32deg, #d53032, #aa2a65);
   -moz-background-image: -moz-linear-gradient(32deg, #d53032, #aa2a65);
   -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #aa2a65);
 }
 
-/* line 199 */
+/* line 192 */
 .transparent {
   background: transparent;
 }
 
-/* line 203 */
+/* line 196 */
 .semi-transparent {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 207 */
+/* line 200 */
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 212 */
+/* line 205 */
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
 }
 
-/* line 217 */
+/* line 210 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 223 */
+/* line 216 */
 #logo {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 228 */
+/* line 221 */
 #map {
   height: 100%;
   border-radius: 20px;
 }
 
-/* line 233 */
+/* line 226 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 236 */
+/* line 229 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt;
