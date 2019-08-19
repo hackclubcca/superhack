@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/.webassets-cache/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/sass/8632901b0876d6deb60669c18582d27da43833f9/variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/sass/8632901b0876d6deb60669c18582d27da43833f9/variables.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/gen/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/gen/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/index.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,36 +24,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/raven_hack$raven_hack.coverage" NAME="raven-hack Coverage Results" MODIFIED="1566171421820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/raven_hack$raven_hack.coverage" NAME="raven-hack Coverage Results" MODIFIED="1566172033095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2116">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-              <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
-              <caret line="92" column="45" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
+            <state relative-caret-position="115">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+              <folding>
+                <element signature="e#761#825#0#HTML" expanded="true" />
+                <element signature="e#935#962#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/scss/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2338">
+              <caret line="175" selection-start-line="175" selection-end-line="175" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="63" column="78" selection-start-line="63" selection-start-column="78" selection-end-line="63" selection-end-column="78" />
+            <state relative-caret-position="138">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,17 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="828">
               <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/partials/calendar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -75,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="71" column="15" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
+            <state relative-caret-position="89">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -87,28 +86,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/.webassets-cache/all.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="180" column="21" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
+            <state relative-caret-position="89">
+              <caret line="125" column="3" selection-start-line="125" selection-end-line="125" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/gen/all.css">
+        <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="554" column="17" lean-forward="true" selection-start-line="554" selection-start-column="17" selection-end-line="554" selection-end-column="17" />
+            <state relative-caret-position="207">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/partials/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -126,14 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>footer</find>
-      <find>hover</find>
-      <find>gradient</find>
-      <find>href=&quot;/</find>
-      <find>h1</find>
-      <find>calendar</find>
-      <find>text-rave</find>
-      <find>button</find>
       <find>a r</find>
       <find>role</find>
       <find>#</find>
@@ -143,7 +134,6 @@
       <find>bounce</find>
       <find>flip</find>
       <find>.spons</find>
-      <find>yellow-text</find>
       <find>transpare</find>
       <find>scale</find>
       <find>#222</find>
@@ -156,6 +146,15 @@
       <find>navbar</find>
       <find>a</find>
       <find>a {</find>
+      <find>underline</find>
+      <find>'pin</find>
+      <find>bg-ra</find>
+      <find>.btn</find>
+      <find>card</find>
+      <find>yellow-text</find>
+      <find>aa2a65</find>
+      <find>#mo</find>
+      <find>#aa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,22 +167,24 @@
         <option value="$PROJECT_DIR$/templates/partials/divider.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/static/scss/color.scss" />
-        <option value="$PROJECT_DIR$/templates/partials/footer.html" />
         <option value="$PROJECT_DIR$/templates/partials/leader.html" />
         <option value="$PROJECT_DIR$/static/svg/document.html" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/partials/button.html" />
         <option value="$PROJECT_DIR$/templates/partials/map.html" />
         <option value="$PROJECT_DIR$/templates/partials/faq.html" />
         <option value="$PROJECT_DIR$/templates/document.html" />
         <option value="$PROJECT_DIR$/templates/partials/card.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/partials/calendar.html" />
-        <option value="$PROJECT_DIR$/templates/partials/header.html" />
         <option value="$PROJECT_DIR$/static/js/main.js" />
-        <option value="$PROJECT_DIR$/static/scss/variables.scss" />
-        <option value="$PROJECT_DIR$/static/gen/all.css" />
+        <option value="$PROJECT_DIR$/static/scss/index.css" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/static/scss/index.scss" />
+        <option value="$PROJECT_DIR$/static/scss/variables.scss" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/static/.webassets-cache/all.css" />
+        <option value="$PROJECT_DIR$/static/gen/all.css" />
+        <option value="$PROJECT_DIR$/templates/partials/footer.html" />
+        <option value="$PROJECT_DIR$/templates/partials/header.html" />
       </list>
     </option>
   </component>
@@ -239,6 +240,13 @@
             <path>
               <item name="raven-hack" type="b2602c69:ProjectViewProjectNode" />
               <item name="raven-hack" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="index.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="raven-hack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raven-hack" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -267,17 +275,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\pdf" />
+      <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\gen" />
+      <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\images\sponsors" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\templates" />
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\pdf" />
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\images\sponsors" />
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\images" />
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\gen" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\pdf" />
-      <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\gen" />
-      <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\images\sponsors" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,12 +373,12 @@
       <workItem from="1565199080893" duration="604000" />
       <workItem from="1566006661730" duration="4345000" />
       <workItem from="1566151721471" duration="231000" />
-      <workItem from="1566170614931" duration="904000" />
+      <workItem from="1566170614931" duration="3175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72307000" />
+    <option name="totallyTimeSpent" value="74578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -444,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/svg/ravenhacklogo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -485,13 +486,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/map.html" />
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/document.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -506,16 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2116">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
-          <caret line="92" column="45" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/calendar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -523,48 +507,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
+    <entry file="file://$PROJECT_DIR$/static/scss/index.css.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="63" column="78" selection-start-line="63" selection-start-column="78" selection-end-line="63" selection-end-column="78" />
+        <state relative-caret-position="46">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/faq.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2338">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="828">
           <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/faq.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="71" column="15" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/.webassets-cache/all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="180" column="21" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="21" />
+          <caret line="212" column="21" selection-start-line="212" selection-start-column="21" selection-end-line="212" selection-end-column="21" />
+          <caret line="286" column="61" selection-start-line="286" selection-start-column="61" selection-end-line="286" selection-end-column="61" />
+          <caret line="528" column="53" selection-start-line="528" selection-start-column="53" selection-end-line="528" selection-end-column="53" />
+          <caret line="530" column="69" selection-start-line="530" selection-start-column="69" selection-end-line="530" selection-end-column="69" />
+          <caret line="532" column="75" selection-start-line="532" selection-start-column="75" selection-end-line="532" selection-end-column="75" />
+          <caret line="562" column="61" selection-start-line="562" selection-start-column="61" selection-end-line="562" selection-end-column="61" />
+          <caret line="576" column="53" selection-start-line="576" selection-start-column="53" selection-end-line="576" selection-end-column="53" />
+          <caret line="578" column="69" selection-start-line="578" selection-start-column="69" selection-end-line="578" selection-end-column="69" />
+          <caret line="580" column="75" selection-start-line="580" selection-start-column="75" selection-end-line="580" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/gen/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="554" column="17" lean-forward="true" selection-start-line="554" selection-start-column="17" selection-end-line="554" selection-end-column="17" />
+        <state relative-caret-position="162">
+          <caret line="602" column="53" selection-start-line="602" selection-start-column="47" selection-end-line="602" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
+        <state relative-caret-position="89">
+          <caret line="125" column="3" selection-start-line="125" selection-end-line="125" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding>
+            <element signature="e#761#825#0#HTML" expanded="true" />
+            <element signature="e#935#962#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

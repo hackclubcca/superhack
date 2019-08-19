@@ -75,8 +75,8 @@ body {
 .grey-text {
   color: $off-black !important;
 }
-.yellow-text {
-  @include text-gradient;
+.pink-text-gradient {
+  @include text-g(#d53032,#fb0074);
 }
 
 .yellow-text-gradient {
@@ -163,6 +163,10 @@ h1 {
 .underline:hover {
   background-size: 100% 88%;
   cursor: pointer;
+}
+
+.btn {
+  border-radius: 500px;
 }
 
 .yellow-gradient {

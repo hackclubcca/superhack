@@ -3,12 +3,12 @@
 {% from "partials/leader.html" import leader, sponsor with context %}
 {% from "partials/divider.html" import Divider with context %}
 {% block content %}
-<div style="background-image: linear-gradient(32deg, #d53032, #aa2a65); margin-top:-1px; height: 100%; text-align: center;">
+<div style="background-image: linear-gradient(32deg, #d53032, #fb0074); margin-top:-1px; height: 100%; text-align: center;">
    <span id="logo-helper"></span><img src="{{ url_for('static', filename='svg/ravenhacklogo.svg') }}" alt="Logo" id="logo" class="rellax" data-rellax-speed="-2" width="40%" />
 </div>
-{{ Divider(gradient=["#d53032","#bd2c4d"]) }}
+{{ Divider(gradient=["#d53032","#fb0074"]) }}
 <div class="container">
-   <h1 class="yellow-text important animated fadeInUp"  id="welcome" style="font-size: 50px; margin-top: 100px; margin-bottom: 20px;">Welcome to Raven Hack '20</h1>
+   <h1 class="pink-text-gradient important animated fadeInUp"  id="welcome" style="font-size: 64px; margin-top: 100px; margin-bottom: 20px;">Welcome to Raven Hack '20</h1>
     <div class="row wow fadeInUp display-flex">
         <div class="col-sm-4" style="margin-bottom: 20px">
             {{ importantcard(title="150+", content="attendees from all over SD", class="purple-text-gradient") }}
