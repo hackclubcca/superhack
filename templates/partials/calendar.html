@@ -2,26 +2,12 @@
 {% from "partials/button.html" import button with context %}
 {% from "partials/card.html" import card with context %}
 {{ leader("Schedule 📅", id="schedule") }}
-<style type="text/css">
-    tr {
-        transition: all 0.2s ease-in-out;
-        margin: 20px 0px;
-        border-bottom: 3px solid rgba(255,255,255,0.2)
-    }
-    tr:hover {
-        background: rgba(0,0,0,0.4);
-        text-shadow: #ae4061 1px 1px 2px;
-    }
-</style>
+
 <div class="row wow animated bounceInUp">
       <div class="col-sm-6" style="margin-bottom: 20px">
         <div class="calendar">
             <table class="table transparent text-light" id="calendar-table">
-              <thead class="bg-raven">
-                <tr>
                   <h2 class="important text-light">February 1, 2020</h2>
-                </tr>
-              </thead>
               <tbody>
                 <tr id="checkin">
                   <td>8:00 AM</td>

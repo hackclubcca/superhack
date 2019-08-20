@@ -23,6 +23,11 @@
     margin-bottom: 80px;
   }
 }
+@media screen and (min-width: 1001px) {
+  #mobileMenu {
+    display: none !important;
+  }
+}
 
 html {
   scroll-behavior: smooth;
@@ -51,6 +56,15 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: $secondary;
+}
+
+.navbar {
+  background: #7d1e3e;
+  transition: 250ms ease-in-out all;
+  border-radius: 0 0 20px 20px !important;
+  position: fixed;
+  width: 100%;
+  z-index:999;
 }
 
 * {
@@ -86,7 +100,7 @@ body {
   @include text-g(#ff3bff,#250096);
 }
 .green-text-gradient {
-  @include text-g(#4a8f00,#069468);
+  @include text-g(#05b937,#069468);
 }
 
 .black-text {
@@ -241,4 +255,34 @@ a {
     color: white;
     font-size: 24pt;
   }
+}
+
+tr {
+  transition: all 0.2s ease-in-out;
+  margin: 20px 0px;
+  border-bottom: 3px solid rgba(251,0,116, 0.25);
+  &:hover {
+    @include text-gradient;
+    cursor: pointer;
+  }
+}
+
+#sanDiego {
+  background-image: url("../images/palmtrees.svg");
+  background-color: #222586;
+  background-position: center center;
+  background-size: cover;
+}
+
+#time {
+  background-image: url("../images/clocks.svg");
+  background-color: #222;
+  background-position: center center;
+  background-size: cover;
+}
+#attendees {
+  background-image: url("../images/people.svg");
+  background-color: #0f5d27;
+  background-position: center center;
+  background-size: cover;
 }

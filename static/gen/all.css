@@ -1,1 +1,411 @@
-/*    Most Important Variables go here */@-webkit-keyframes rainbow {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes rainbow {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes rainbow {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@font-face {  font-family: "Gilroy Bold";  src: url("../gen/Gilroy-ExtraBold.otf");}@font-face {  font-family: "Gilroy";  src: url("../gen/Gilroy-Light.otf");}@media screen and (max-width: 700px) {  /* line 13 */  #logo {    width: 100% !important;  }  /* line 16 */  .divider {    margin-top: -15px;  }  /* line 19 */  .calendar {    width: 100% !important;  }  /* line 22 */  .footer {    margin-bottom: 80px;  }}/* line 27 */html {  scroll-behavior: smooth;}/* line 30 */::selection {  transition: all ease-in-out 0.2s;  background: #d53032;}/* line 34 */::-moz-selection {  background: #d53032;}/* line 38 */::-webkit-scrollbar {  width: 8px;}/* line 42 */::-webkit-scrollbar-track {  background: #100e16;  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);}/* line 47 */::-webkit-scrollbar-thumb {  border-radius: 5px;  background: linear-gradient(#ff1e1e, #ff9c00, #ffc900, #18c51e, #00a1df, #000eff, #9c00ff, #ff00da, #ff0000);  background-size: 1800% 1800%;  -webkit-animation: rainbow 1ms ease infinite;  -moz-animation: rainbow 1ms ease infinite;  animation: rainbow 1ms ease infinite;}/* line 52 */::-webkit-scrollbar-thumb:hover {  background: #fb0074;}/* line 56 */* {  font-family: "Gilroy";}/* line 58 */* .important {  font-family: "Gilroy Bold";}/* line 61 */* button {  font-family: "Gilroy Bold";  border: 0px;  padding: 16px;  border-radius: 500px !important;}/* line 68 */.center {  text-align: center;}/* line 71 */body {  background: #100e16 !important;  padding-bottom: 0;}/* line 75 */.grey-text {  color: #100e16 !important;}/* line 78 */.pink-text-gradient {  background: -webkit-linear-gradient(#d53032, #fb0074);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;}/* line 82 */.yellow-text-gradient {  background: -webkit-linear-gradient(#e98f00, #f8ff3f);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;}/* line 85 */.purple-text-gradient {  background: -webkit-linear-gradient(#ff3bff, #250096);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;}/* line 88 */.green-text-gradient {  background: -webkit-linear-gradient(#4a8f00, #069468);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;}/* line 92 */.black-text {  color: black !important;}/* line 96 */.btn-primary {  border-color: transparent !important;}/* line 101 */.box-shadow {  transition: all ease-in-out 0.2s;  box-shadow: 5px 5px 6px rgba(46, 46, 46, 0.6);}/* line 105 */.box-shadow:hover {  box-shadow: 1px 1px 6px rgba(46, 46, 46, 0.6);}/* line 109 */.sponsorship-logo {  box-shadow: 0px 0px;  max-width: 200px;  transition: 200ms ease-in-out all;  margin: 20px;}/* line 114 */.sponsorship-logo:hover {  -webkit-filter: drop-shadow(0px 4px 5px #100e16);  filter: drop-shadow(0px 4px 5px #100e16);}/* line 120 */#sponsor-images {  background: white;  text-align: center;}/* line 126 */#mobile {  position: fixed;  bottom: 0;  background: black;  width: 100%;  font-size: 50pt;  z-index: 999;}/* line 135 */h1 {  margin-top: 100px !important;  margin-bottom: 0;}/* line 140 */.mobile-col {  width: 33%;  text-align: center;}/* line 145 */.mobile-icon {  font-size: 30pt !important;  padding: 10px;}/* line 150 */.image-smooth {  border-radius: 20px !important;  padding: 10px;}/* line 155 */.underline {  background-image: linear-gradient(120deg, #e52d27 0%, #6b0a0e 100%);  background-repeat: no-repeat;  background-size: 100% 0.2em;  background-position: 0 88%;  transition: background-size 0.25s ease-in;}/* line 163 */.underline:hover {  background-size: 100% 88%;  cursor: pointer;}/* line 168 */.btn {  border-radius: 500px;}/* line 172 */.yellow-gradient {  background: yellow !important;}/* line 176 */.card {  background: linear-gradient(32deg, #d53032, #fb0074);  -moz-background-image: -moz-linear-gradient(32deg, #d53032, #fb0074);  -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #fb0074);  border: 0 !important;  border-radius: 20px !important;  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);  transition: all 0.2s ease-in-out;  margin-bottom: 20px;}/* line 185 */a {  font-family: "Gilroy Bold";  color: #5058b3;}/* line 190 */.card:hover {  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);  transform: scale(1.05, 1.05) rotate(-0.18deg);}/* line 195 */.text-raven {  background: -webkit-linear-gradient(32deg, #d53032, #fb0074);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;}/* line 199 */.bg-raven {  background: linear-gradient(32deg, #d53032, #fb0074);  -moz-background-image: -moz-linear-gradient(32deg, #d53032, #fb0074);  -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #fb0074);}/* line 203 */.transparent {  background: transparent;}/* line 207 */.semi-transparent {  background: rgba(255, 255, 255, 0.2);}/* line 211 */.row.display-flex {  display: flex;  flex-wrap: wrap;}/* line 216 */.row.display-flex > [class*='col-'] {  display: flex;  flex-direction: column;}/* line 221 */#logo-helper {  display: inline-block;  vertical-align: middle;  height: 100%;}/* line 227 */#logo {  display: inline-block;  vertical-align: middle;}/* line 232 */#map {  height: 100%;  border-radius: 20px;}/* line 237 */.footer {  padding-top: 50px;  font-size: 24pt;}/* line 240 */.footer .btn-footer {  color: white;  font-size: 24pt;}
+/*
+
+    Most Important Variables go here
+
+ */
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url("../gen/Gilroy-ExtraBold.otf");
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../gen/Gilroy-Light.otf");
+}
+@media screen and (max-width: 700px) {
+  /* line 13 */
+  #logo {
+    width: 100% !important;
+  }
+
+  /* line 16 */
+  .divider {
+    margin-top: -15px;
+  }
+
+  /* line 19 */
+  .calendar {
+    width: 100% !important;
+  }
+
+  /* line 22 */
+  .footer {
+    margin-bottom: 80px;
+  }
+}
+@media screen and (min-width: 1001px) {
+  /* line 27 */
+  #mobileMenu {
+    display: none !important;
+  }
+}
+/* line 32 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 35 */
+::selection {
+  transition: all ease-in-out 0.2s;
+  background: #d53032;
+}
+
+/* line 39 */
+::-moz-selection {
+  background: #d53032;
+}
+
+/* line 43 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* line 47 */
+::-webkit-scrollbar-track {
+  background: #100e16;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* line 52 */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: linear-gradient(#ff1e1e, #ff9c00, #ffc900, #18c51e, #00a1df, #000eff, #9c00ff, #ff00da, #ff0000);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 1ms ease infinite;
+  -moz-animation: rainbow 1ms ease infinite;
+  animation: rainbow 1ms ease infinite;
+}
+
+/* line 57 */
+::-webkit-scrollbar-thumb:hover {
+  background: #fb0074;
+}
+
+/* line 61 */
+.navbar {
+  background: #7d1e3e;
+  transition: 250ms ease-in-out all;
+  border-radius: 0 0 20px 20px !important;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+/* line 70 */
+* {
+  font-family: "Gilroy";
+}
+/* line 72 */
+* .important {
+  font-family: "Gilroy Bold";
+}
+/* line 75 */
+* button {
+  font-family: "Gilroy Bold";
+  border: 0px;
+  padding: 16px;
+  border-radius: 500px !important;
+}
+
+/* line 82 */
+.center {
+  text-align: center;
+}
+
+/* line 85 */
+body {
+  background: #100e16 !important;
+  padding-bottom: 0;
+}
+
+/* line 89 */
+.grey-text {
+  color: #100e16 !important;
+}
+
+/* line 92 */
+.pink-text-gradient {
+  background: -webkit-linear-gradient(#d53032, #fb0074);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 96 */
+.yellow-text-gradient {
+  background: -webkit-linear-gradient(#e98f00, #f8ff3f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 99 */
+.purple-text-gradient {
+  background: -webkit-linear-gradient(#ff3bff, #250096);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 102 */
+.green-text-gradient {
+  background: -webkit-linear-gradient(#05b937, #069468);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 106 */
+.black-text {
+  color: black !important;
+}
+
+/* line 110 */
+.btn-primary {
+  border-color: transparent !important;
+}
+
+/* line 115 */
+.box-shadow {
+  transition: all ease-in-out 0.2s;
+  box-shadow: 5px 5px 6px rgba(46, 46, 46, 0.6);
+}
+
+/* line 119 */
+.box-shadow:hover {
+  box-shadow: 1px 1px 6px rgba(46, 46, 46, 0.6);
+}
+
+/* line 123 */
+.sponsorship-logo {
+  box-shadow: 0px 0px;
+  max-width: 200px;
+  transition: 200ms ease-in-out all;
+  margin: 20px;
+}
+/* line 128 */
+.sponsorship-logo:hover {
+  -webkit-filter: drop-shadow(0px 4px 5px #100e16);
+  filter: drop-shadow(0px 4px 5px #100e16);
+}
+
+/* line 134 */
+#sponsor-images {
+  background: white;
+  text-align: center;
+}
+
+/* line 140 */
+#mobile {
+  position: fixed;
+  bottom: 0;
+  background: black;
+  width: 100%;
+  font-size: 50pt;
+  z-index: 999;
+}
+
+/* line 149 */
+h1 {
+  margin-top: 100px !important;
+  margin-bottom: 0;
+}
+
+/* line 154 */
+.mobile-col {
+  width: 33%;
+  text-align: center;
+}
+
+/* line 159 */
+.mobile-icon {
+  font-size: 30pt !important;
+  padding: 5px;
+}
+
+/* line 164 */
+.image-smooth {
+  border-radius: 20px !important;
+  padding: 5px;
+}
+
+/* line 169 */
+.underline {
+  background-image: linear-gradient(120deg, #e52d27 0%, #6b0a0e 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+/* line 177 */
+.underline:hover {
+  background-size: 100% 88%;
+  cursor: pointer;
+}
+
+/* line 182 */
+.btn {
+  border-radius: 500px;
+}
+
+/* line 186 */
+.yellow-gradient {
+  background: yellow !important;
+}
+
+/* line 190 */
+.card {
+  background: linear-gradient(32deg, #d53032, #fb0074);
+  -moz-background-image: -moz-linear-gradient(32deg, #d53032, #fb0074);
+  -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #fb0074);
+  border: 0 !important;
+  border-radius: 20px !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 20px;
+}
+
+/* line 199 */
+a {
+  font-family: "Gilroy Bold";
+  color: #5058b3;
+}
+
+/* line 204 */
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05, 1.05) rotate(-0.18deg);
+}
+
+/* line 209 */
+.text-raven {
+  background: -webkit-linear-gradient(32deg, #d53032, #fb0074);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 213 */
+.bg-raven {
+  background: linear-gradient(32deg, #d53032, #fb0074);
+  -moz-background-image: -moz-linear-gradient(32deg, #d53032, #fb0074);
+  -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #fb0074);
+}
+
+/* line 217 */
+.transparent {
+  background: transparent;
+}
+
+/* line 221 */
+.semi-transparent {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* line 225 */
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 230 */
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 235 */
+#logo-helper {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+/* line 241 */
+#logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 246 */
+#map {
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* line 251 */
+.footer {
+  padding-top: 50px;
+  font-size: 24pt;
+}
+/* line 254 */
+.footer .btn-footer {
+  color: white;
+  font-size: 24pt;
+}
+
+/* line 260 */
+tr {
+  transition: all 0.2s ease-in-out;
+  margin: 20px 0px;
+  border-bottom: 3px solid rgba(251, 0, 116, 0.25);
+}
+/* line 264 */
+tr:hover {
+  background: -webkit-linear-gradient(32deg, #d53032, #fb0074);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+/* line 270 */
+#sanDiego {
+  background-image: url("../images/palmtrees.svg");
+  background-color: #222586;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 277 */
+#time {
+  background-image: url("../images/clocks.svg");
+  background-color: #222;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 283 */
+#attendees {
+  background-image: url("../images/people.svg");
+  background-color: #0f5d27;
+  background-position: center center;
+  background-size: cover;
+}

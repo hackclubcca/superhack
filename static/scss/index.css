@@ -42,6 +42,9 @@
 
   .footer {
     margin-bottom: 80px; } }
+@media screen and (min-width: 1001px) {
+  #mobileMenu {
+    display: none !important; } }
 html {
   scroll-behavior: smooth; }
 
@@ -69,6 +72,14 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #fb0074; }
+
+.navbar {
+  background: #7d1e3e;
+  transition: 250ms ease-in-out all;
+  border-radius: 0 0 20px 20px !important;
+  position: fixed;
+  width: 100%;
+  z-index: 999; }
 
 * {
   font-family: "Gilroy"; }
@@ -106,7 +117,7 @@ body {
   -webkit-text-fill-color: transparent; }
 
 .green-text-gradient {
-  background: -webkit-linear-gradient(#4a8f00, #069468);
+  background: -webkit-linear-gradient(#05b937, #069468);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -154,11 +165,11 @@ h1 {
 
 .mobile-icon {
   font-size: 30pt !important;
-  padding: 10px; }
+  padding: 5px; }
 
 .image-smooth {
   border-radius: 20px !important;
-  padding: 10px; }
+  padding: 5px; }
 
 .underline {
   background-image: linear-gradient(120deg, #e52d27 0%, #6b0a0e 100%);
@@ -238,5 +249,33 @@ a {
   .footer .btn-footer {
     color: white;
     font-size: 24pt; }
+
+tr {
+  transition: all 0.2s ease-in-out;
+  margin: 20px 0px;
+  border-bottom: 3px solid rgba(251, 0, 116, 0.25); }
+  tr:hover {
+    background: -webkit-linear-gradient(32deg, #d53032, #fb0074);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer; }
+
+#sanDiego {
+  background-image: url("../images/palmtrees.svg");
+  background-color: #222586;
+  background-position: center center;
+  background-size: cover; }
+
+#time {
+  background-image: url("../images/clocks.svg");
+  background-color: #222;
+  background-position: center center;
+  background-size: cover; }
+
+#attendees {
+  background-image: url("../images/people.svg");
+  background-color: #0f5d27;
+  background-position: center center;
+  background-size: cover; }
 
 /*# sourceMappingURL=index.css.map */
