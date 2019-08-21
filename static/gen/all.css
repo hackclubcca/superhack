@@ -284,9 +284,9 @@ h1 {
 
 /* line 190 */
 .card {
-  background: linear-gradient(32deg, #d53032, #fb0074);
-  -moz-background-image: -moz-linear-gradient(32deg, #d53032, #fb0074);
-  -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #fb0074);
+  background: linear-gradient(90deg, #d53032, #fb0074);
+  -moz-background-image: -moz-linear-gradient(90deg, #d53032, #fb0074);
+  -webkit-background-image: -webkit-linear-gradient(90deg, #d53032, #fb0074);
   border: 0 !important;
   border-radius: 20px !important;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
@@ -308,16 +308,16 @@ a {
 
 /* line 209 */
 .text-raven {
-  background: -webkit-linear-gradient(32deg, #d53032, #fb0074);
+  background: -webkit-linear-gradient(90deg, #d53032, #fb0074);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 /* line 213 */
 .bg-raven {
-  background: linear-gradient(32deg, #d53032, #fb0074);
-  -moz-background-image: -moz-linear-gradient(32deg, #d53032, #fb0074);
-  -webkit-background-image: -webkit-linear-gradient(32deg, #d53032, #fb0074);
+  background: linear-gradient(90deg, #d53032, #fb0074);
+  -moz-background-image: -moz-linear-gradient(90deg, #d53032, #fb0074);
+  -webkit-background-image: -webkit-linear-gradient(90deg, #d53032, #fb0074);
 }
 
 /* line 217 */
@@ -376,12 +376,11 @@ a {
 tr {
   transition: all 0.2s ease-in-out;
   margin: 20px 0px;
-  background-image: url("../images/message.svg");
   border-bottom: 3px solid rgba(251, 0, 116, 0.25);
 }
 /* line 265 */
 tr:hover {
-  background: -webkit-linear-gradient(32deg, #d53032, #fb0074);
+  background: -webkit-linear-gradient(90deg, #d53032, #fb0074);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;

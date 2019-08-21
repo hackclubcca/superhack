@@ -3,7 +3,7 @@
 {% from "partials/leader.html" import leader, sponsor with context %}
 {% from "partials/divider.html" import Divider with context %}
 {% block content %}
-<div style="background-image: linear-gradient(32deg, #d53032, #fb0074); margin-top:-1px; height: 100%; text-align: center;">
+<div class="bg-raven center" style="margin-top:-1px; height: 100%;">
    <span id="logo-helper"></span><img src="{{ url_for('static', filename='svg/ravenhacklogo.svg') }}" alt="Logo" id="logo" class="rellax" data-rellax-speed="-2" width="40%" />
 </div>
 {{ Divider(gradient=["#d53032","#fb0074"]) }}

@@ -20,9 +20,9 @@ $secondary: #fb0074;
 }
 
 @mixin gradient {
-    background: linear-gradient(32deg, $primary, $secondary);
-    -moz-background-image: -moz-linear-gradient(32deg, $primary, $secondary);
-    -webkit-background-image: -webkit-linear-gradient(32deg, $primary, $secondary);
+    background: linear-gradient(90deg, $primary, $secondary);
+    -moz-background-image: -moz-linear-gradient(90deg, $primary, $secondary);
+    -webkit-background-image: -webkit-linear-gradient(90deg, $primary, $secondary);
 }
 
 @mixin default-padding {
@@ -30,7 +30,7 @@ $secondary: #fb0074;
 }
 
 @mixin text-gradient {
-    background: -webkit-linear-gradient(32deg, $primary, $secondary);
+    background: -webkit-linear-gradient(90deg, $primary, $secondary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
