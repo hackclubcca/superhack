@@ -11,7 +11,7 @@ assets.register('scss', scss)
 
 @app.route('/')
 def index():
-    if not request.headers.get("x-user-agent"):
+    if not request.headers.get("USER_AGENT"):
         return "You found an easter egg! Email harris@ravenhack.org with the message 'I like turtles'"
     return render_template("index.html")
 

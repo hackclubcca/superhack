@@ -253,6 +253,7 @@ a {
 tr {
   transition: all 0.2s ease-in-out;
   margin: 20px 0px;
+  background-image: url("../images/message.svg");
   border-bottom: 3px solid rgba(251, 0, 116, 0.25); }
   tr:hover {
     background: -webkit-linear-gradient(32deg, #d53032, #fb0074);

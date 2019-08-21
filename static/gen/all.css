@@ -376,9 +376,10 @@ a {
 tr {
   transition: all 0.2s ease-in-out;
   margin: 20px 0px;
+  background-image: url("../images/message.svg");
   border-bottom: 3px solid rgba(251, 0, 116, 0.25);
 }
-/* line 264 */
+/* line 265 */
 tr:hover {
   background: -webkit-linear-gradient(32deg, #d53032, #fb0074);
   -webkit-background-clip: text;
@@ -386,7 +387,7 @@ tr:hover {
   cursor: pointer;
 }
 
-/* line 270 */
+/* line 271 */
 #san-diego {
   background-image: url("../images/palmtrees.svg");
   background-color: #222586;
@@ -394,7 +395,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 277 */
+/* line 278 */
 #time {
   background-image: url("../images/clocks.svg");
   background-color: #7a4300;
@@ -402,7 +403,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 283 */
+/* line 284 */
 #attendees {
   background-image: url("../images/people.svg");
   background-color: #0f5d27;
