@@ -1,4 +1,4 @@
-from flask import Flask, render_template, make_response
+from flask import Flask, render_template, make_response, request
 from wtforms import Form
 from flask_assets import Environment, Bundle
 
@@ -11,6 +11,8 @@ assets.register('scss', scss)
 
 @app.route('/')
 def index():
+    if not request.headers.get("x-user-agent"):
+        return "You found an easter egg! Email harris@ravenhack.org with the message 'I like turtles'"
     return render_template("index.html")
 
 
