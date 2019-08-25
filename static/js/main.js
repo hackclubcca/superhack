@@ -31,7 +31,7 @@ $("#closing").on("mouseover", function() {
 $(document).ready(function(){
     $(window).scroll(function(){
         if($(window).scrollTop() < 60){
-            $(".navbar").css({"background-color":"#7d1e3e"});
+            $(".navbar").css({"background-color":"transparent"});
         }
         else {
             $(".navbar").css({"background-color":"#000"});
