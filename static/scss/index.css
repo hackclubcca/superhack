@@ -113,7 +113,7 @@ body {
   -webkit-text-fill-color: transparent; }
 
 .yellow-text-gradient {
-  background: -webkit-linear-gradient(#FF9800, #987200);
+  background: -webkit-linear-gradient(#FF5722, #FF9800);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -126,6 +126,9 @@ body {
   background: -webkit-linear-gradient(#05b937, #069468);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+.secondary {
+  background: #fb0074; }
 
 .black-text {
   color: black !important; }
@@ -146,14 +149,34 @@ body {
 .box-shadow:hover {
   box-shadow: 1px 1px 6px rgba(46, 46, 46, 0.6); }
 
+.team_member {
+  min-height: 50px;
+  border-radius: 500px; }
+  .team_member img {
+    border-radius: 50%;
+    margin: 20px;
+    height: 100px; }
+
 .sponsorship-logo {
   box-shadow: 0px 0px;
-  max-width: 200px;
+  max-width: 150px;
   transition: 200ms ease-in-out all;
   margin: 20px; }
   .sponsorship-logo:hover {
-    -webkit-filter: drop-shadow(0px 4px 5px #100e16);
-    filter: drop-shadow(0px 4px 5px #100e16); }
+    -webkit-filter: drop-shadow(0px 4px 2px #100e16);
+    filter: drop-shadow(0px 4px 2px #100e16); }
+
+.platinum-tier {
+  max-width: 350px !important; }
+
+.gold-tier {
+  max-width: 300px !important; }
+
+.silver-tier {
+  max-width: 250px !important; }
+
+.community-tier {
+  max-width: 200px !important; }
 
 #sponsor-images {
   background: white;
@@ -182,21 +205,6 @@ h1 {
 .image-smooth {
   border-radius: 20px !important;
   padding: 5px; }
-
-.underline {
-  /*
-  background-image: linear-gradient(120deg, #e52d27 0%, #6b0a0e 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
-  */ }
-
-.underline:hover {
-  /*
-  background-size: 100% 88%;
-  cursor: pointer;
-  */ }
 
 .btn {
   border-radius: 500px; }
@@ -269,11 +277,11 @@ a {
 tr {
   transition: all 0.2s ease-in-out;
   margin: 20px 0px;
+  transition: 250ms ease-in-out all;
   border-bottom: 3px solid rgba(251, 0, 116, 0.25); }
   tr:hover {
-    background: -webkit-linear-gradient(90deg, #d53032, #fb0074);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fb0074;
+    background: white;
     cursor: pointer; }
 
 #san-diego {

@@ -1,5 +1,5 @@
 {% extends "partials/header.html" %}
-{% from "partials/card.html" import card, image, importantcard, collapsiblecard with context %} {# Default card template #}
+{% from "partials/card.html" import card, team_member, image, importantcard, collapsiblecard with context %} {# Default card template #}
 {% from "partials/leader.html" import leader, sponsor with context %}
 {% from "partials/divider.html" import Divider with context %}
 {% block content %}
@@ -20,92 +20,78 @@
             {{ importantcard(title="1st", content="high school hackathon in SD", class="purple-text-gradient", id="san-diego") }}
         </div>
     </div>
-    {% include "partials/calendar.html" %}
-    <div id="faq">
-    {{ leader("Frequently Asked Questions.", id="faq")}}
-   <div class="row wow fadeInUp display-flex">
-      <div class="col-sm-4">
-         {{
-         collapsiblecard(id="faq1",content="Of course not! This event's primary goal is to invent an entertaining yet competitive experience for all, with programming simply being the medium.",title="Do I need to know how to code?")
-         }}
-      </div>
-      <div class="col-sm-4">
-         {{ collapsiblecard(id="faq2",content="Anyone!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", gradient=["#11998e","#38ef7d"])}}
-      </div>
-      <div class="col-sm-4">
-         {{
-         collapsiblecard(id="faq3",content="The hosting details are still being formalized, but it's looking like it'll be held at UCSD's San Diego Supercomputer Center (depicted in the map below)", title="Where is it?", gradient=["#FDC830", "#F37335"])
-         }}
-      </div>
-   </div>
-   <div class="row wow animated fadeInUp">
-      <div class="col-sm-4">
-         {{
-         collapsiblecard(id="faq4",content="No, we're not \"hacking\" in the typical sense whatsoever. Besides the fact that we could get in trouble for something like that, the usage of 'hacking' has been broadened to the prospect of collaborating on Computer Science-based projects.",title="Hacking??", gradient=["#FF416C","#FF4B2B"])
-         }}
-      </div>
-      <div class="col-sm-4">
-         {{
-         collapsiblecard(id="faq5",content="Don't take my word for it, but we may be reimbursing 15 students from across the nation ;)", title="Do you provide reimbursements?", gradient=["#654ea3","#eaafc8"])
-         }}
-      </div>
-      <div class="col-sm-4">
-         {{
-         collapsiblecard(id="faq6",content="Yes, as it turns out, we've been planning to come up with a method to elect leaders for next year. It is very likely that our selection will come from active participants from our local Hack Club chapter.", title="Can I do it next year?", gradient=["#8360c3","#2ebf91"])
-         }}
-      </div>
-   </div>
-    </div>
-    {{ leader("Sponsors", id="sponsors") }}
-    <h3 class="important text-light">Want to sponsor us? Contact <a href="mailto:harris@ravenhack.org">us</a>!!</h3>
-    <div class="card wow animated fadeInUp" id="sponsor-images">
-        <div class="row">
-            <div class="col">
-                {{ sponsor(url="https://repl.it", file="replit.svg") }}
+        {% include "partials/calendar.html" %}
+        <div id="faq">
+        {{ leader("Frequently Asked Questions.", id="faq")}}
+       <div class="row wow fadeInUp display-flex">
+          <div class="col-sm-4">
+             {{
+             collapsiblecard(id="faq1",content="Of course not! This event's primary goal is to invent an entertaining yet competitive experience for all, with programming simply being the medium.",title="Do I need to know how to code?")
+             }}
+          </div>
+          <div class="col-sm-4">
+             {{ collapsiblecard(id="faq2",content="Anyone!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", gradient=["#11998e","#38ef7d"])}}
+          </div>
+          <div class="col-sm-4">
+             {{
+             collapsiblecard(id="faq3",content="The hosting details are still being formalized, but it's looking like it'll be held at UCSD's San Diego Supercomputer Center (depicted in the map below)", title="Where is it?", gradient=["#FDC830", "#F37335"])
+             }}
+          </div>
+       </div>
+       <div class="row wow animated fadeInUp">
+          <div class="col-sm-4">
+             {{
+             collapsiblecard(id="faq4",content="No, we're not \"hacking\" in the typical sense whatsoever. Besides the fact that we could get in trouble for something like that, the usage of 'hacking' has been broadened to the prospect of collaborating on Computer Science-based projects.",title="Hacking??", gradient=["#FF416C","#FF4B2B"])
+             }}
+          </div>
+          <div class="col-sm-4">
+             {{
+             collapsiblecard(id="faq5",content="Don't take my word for it, but we may be reimbursing 15 students from across the nation ;)", title="Do you provide reimbursements?", gradient=["#654ea3","#eaafc8"])
+             }}
+          </div>
+          <div class="col-sm-4">
+             {{
+             collapsiblecard(id="faq6",content="Yes, as it turns out, we've been planning to come up with a method to elect leaders for next year. It is very likely that our selection will come from active participants from our local Hack Club chapter.", title="Can I do it next year?", gradient=["#8360c3","#2ebf91"])
+             }}
+          </div>
+       </div>
+        </div>
+        {{ leader("Sponsors", id="sponsors") }}
+        <h3 class="important text-light">Want to sponsor us? Contact <a href="mailto:harris@ravenhack.org">us</a>!!</h3>
+        <div class="card wow animated fadeInUp" id="sponsor-images">
+            <div class="row">
+                <div class="col">
+                    {{ sponsor(url="https://surcle.io", file="surcle.png", tier="silver") }}
+                </div>
             </div>
-            <div class="col">
-                {{ sponsor(url="https://balsamiq.com/", file="balsamiq.svg") }}
+            <div class="row">
+                <div class="col">
+                    {{ sponsor(url="https://repl.it", file="replit.svg", tier="community") }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    {{ sponsor(url="https://balsamiq.com/", file="balsamiq.svg") }}
+                </div>
+                <div class="col">
+                    {{ sponsor(url="http://wolfram.com/", file="wolfram.svg") }}
+                </div>
+                <div class="col">
+                    {{ sponsor(url="https://hackclub.com/", file="hackclub.png") }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    {{ sponsor(url="https://desmos.com/", file="desmos.png") }}
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                {{ sponsor(url="http://wolfram.com/", file="wolfram.svg") }}
-            </div>
-            <div class="col">
-                {{ sponsor(url="https://hackclub.com/", file="hackclub.png") }}
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                {{ sponsor(url="https://desmos.com/", file="desmos.png") }}
-            </div>
-        </div>
-    </div>
     {{ leader("Meet the Team 👋", id="team") }}
-   <div class="row wow fadeInUp display-flex">
-      <div class="col-sm-6">
-         {{
-         card(content="Hey there! I'm a senior at Canyon Crest Academy and the creator of Raven Hack. While I love hackathons, I've also explored the world of research, product development, and, perhaps most importantly, Star Wars (I'm a big fan). ",title="Harris Beg, President", gradient=["#FF416C","#FF4B2B"], email="harris@ravenhack.org")
-         }}
-      </div>
-      <div class="col-sm-6">
-         {{ image(src="https://i.ibb.co/HBc61LS/IMG-6074.jpg") }}
-      </div>
-   </div>
-    <div class="row wow fadeInUp display-flex">
-      <div class="col-sm-6">
-         {{ image(src="https://i.ibb.co/GnmhDWN/image.png") }}
-      </div>
-      <div class="col-sm-6">
-         {{
-         card(content="Hello! I am a senior attending Canyon Crest Academy. Aspiring to be an entrepreneur, I have been part of three start-ups and love helping non-profits. I enjoy research, love exploring the growing digitalized world, especially on how it effects the economy, and finally love soccer. (Go Man U!)",title="Arnav Kanodia, Financial Lead", gradient=["#11998e","#38ef7d"], email="arnav@ravenhack.org")
-         }}
-      </div>
-   </div>
+    {{ team_member(name="Harris Beg", description="Doge", role="President", email="harris@ravenhack.org") }}
     {{ leader("Want to register?") }}
     {{ card(content="All you need to do is fill out <a href='https://ravenhack.typeform.com/to/PKNkom'>this</a> form and we'll send you a confirmation email ASAP. We thank you for your interest in Raven Hack.", title="Registration form") }}
-</div>
-<div id="map"></div>
+    </div>
+    <div id="map"></div>
 <script>
    function initMap() {
      // Styles a map in night mode.
