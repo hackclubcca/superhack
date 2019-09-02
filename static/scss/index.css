@@ -149,13 +149,17 @@ body {
 .box-shadow:hover {
   box-shadow: 1px 1px 6px rgba(46, 46, 46, 0.6); }
 
-.team_member {
+.team-member {
   min-height: 50px;
   border-radius: 500px; }
-  .team_member img {
+  .team-member img {
     border-radius: 50%;
-    margin: 20px;
-    height: 100px; }
+    height: 100px;
+    background-color: white; }
+  .team-member a {
+    font-size: 24px;
+    color: white !important;
+    font-family: "Gilroy"; }
 
 .sponsorship-logo {
   box-shadow: 0px 0px;
@@ -211,6 +215,9 @@ h1 {
 
 .yellow-gradient {
   background: yellow !important; }
+
+.leader-text {
+  color: #fb0074; }
 
 .card {
   background: linear-gradient(90deg, #d53032, #fb0074);

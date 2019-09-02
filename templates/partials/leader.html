@@ -1,5 +1,5 @@
 {% macro leader(text,id,class) %}
-                <h1 class="text-light" id="{{ id }}" class="{{ class }}" style="margin-top: 20px; margin-bottom: 20px"><span class="important underline">{{ text }}</span></h1>
+    <h1 class="leader-text {{ class }}" id="{{ id }}" style="margin-top: 20px; margin-bottom: 20px"><span class="important underline">{{ text }}</span></h1>
 {% endmacro %}
 {% macro sponsor(url, file, tier) %}
     <a href="{{ url }}">

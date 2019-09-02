@@ -38,8 +38,16 @@
         </div>
   </div>
 {% endmacro %}
-{% macro team_member(name, description, role, email) %}
-    <div class="bg-raven team_member">
-        <img src="https://via.placeholder.com/150" class="profile-image" />
+{% macro team_member(name, description, role, email, file) %}
+    <div class="col team-member">
+        <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+                <img src="{{ url_for('static', filename='images/'+file) }}" class="profile-image" />
+            </div>
+            <div class="col">
+                <h3 class="important text-light">{{ name }}</h3>
+                <a class="badge badge-secondary bg-raven" href="mailto:{{ email }}">{{ role }}</a>
+            </div>
+        </div>
     </div>
 {% endmacro %}
