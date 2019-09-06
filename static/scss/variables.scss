@@ -63,8 +63,10 @@ $sand-20: darken($sand, 20);
     100%{background-position: 0% 50%}
 }
 
-@keyframes counter {
-
+@keyframes rotate {
+    0% {transform: rotate(2deg);}
+    50% {transform: rotate(-2deg);}
+    100% {transform: rotate(-2deg);}
 }
 
 
