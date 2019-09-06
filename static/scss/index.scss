@@ -14,9 +14,6 @@ h1 {
 }
 
 @media screen and (max-width: 700px) {
-  #logo {
-    width: 100% !important;
-  }
   .divider {
     margin-top: -15px;
   }
@@ -90,7 +87,7 @@ html {
   text-align: center;
 }
 body {
-  background: $off-black !important;
+  background: #F6D7B0 !important;
   padding-bottom: 0;
 }
 .grey-text {
@@ -221,7 +218,7 @@ h1 {
 }
 
 .leader-text {
-  color: $secondary;
+  color: black;
 }
 
 .card {
@@ -233,9 +230,13 @@ h1 {
   margin-bottom: 20px;
 }
 
+.sand-text {
+  color: darken($sand,20);
+}
+
 a {
   font-family: $bold;
-  color: $link;
+  color: $sand-20;
 }
 
 .card:hover {
@@ -247,7 +248,7 @@ a {
   @include text-gradient;
 }
 
-.bg-raven {
+.bg-triton {
   @include gradient;
 }
 
@@ -278,6 +279,8 @@ a {
 #logo {
   display: inline-block;
   vertical-align: middle;
+  width: 50vw;
+  max-height: 50vh;
 }
 
 #map {
@@ -298,11 +301,15 @@ tr {
   transition: all 0.2s ease-in-out;
   margin: 20px 0px;
   transition: 250ms ease-in-out all;
+  color: black;
+  td {
+    font-family: "Gilroy Bold" !important;
+  }
   //background-image: url("../images/message.svg");
-  border-bottom: 3px solid rgba(251,0,116, 0.25);
+  border-bottom: 3px solid rgba($sand, 0.25);
   &:hover {
-    color:$secondary;
-    background: white;
+    color: $sand;
+    background: black;
     cursor: pointer;
   }
 }

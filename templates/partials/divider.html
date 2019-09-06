@@ -6,9 +6,13 @@
         <stop offset="0%" style="stop-color:{{ gradient[0] }};stop-opacity:1" />
           <stop offset="100%" style="stop-color:{{ gradient[1] }};stop-opacity:1" />
     </linearGradient>
-    <path fill="url(#divider-grad)" d="M0,0c0,0,493,80,960,80s960-80,960-80H0z"></path>
+    <!--<path fill="url(#divider-grad)" d="M0,0c0,0,493,80,960,80s960-80,960-80H0z"></path>-->
+    <path fill="url(#divider-grad)" d="M0,0c119.7,39.8,304.1,86.1,531.9,80c71-1.9,122.1-8.3,144-10.9c170.4-20,563.9-39.4,1035.8-6.9
+	c47.7,3.3,119.9,8.8,208.4,17.8V0H0z"/>
     {% else %}
-    <path fill={{ color }} d="M0,0c0,0,493,80,960,80s960-80,960-80H0z"></path>
+        <path fill="{{ color }}" d="M0,0c119.7,39.8,304.1,86.1,531.9,80c71-1.9,122.1-8.3,144-10.9c170.4-20,563.9-39.4,1035.8-6.9
+	c47.7,3.3,119.9,8.8,208.4,17.8V0H0z"/>
+
     {% endif %}
 </svg>
 {% endmacro %}

@@ -34,9 +34,6 @@ h1 {
   font-size: 72px; }
 
 @media screen and (max-width: 700px) {
-  #logo {
-    width: 100% !important; }
-
   .divider {
     margin-top: -15px; }
 
@@ -56,10 +53,10 @@ html {
 
 ::selection {
   transition: all ease-in-out 0.2s;
-  background: #d53032; }
+  background: #2c36d5; }
 
 ::-moz-selection {
-  background: #d53032; }
+  background: #2c36d5; }
 
 ::-webkit-scrollbar {
   width: 8px; }
@@ -77,7 +74,7 @@ html {
   animation: rainbow 1ms ease infinite; }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #fb0074; }
+  background: #22bffb; }
 
 .navbar {
   background: transparent;
@@ -101,7 +98,7 @@ html {
   text-align: center; }
 
 body {
-  background: #100e16 !important;
+  background: #F6D7B0 !important;
   padding-bottom: 0; }
 
 .grey-text {
@@ -128,7 +125,7 @@ body {
   -webkit-text-fill-color: transparent; }
 
 .secondary {
-  background: #fb0074; }
+  background: #22bffb; }
 
 .black-text {
   color: black !important; }
@@ -217,35 +214,38 @@ h1 {
   background: yellow !important; }
 
 .leader-text {
-  color: #fb0074; }
+  color: black; }
 
 .card {
-  background: linear-gradient(90deg, #d53032, #fb0074);
-  -moz-background-image: -moz-linear-gradient(90deg, #d53032, #fb0074);
-  -webkit-background-image: -webkit-linear-gradient(90deg, #d53032, #fb0074);
+  background: linear-gradient(90deg, #2c36d5, #22bffb);
+  -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);
+  -webkit-background-image: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
   border: 0 !important;
   border-radius: 20px !important;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
   transition: all 0.2s ease-in-out;
   margin-bottom: 20px; }
 
+.sand-text {
+  color: #eca954; }
+
 a {
   font-family: "Gilroy Bold";
-  color: #5058b3; }
+  color: #eca954; }
 
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.05, 1.05) rotate(-0.18deg); }
 
 .text-raven {
-  background: -webkit-linear-gradient(90deg, #d53032, #fb0074);
+  background: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-.bg-raven {
-  background: linear-gradient(90deg, #d53032, #fb0074);
-  -moz-background-image: -moz-linear-gradient(90deg, #d53032, #fb0074);
-  -webkit-background-image: -webkit-linear-gradient(90deg, #d53032, #fb0074); }
+.bg-triton {
+  background: linear-gradient(90deg, #2c36d5, #22bffb);
+  -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);
+  -webkit-background-image: -webkit-linear-gradient(90deg, #2c36d5, #22bffb); }
 
 .transparent {
   background: transparent; }
@@ -268,7 +268,9 @@ a {
 
 #logo {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  width: 50vw;
+  max-height: 50vh; }
 
 #map {
   height: 100%;
@@ -285,10 +287,13 @@ tr {
   transition: all 0.2s ease-in-out;
   margin: 20px 0px;
   transition: 250ms ease-in-out all;
-  border-bottom: 3px solid rgba(251, 0, 116, 0.25); }
+  color: black;
+  border-bottom: 3px solid rgba(246, 215, 176, 0.25); }
+  tr td {
+    font-family: "Gilroy Bold" !important; }
   tr:hover {
-    color: #fb0074;
-    background: white;
+    color: #F6D7B0;
+    background: black;
     cursor: pointer; }
 
 #san-diego {
