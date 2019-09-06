@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/community.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pdf/tritonhackprospectus.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/sass/8632901b0876d6deb60669c18582d27da43833f9/variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/sass/8632901b0876d6deb60669c18582d27da43833f9/variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/gen/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/gen/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/index.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/partials/calendar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-634">
+            <state relative-caret-position="230">
               <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
             </state>
           </provider>
@@ -43,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-137">
+            <state relative-caret-position="1794">
               <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
             </state>
           </provider>
@@ -52,13 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-              <folding>
-                <element signature="e#111#256#0#HTML" expanded="true" />
-                <element signature="e#1101#1143#0#HTML" expanded="true" />
-                <element signature="e#1360#1384#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="483">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -66,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/partials/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
+            <state relative-caret-position="828">
               <caret line="36" column="114" selection-start-line="36" selection-start-column="114" selection-end-line="36" selection-end-column="114" />
             </state>
           </provider>
@@ -81,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
-              <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+              <caret line="158" column="32" lean-forward="true" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -93,17 +72,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/gen/all.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="11776">
               <caret line="512" column="6" selection-start-line="512" selection-start-column="6" selection-end-line="512" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="217">
+              <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -111,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="299">
               <caret line="13" column="93" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="93" />
             </state>
           </provider>
@@ -185,19 +164,19 @@
         <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/templates/partials/card.html" />
         <option value="$PROJECT_DIR$/templates/partials/calendar.html" />
-        <option value="$PROJECT_DIR$/static/scss/variables.scss" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/partials/header.html" />
         <option value="$PROJECT_DIR$/static/gen/all.css" />
         <option value="$PROJECT_DIR$/static/scss/index.scss" />
+        <option value="$PROJECT_DIR$/static/scss/variables.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="142" />
-    <option name="y" value="22" />
+    <option name="x" value="141" />
+    <option name="y" value="21" />
     <option name="width" value="1104" />
-    <option name="height" value="1106" />
+    <option name="height" value="1107" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -205,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,7 +242,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,17 +370,18 @@
       <workItem from="1567648237806" duration="1552000" />
       <workItem from="1567714331178" duration="165000" />
       <workItem from="1567725461349" duration="8343000" />
+      <workItem from="1567782166510" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107678000" />
+    <option name="totallyTimeSpent" value="107691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2194332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22348177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -564,47 +544,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/calendar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-634">
+        <state relative-caret-position="230">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="93" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
+        <state relative-caret-position="1794">
           <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="e#111#256#0#HTML" expanded="true" />
-            <element signature="e#1101#1143#0#HTML" expanded="true" />
-            <element signature="e#1360#1384#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="483">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
+        <state relative-caret-position="828">
           <caret line="36" column="114" selection-start-line="36" selection-start-column="114" selection-end-line="36" selection-end-column="114" />
         </state>
       </provider>
@@ -618,15 +579,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/gen/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="11776">
           <caret line="512" column="6" selection-start-line="512" selection-start-column="6" selection-end-line="512" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="93" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
-          <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+          <caret line="158" column="32" lean-forward="true" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
         </state>
       </provider>
     </entry>

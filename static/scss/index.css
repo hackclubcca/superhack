@@ -30,7 +30,7 @@
   50% {
     transform: rotate(-2deg); }
   100% {
-    transform: rotate(-2deg); } }
+    transform: rotate(2deg); } }
 @font-face {
   font-family: "Gilroy Bold";
   src: url("../gen/Gilroy-ExtraBold.otf"); }
