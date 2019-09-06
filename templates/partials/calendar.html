@@ -3,11 +3,11 @@
 {% from "partials/card.html" import card with context %}
 {{ leader("Schedule 📅", id="schedule") }}
 
-<div class="row wow animated bounceInUp">
+<div class="row wow animated fadeInUp">
       <div class="col-sm-6" style="margin-bottom: 20px">
         <div class="calendar">
-            <table class="table transparent text-light" id="calendar-table">
-                  <h2 class="important text-light">February 1, 2020</h2>
+            <table class="table transparent sand-text" id="calendar-table">
+                  <h2 class="important sand-text">February 1, 2020</h2>
               <tbody>
                 <tr id="checkin">
                   <td>8:00 AM</td>
@@ -42,7 +42,7 @@
         </div>
       </div>
         <div class="col-sm-6" style="margin-bottom: 20px">
-          {{ card(calendar=true, title="Check In", content="For the first hour, participants of Raven Hack will get their goodies (such as stickers & API codes) as well as the basic rundown of the schedule.") }}
+          {{ card(calendar=true, title="Check In", content="For the first hour, participants of Triton Hack will get their goodies (such as stickers & API codes) as well as the basic rundown of the schedule.") }}
         </div>
 </div>
-{{ button(text='ADD TO CALENDAR', url="https://google.com", shadow=true) }}
+{{ button(text='ADD TO CALENDAR', url="https://calendar.google.com/event?action=TEMPLATE&tmeid=NDR1ZGcxdnNza3E2cmNhMzBscWtpdTJpZnUgbGVnb3N0YXJ3YXJzZ3V5MDJAbQ&tmsrc=legostarwarsguy02%40gmail.com", shadow=true) }}

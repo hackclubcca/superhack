@@ -8,7 +8,7 @@ scss = Bundle('scss/index.scss',
               filters='scss', output='gen/all.css')
 assets.register('scss', scss)
 
-
+STATIC_URL = "/static/"
 @app.route('/')
 def index():
     if not request.headers.get("USER_AGENT"):

@@ -15,7 +15,7 @@
     <img class="image-smooth" width="100%" src={{ src|default("https://via.placeholder.com/1920x540") }} />
 {% endmacro %}
 {% macro importantcard(title, content, class, id) %}
-    <div class="card wow animated fadeIn" {% if id %}id="{{ id }}"{% endif %} style=" text-align: center; height: 250px">
+    <div class="card wow animated fadeIn" {% if id %}id="{{ id }}"{% endif %} style=" text-align: center;">
           <div class="card-body {{ class }}">
               <h5 class="card-title important" style="font-size: 72px;">{{ title }}</h5>
               <div class="card-content">
@@ -45,8 +45,8 @@
                 <img src="{{ url_for('static', filename='images/'+file) }}" class="profile-image" />
             </div>
             <div class="col">
-                <h3 class="important text-light">{{ name }}</h3>
-                <a class="badge badge-secondary bg-raven" href="mailto:{{ email }}">{{ role }}</a>
+                <h3 class="important ">{{ name }}</h3>
+                <a class="badge badge-secondary bg-triton" href="mailto:{{ email }}">{{ role }}</a>
             </div>
         </div>
     </div>

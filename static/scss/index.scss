@@ -14,9 +14,6 @@ h1 {
 }
 
 @media screen and (max-width: 700px) {
-  #logo {
-    width: 100% !important;
-  }
   .divider {
     margin-top: -15px;
   }
@@ -90,7 +87,7 @@ html {
   text-align: center;
 }
 body {
-  background: $off-black !important;
+  background: #F6D7B0 !important;
   padding-bottom: 0;
 }
 .grey-text {
@@ -159,8 +156,7 @@ body {
   transition: 200ms ease-in-out all;
   margin: 20px;
   &:hover {
-    -webkit-filter: drop-shadow(0px 4px 2px $off-black);
-    filter: drop-shadow(0px 4px 2px $off-black);
+    transform: translateY(-5px);
   }
 }
 
@@ -221,8 +217,26 @@ h1 {
 }
 
 .leader-text {
-  color: $secondary;
+  color: black;
+  position:relative;
+  display: inline-block;
 }
+/*
+.leader-text:after {
+  content:'';
+  position:absolute;
+  top:75%;
+  left:0;
+  width:100%;
+  height: 20px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url("../svg/underline.svg");
+  margin-bottom: 20px !important;
+
+}
+*/
 
 .card {
   @include gradient;
@@ -233,9 +247,13 @@ h1 {
   margin-bottom: 20px;
 }
 
+.sand-text {
+  color: darken($sand,20);
+}
+
 a {
   font-family: $bold;
-  color: $link;
+  color: $sand-20;
 }
 
 .card:hover {
@@ -247,7 +265,7 @@ a {
   @include text-gradient;
 }
 
-.bg-raven {
+.bg-triton {
   @include gradient;
 }
 
@@ -278,6 +296,9 @@ a {
 #logo {
   display: inline-block;
   vertical-align: middle;
+  width: 50vw;
+  max-height: 50vh;
+  animation: rotate 2s infinite ease-in-out;
 }
 
 #map {
@@ -298,11 +319,15 @@ tr {
   transition: all 0.2s ease-in-out;
   margin: 20px 0px;
   transition: 250ms ease-in-out all;
+  color: black;
+  td {
+    font-family: "Gilroy Bold" !important;
+  }
   //background-image: url("../images/message.svg");
-  border-bottom: 3px solid rgba(251,0,116, 0.25);
+  border-bottom: 3px solid rgba($sand, 0.25);
   &:hover {
-    color:$secondary;
-    background: white;
+    color: $sand;
+    background: black;
     cursor: pointer;
   }
 }
@@ -332,4 +357,7 @@ tr {
 }
 
 .navbar-dark .navbar-toggler-icon {
+}
+.nav-item {
+  margin: 0 10px;
 }
