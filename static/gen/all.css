@@ -1,512 +1,1 @@
-/*
-
-    Most Important Variables go here
-
- */
-@-webkit-keyframes rainbow {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@-moz-keyframes rainbow {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes rainbow {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes rotate {
-  0% {
-    transform: rotate(2deg);
-  }
-  50% {
-    transform: rotate(-2deg);
-  }
-  100% {
-    transform: rotate(-2deg);
-  }
-}
-@font-face {
-  font-family: "Gilroy Bold";
-  src: url("../gen/Gilroy-ExtraBold.otf");
-}
-@font-face {
-  font-family: "Gilroy";
-  src: url("../gen/Gilroy-Light.otf");
-}
-/* line 12 */
-h1 {
-  font-size: 72px;
-}
-
-@media screen and (max-width: 700px) {
-  /* line 17 */
-  .divider {
-    margin-top: -15px;
-  }
-
-  /* line 20 */
-  .calendar {
-    width: 100% !important;
-  }
-
-  /* line 23 */
-  .footer {
-    margin-bottom: 80px;
-  }
-
-  /* line 26 */
-  h1 {
-    font-size: 48px !important;
-  }
-}
-@media screen and (min-width: 1001px) {
-  /* line 31 */
-  #mobileMenu {
-    display: none !important;
-  }
-}
-/* line 36 */
-html {
-  scroll-behavior: smooth;
-}
-
-/* line 39 */
-::selection {
-  transition: all ease-in-out 0.2s;
-  background: #2c36d5;
-}
-
-/* line 43 */
-::-moz-selection {
-  background: #2c36d5;
-}
-
-/* line 47 */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-/* line 51 */
-::-webkit-scrollbar-track {
-  background: #100e16;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-/* line 56 */
-::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background: linear-gradient(#ff1e1e, #ff9c00, #ffc900, #18c51e, #00a1df, #000eff, #9c00ff, #ff00da, #ff0000);
-  background-size: 1800% 1800%;
-  -webkit-animation: rainbow 1ms ease infinite;
-  -moz-animation: rainbow 1ms ease infinite;
-  animation: rainbow 1ms ease infinite;
-}
-
-/* line 61 */
-::-webkit-scrollbar-thumb:hover {
-  background: #22bffb;
-}
-
-/* line 65 */
-.navbar {
-  background: transparent;
-  transition: 250ms ease-in-out all;
-  border-radius: 0 0 20px 20px !important;
-  position: fixed;
-  width: 100%;
-  z-index: 999;
-}
-
-/* line 74 */
-* {
-  font-family: "Gilroy";
-}
-/* line 76 */
-* .important {
-  font-family: "Gilroy Bold";
-}
-/* line 79 */
-* button {
-  font-family: "Gilroy Bold";
-  border: 0px;
-  padding: 16px;
-  border-radius: 500px !important;
-}
-
-/* line 86 */
-.center {
-  text-align: center;
-}
-
-/* line 89 */
-body {
-  background: #F6D7B0 !important;
-  padding-bottom: 0;
-}
-
-/* line 93 */
-.grey-text {
-  color: #100e16 !important;
-}
-
-/* line 96 */
-.pink-text-gradient {
-  background: -webkit-linear-gradient(#d53032, #fb0074);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* line 100 */
-.yellow-text-gradient {
-  background: -webkit-linear-gradient(#FF5722, #FF9800);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* line 103 */
-.purple-text-gradient {
-  background: -webkit-linear-gradient(#ff3bff, #ad0088);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* line 106 */
-.green-text-gradient {
-  background: -webkit-linear-gradient(#05b937, #069468);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* line 110 */
-.secondary {
-  background: #22bffb;
-}
-
-/* line 114 */
-.black-text {
-  color: black !important;
-}
-
-/* line 118 */
-.btn-primary {
-  border-color: transparent !important;
-}
-
-/* line 122 */
-.full-width {
-  width: 100% !important;
-}
-
-/* line 126 */
-.row > *[class^="col"] {
-  margin-bottom: 20px;
-}
-
-/* line 130 */
-.box-shadow {
-  transition: all ease-in-out 0.2s;
-  box-shadow: 5px 5px 6px rgba(46, 46, 46, 0.6);
-}
-
-/* line 134 */
-.box-shadow:hover {
-  box-shadow: 1px 1px 6px rgba(46, 46, 46, 0.6);
-}
-
-/* line 138 */
-.team-member {
-  min-height: 50px;
-  border-radius: 500px;
-}
-/* line 141 */
-.team-member img {
-  border-radius: 50%;
-  height: 100px;
-  background-color: white;
-}
-/* line 146 */
-.team-member a {
-  font-size: 24px;
-  color: white !important;
-  font-family: "Gilroy";
-}
-
-/* line 153 */
-.sponsorship-logo {
-  box-shadow: 0px 0px;
-  max-width: 150px;
-  transition: 200ms ease-in-out all;
-  margin: 20px;
-}
-/* line 158 */
-.sponsorship-logo:hover {
-  transform: translateY(-5px);
-}
-
-/* line 163 */
-.platinum-tier {
-  max-width: 350px !important;
-}
-
-/* line 166 */
-.gold-tier {
-  max-width: 300px !important;
-}
-
-/* line 169 */
-.silver-tier {
-  max-width: 250px !important;
-}
-
-/* line 172 */
-.community-tier {
-  max-width: 200px !important;
-}
-
-/* line 176 */
-#sponsor-images {
-  background: white;
-  text-align: center;
-}
-
-/* line 182 */
-#mobile {
-  position: fixed;
-  bottom: 0;
-  background: black;
-  width: 100%;
-  font-size: 50pt;
-  z-index: 999;
-}
-
-/* line 191 */
-h1 {
-  margin-top: 100px !important;
-  margin-bottom: 0;
-}
-
-/* line 196 */
-.mobile-col {
-  width: 33%;
-  text-align: center;
-}
-
-/* line 201 */
-.mobile-icon {
-  font-size: 30pt !important;
-  padding: 5px;
-}
-
-/* line 206 */
-.image-smooth {
-  border-radius: 20px !important;
-  padding: 5px;
-}
-
-/* line 211 */
-.btn {
-  border-radius: 500px;
-}
-
-/* line 215 */
-.yellow-gradient {
-  background: yellow !important;
-}
-
-/* line 219 */
-.leader-text {
-  color: black;
-  position: relative;
-  display: inline-block;
-}
-
-/*
-.leader-text:after {
-  content:'';
-  position:absolute;
-  top:75%;
-  left:0;
-  width:100%;
-  height: 20px;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-image: url("../svg/underline.svg");
-  margin-bottom: 20px !important;
-
-}
-*/
-/* line 241 */
-.card {
-  background: linear-gradient(90deg, #2c36d5, #22bffb);
-  -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);
-  -webkit-background-image: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
-  border: 0 !important;
-  border-radius: 20px !important;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  transition: all 0.2s ease-in-out;
-  margin-bottom: 20px;
-}
-
-/* line 250 */
-.sand-text {
-  color: #eca954;
-}
-
-/* line 254 */
-a {
-  font-family: "Gilroy Bold";
-  color: #eca954;
-}
-
-/* line 259 */
-.card:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transform: scale(1.05, 1.05) rotate(-0.18deg);
-}
-
-/* line 264 */
-.text-raven {
-  background: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* line 268 */
-.bg-triton {
-  background: linear-gradient(90deg, #2c36d5, #22bffb);
-  -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);
-  -webkit-background-image: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
-}
-
-/* line 272 */
-.transparent {
-  background: transparent;
-}
-
-/* line 276 */
-.semi-transparent {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-/* line 280 */
-.row.display-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* line 285 */
-.row.display-flex > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-}
-
-/* line 290 */
-#logo-helper {
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
-}
-
-/* line 296 */
-#logo {
-  display: inline-block;
-  vertical-align: middle;
-  width: 50vw;
-  max-height: 50vh;
-  animation: rotate 2s infinite ease-in-out;
-}
-
-/* line 304 */
-#map {
-  height: 100%;
-  border-radius: 20px;
-}
-
-/* line 309 */
-.footer {
-  padding-top: 50px;
-  font-size: 24pt;
-}
-/* line 312 */
-.footer .btn-footer {
-  color: white;
-  font-size: 24pt;
-}
-
-/* line 318 */
-tr {
-  transition: all 0.2s ease-in-out;
-  margin: 20px 0px;
-  transition: 250ms ease-in-out all;
-  color: black;
-  border-bottom: 3px solid rgba(246, 215, 176, 0.25);
-}
-/* line 323 */
-tr td {
-  font-family: "Gilroy Bold" !important;
-}
-/* line 328 */
-tr:hover {
-  color: #F6D7B0;
-  background: black;
-  cursor: pointer;
-}
-
-/* line 335 */
-#san-diego {
-  background-image: url("../images/palmtrees.svg");
-  background-color: #222586;
-  background-position: center center;
-  background-size: cover;
-}
-
-/* line 342 */
-#time-frame {
-  background-image: url("../images/clocks.svg");
-  background-color: #FFC107;
-  background-position: center center;
-  background-size: cover;
-}
-
-/* line 348 */
-#attendees {
-  background-image: url("../images/people.svg");
-  background-color: #0f5d27;
-  background-position: center center;
-  background-size: cover;
-}
-
-/* line 355 */
-#welcome {
-  font-size: 64px;
-  margin-top: 100px;
-  margin-bottom: 20px;
-}
-
-/* line 361 */
-.nav-item {
-  margin: 0 10px;
-}
+/*    Most Important Variables go here */@-webkit-keyframes rainbow {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes rainbow {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes rainbow {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes rotate {  0% {    transform: rotate(2deg);  }  50% {    transform: rotate(-2deg);  }  100% {    transform: rotate(2deg);  }}@font-face {  font-family: "Gilroy Bold";  src: url("../gen/Gilroy-ExtraBold.otf");}@font-face {  font-family: "Gilroy";  src: url("../gen/Gilroy-Light.otf");}/* line 12 */h1 {  font-size: 72px;}@media screen and (max-width: 700px) {  /* line 17 */  .divider {    margin-top: -15px;  }  /* line 20 */  .calendar {    width: 100% !important;  }  /* line 23 */  .footer {    margin-bottom: 80px;  }  /* line 26 */  h1 {    font-size: 48px !important;  }}@media screen and (min-width: 1001px) {  /* line 31 */  #mobileMenu {    display: none !important;  }}/* line 36 */html {  scroll-behavior: smooth;}/* line 39 */::selection {  transition: all ease-in-out 0.2s;  background: #2c36d5;}/* line 43 */::-moz-selection {  background: #2c36d5;}/* line 47 */::-webkit-scrollbar {  width: 8px;}/* line 51 */::-webkit-scrollbar-track {  background: #100e16;  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);}/* line 56 */::-webkit-scrollbar-thumb {  border-radius: 5px;  background: linear-gradient(#ff1e1e, #ff9c00, #ffc900, #18c51e, #00a1df, #000eff, #9c00ff, #ff00da, #ff0000);  background-size: 1800% 1800%;  -webkit-animation: rainbow 1ms ease infinite;  -moz-animation: rainbow 1ms ease infinite;  animation: rainbow 1ms ease infinite;}/* line 61 */::-webkit-scrollbar-thumb:hover {  background: #22bffb;}/* line 65 */.navbar {  background: transparent;  transition: 250ms ease-in-out all;  border-radius: 0 0 20px 20px !important;  position: fixed;  width: 100%;  z-index: 999;}/* line 74 */* {  font-family: "Gilroy";}/* line 76 */* .important {  font-family: "Gilroy Bold";}/* line 79 */* button {  font-family: "Gilroy Bold";  border: 0px;  padding: 16px;  border-radius: 500px !important;}/* line 86 */.center {  text-align: center;}/* line 89 */body {  background: #F6D7B0 !important;  padding-bottom: 0;}/* line 93 */.grey-text {  color: #100e16 !important;}/* line 96 */.pink-text-gradient {  background: -webkit-linear-gradient(#d53032, #fb0074);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;}/* line 100 */.yellow-text-gradient {  background: -webkit-linear-gradient(#FF5722, #FF9800);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;}/* line 103 */.purple-text-gradient {  background: -webkit-linear-gradient(#ff3bff, #ad0088);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;}/* line 106 */.green-text-gradient {  background: -webkit-linear-gradient(#05b937, #069468);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;}/* line 110 */.secondary {  background: #22bffb;}/* line 114 */.black-text {  color: black !important;}/* line 118 */.btn-primary {  border-color: transparent !important;}/* line 122 */.full-width {  width: 100% !important;}/* line 126 */.row > *[class^="col"] {  margin-bottom: 20px;}/* line 130 */.box-shadow {  transition: all ease-in-out 0.2s;  box-shadow: 5px 5px 6px rgba(46, 46, 46, 0.6);}/* line 134 */.box-shadow:hover {  box-shadow: 1px 1px 6px rgba(46, 46, 46, 0.6);}/* line 138 */.team-member {  min-height: 50px;  border-radius: 500px;}/* line 141 */.team-member img {  border-radius: 50%;  height: 100px;  background-color: white;}/* line 146 */.team-member a {  font-size: 24px;  color: white !important;  font-family: "Gilroy";}/* line 153 */.sponsorship-logo {  box-shadow: 0px 0px;  max-width: 150px;  transition: 200ms ease-in-out all;  margin: 20px;}/* line 158 */.sponsorship-logo:hover {  transform: translateY(-5px);}/* line 163 */.platinum-tier {  max-width: 350px !important;}/* line 166 */.gold-tier {  max-width: 300px !important;}/* line 169 */.silver-tier {  max-width: 250px !important;}/* line 172 */.community-tier {  max-width: 200px !important;}/* line 176 */#sponsor-images {  background: white;  text-align: center;}/* line 182 */#mobile {  position: fixed;  bottom: 0;  background: black;  width: 100%;  font-size: 50pt;  z-index: 999;}/* line 191 */h1 {  margin-top: 100px !important;  margin-bottom: 0;}/* line 196 */.mobile-col {  width: 33%;  text-align: center;}/* line 201 */.mobile-icon {  font-size: 30pt !important;  padding: 5px;}/* line 206 */.image-smooth {  border-radius: 20px !important;  padding: 5px;}/* line 211 */.btn {  border-radius: 500px;}/* line 215 */.yellow-gradient {  background: yellow !important;}/* line 219 */.leader-text {  color: black;  position: relative;  display: inline-block;}/*.leader-text:after {  content:'';  position:absolute;  top:75%;  left:0;  width:100%;  height: 20px;  background-size: auto;  background-repeat: no-repeat;  background-position: left center;  background-image: url("../svg/underline.svg");  margin-bottom: 20px !important;}*//* line 241 */.card {  background: linear-gradient(90deg, #2c36d5, #22bffb);  -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);  -webkit-background-image: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);  border: 0 !important;  border-radius: 20px !important;  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);  transition: all 0.2s ease-in-out;  margin-bottom: 20px;}/* line 250 */.sand-text {  color: #eca954;}/* line 254 */a {  font-family: "Gilroy Bold";  color: #eca954;}/* line 259 */.card:hover {  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);  transform: scale(1.05, 1.05) rotate(-0.18deg);}/* line 264 */.text-raven {  background: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);  -webkit-background-clip: text;  -webkit-text-fill-color: transparent;}/* line 268 */.bg-triton {  background: linear-gradient(90deg, #2c36d5, #22bffb);  -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);  -webkit-background-image: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);}/* line 272 */.transparent {  background: transparent;}/* line 276 */.semi-transparent {  background: rgba(255, 255, 255, 0.2);}/* line 280 */.row.display-flex {  display: flex;  flex-wrap: wrap;}/* line 285 */.row.display-flex > [class*='col-'] {  display: flex;  flex-direction: column;}/* line 290 */#logo-helper {  display: inline-block;  vertical-align: middle;  height: 100%;}/* line 296 */#logo {  display: inline-block;  vertical-align: middle;  width: 50vw;  max-height: 50vh;  animation: rotate 2s infinite ease-in-out;}/* line 304 */#map {  height: 100%;  border-radius: 20px;}/* line 309 */.footer {  padding-top: 50px;  font-size: 24pt;}/* line 312 */.footer .btn-footer {  color: white;  font-size: 24pt;}/* line 318 */tr {  transition: all 0.2s ease-in-out;  margin: 20px 0px;  transition: 250ms ease-in-out all;  color: black;  border-bottom: 3px solid rgba(246, 215, 176, 0.25);}/* line 323 */tr td {  font-family: "Gilroy Bold" !important;}/* line 328 */tr:hover {  color: #F6D7B0;  background: black;  cursor: pointer;}/* line 335 */#san-diego {  background-image: url("../images/palmtrees.svg");  background-color: #222586;  background-position: center center;  background-size: cover;}/* line 342 */#time-frame {  background-image: url("../images/clocks.svg");  background-color: #FFC107;  background-position: center center;  background-size: cover;}/* line 348 */#attendees {  background-image: url("../images/people.svg");  background-color: #0f5d27;  background-position: center center;  background-size: cover;}/* line 355 */#welcome {  font-size: 64px;  margin-top: 100px;  margin-bottom: 20px;}/* line 361 */.nav-item {  margin: 0 10px;}
