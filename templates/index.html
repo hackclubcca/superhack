@@ -4,7 +4,9 @@
 {% from "partials/divider.html" import Divider with context %}
 {% block content %}
 <div class="bg-triton center" style="margin-top:-1px; height: 100%;">
-   <span id="logo-helper"></span><img src="{{ url_for('static', filename='svg/triton.svg') }}" alt="Logo" id="logo" class="rellax" data-rellax-speed="-2" width="40%" />
+   <span id="logo-helper"></span>
+    <img src="{{ url_for('static', filename='svg/triton.svg') }}" alt="Logo" id="logo" class="rellax" data-rellax-speed="-2" width="40%" />
+
 </div>
 {{ Divider(gradient=["#2c36d5","#22bffb"]) }}
 <div class="container">
