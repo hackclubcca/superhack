@@ -30,10 +30,12 @@ $("#closing").on("mouseover", function() {
 });
 $(document).ready(function(){
     $(window).scroll(function(){
-        if($(window).scrollTop() < 60){
+        if($(window).scrollTop() < 200){
+            $("#header-logo").css({"display": "none"});
             $(".navbar").css({"background-color":"transparent"});
         }
         else {
+            $("#header-logo").css({"display": "inline-block"});
             $(".navbar").css({"background-color":"#000"});
         }
     })

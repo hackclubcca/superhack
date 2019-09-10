@@ -224,22 +224,6 @@ h1 {
   position: relative;
   display: inline-block; }
 
-/*
-.leader-text:after {
-  content:'';
-  position:absolute;
-  top:75%;
-  left:0;
-  width:100%;
-  height: 20px;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-image: url("../svg/underline.svg");
-  margin-bottom: 20px !important;
-
-}
-*/
 .card {
   background: linear-gradient(90deg, #2c36d5, #22bffb);
   -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);
@@ -255,7 +239,7 @@ h1 {
 
 a {
   font-family: "Gilroy Bold";
-  color: #eca954; }
+  color: #c47716; }
 
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -298,8 +282,7 @@ a {
   animation: rotate 2s infinite ease-in-out; }
 
 #map {
-  height: 100%;
-  border-radius: 20px; }
+  height: 100%; }
 
 .footer {
   padding-top: 50px;
@@ -344,7 +327,10 @@ tr {
   margin-top: 100px;
   margin-bottom: 20px; }
 
+#header-logo {
+  display: none; }
+
 .nav-item {
-  margin: 0 10px; }
+  margin: 10px 10px; }
 
 /*# sourceMappingURL=index.css.map */

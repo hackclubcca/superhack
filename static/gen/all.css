@@ -342,23 +342,7 @@ h1 {
   display: inline-block;
 }
 
-/*
-.leader-text:after {
-  content:'';
-  position:absolute;
-  top:75%;
-  left:0;
-  width:100%;
-  height: 20px;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-image: url("../svg/underline.svg");
-  margin-bottom: 20px !important;
-
-}
-*/
-/* line 242 */
+/* line 226 */
 .card {
   background: linear-gradient(90deg, #2c36d5, #22bffb);
   -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);
@@ -370,67 +354,67 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* line 251 */
+/* line 235 */
 .sand-text {
   color: #eca954;
 }
 
-/* line 255 */
+/* line 239 */
 a {
   font-family: "Gilroy Bold";
   color: #eca954;
 }
 
-/* line 260 */
+/* line 244 */
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.05, 1.05) rotate(-0.18deg);
 }
 
-/* line 265 */
+/* line 249 */
 .text-raven {
   background: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 269 */
+/* line 253 */
 .bg-triton {
   background: linear-gradient(90deg, #2c36d5, #22bffb);
   -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);
   -webkit-background-image: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
 }
 
-/* line 273 */
+/* line 257 */
 .transparent {
   background: transparent;
 }
 
-/* line 277 */
+/* line 261 */
 .semi-transparent {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 281 */
+/* line 265 */
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 286 */
+/* line 270 */
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
 }
 
-/* line 291 */
+/* line 275 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 297 */
+/* line 281 */
 #logo {
   display: inline-block;
   vertical-align: middle;
@@ -439,24 +423,23 @@ a {
   animation: rotate 2s infinite ease-in-out;
 }
 
-/* line 305 */
+/* line 289 */
 #map {
   height: 100%;
-  border-radius: 20px;
 }
 
-/* line 310 */
+/* line 293 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 313 */
+/* line 296 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt;
 }
 
-/* line 319 */
+/* line 302 */
 tr {
   transition: all 0.2s ease-in-out;
   margin: 20px 0px;
@@ -464,18 +447,18 @@ tr {
   color: black;
   border-bottom: 3px solid rgba(246, 215, 176, 0.25);
 }
-/* line 324 */
+/* line 307 */
 tr td {
   font-family: "Gilroy Bold" !important;
 }
-/* line 329 */
+/* line 312 */
 tr:hover {
   color: #F6D7B0;
   background: black;
   cursor: pointer;
 }
 
-/* line 336 */
+/* line 319 */
 #san-diego {
   background-image: url("../images/palmtrees.svg");
   background-color: #222586;
@@ -483,7 +466,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 343 */
+/* line 326 */
 #time-frame {
   background-image: url("../images/clocks.svg");
   background-color: #FFC107;
@@ -491,7 +474,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 349 */
+/* line 332 */
 #attendees {
   background-image: url("../images/people.svg");
   background-color: #0f5d27;
@@ -499,14 +482,19 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 356 */
+/* line 339 */
 #welcome {
   font-size: 64px;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
-/* line 362 */
+/* line 343 */
+#header-logo {
+  display: none;
+}
+
+/* line 346 */
 .nav-item {
-  margin: 0 10px;
+  margin: 10px 10px;
 }
