@@ -5,8 +5,7 @@
 {% block content %}
 <div class="bg-triton center" style="margin-top:-1px; height: 100%;">
    <span id="logo-helper"></span>
-    <img src="{{ url_for('static', filename='svg/triton.svg') }}" alt="Logo" id="logo" class="rellax" data-rellax-speed="-2" width="40%" />
-
+    <img src="{{ url_for('static', filename='svg/triton.svg') }} " alt="Logo" id="logo" class="rellax" data-rellax-speed="1"/>
 </div>
 {{ Divider(gradient=["#2c36d5","#22bffb"]) }}
 <div class="container">
@@ -23,6 +22,9 @@
         </div>
     </div>
         {% include "partials/calendar.html" %}
+        <div id="what">
+          {{ leader("What's a hackathon?", id="what") }}
+        </div>
         <div id="faq">
         {{ leader("Frequently Asked Questions.", id="faq")}}
        <div class="row wow fadeInUp display-flex">
@@ -88,6 +90,7 @@
             <div class="row">
                 <div class="col">
                     {{ sponsor(url="https://desmos.com/", file="desmos.png") }}
+                    {{ sponsor(url="https://desmos.com/", file="blockstack.svg") }}
                 </div>
             </div>
         </div>
