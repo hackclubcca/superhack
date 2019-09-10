@@ -48,7 +48,7 @@ h1 {
     width: 100% !important; }
 
   .footer {
-    margin-bottom: 80px; }
+    margin-bottom: 60px; }
 
   h1 {
     font-size: 48px !important; } }
@@ -342,6 +342,11 @@ tr {
 
 #header-logo {
   display: none; }
+
+#header-bg {
+  background: url("../svg/head-bg.svg");
+  background-size: cover;
+  background-position: center center; }
 
 .nav-item {
   margin: 10px 10px; }

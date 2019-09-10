@@ -3,11 +3,11 @@
 {% from "partials/leader.html" import leader, sponsor with context %}
 {% from "partials/divider.html" import Divider with context %}
 {% block content %}
-<div class="bg-triton center" style="margin-top:-1px; height: 100%;">
+<div class="center" id="header-bg" style="margin-top:-1px; height: 100%;">
    <span id="logo-helper"></span>
     <img src="{{ url_for('static', filename='svg/triton.svg') }} " alt="Logo" id="logo" class="rellax" data-rellax-speed="1"/>
 </div>
-{{ Divider(gradient=["#2c36d5","#22bffb"]) }}
+{{ Divider("#29ABE2") }}
 <div class="container">
    <h1 class="leader-text important animated fadeInUp"  id="welcome">Welcome to Triton Hack '20!</h1>
     <div class="row wow fadeInUp display-flex">
@@ -72,6 +72,9 @@
                 <div class="col">
                     {{ sponsor(url="https://makeschool.com", file="makeschool.png", tier="community") }}
                 </div>
+                <div class="col">
+                    {{ sponsor(url="https://hackclub.com/", file="hackclub.png", tier="community") }}
+                </div>
             </div>
             <div class="row">
                 <div class="col">
@@ -81,12 +84,9 @@
                     {{ sponsor(url="http://wolfram.com/", file="wolfram.svg") }}
                 </div>
                 <div class="col">
-                    {{ sponsor(url="https://hackclub.com/", file="hackclub.png") }}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
                     {{ sponsor(url="https://desmos.com/", file="desmos.png") }}
+                </div>
+                <div class="col">
                     {{ sponsor(url="https://blockstack.com/", file="blockstack.svg") }}
                 </div>
             </div>
