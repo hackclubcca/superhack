@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/sass/8632901b0876d6deb60669c18582d27da43833f9/variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/sass/8632901b0876d6deb60669c18582d27da43833f9/variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/gen/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/gen/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/index.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="124" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
+            <state relative-caret-position="34">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -365,12 +354,12 @@
       <workItem from="1567725461349" duration="8343000" />
       <workItem from="1567782166510" duration="1123000" />
       <workItem from="1567785188220" duration="241000" />
-      <workItem from="1568077995698" duration="646000" />
+      <workItem from="1568077995698" duration="734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109688000" />
+    <option name="totallyTimeSpent" value="109776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -381,7 +370,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49959514" weight="0.79888266" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8963563" visible="true" weight="0.3268206" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8963563" weight="0.3268206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,7 +379,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.79888266" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.8931174" weight="0.29236498" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.8931174" visible="true" weight="0.29129663" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -595,8 +584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="124" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
+        <state relative-caret-position="34">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
         </state>
       </provider>
     </entry>
