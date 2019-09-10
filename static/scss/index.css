@@ -92,7 +92,8 @@ html {
   z-index: 999; }
 
 * {
-  font-family: "Gilroy"; }
+  font-family: "Gilroy";
+  transition: 250ms ease-in-out all; }
   * .important {
     font-family: "Gilroy Bold"; }
   * button {
@@ -219,9 +220,6 @@ h1 {
 .btn {
   border-radius: 500px; }
 
-.yellow-gradient {
-  background: yellow !important; }
-
 .leader-text {
   color: black;
   position: relative;
@@ -252,6 +250,9 @@ h1 {
 a {
   font-family: "Gilroy Bold";
   color: #c47716; }
+  a:hover {
+    color: black;
+    text-decoration-style: unset; }
 
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -344,5 +345,8 @@ tr {
 
 .nav-item {
   margin: 10px 10px; }
+  .nav-item:hover:not(.btn) {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 500px; }
 
 /*# sourceMappingURL=index.css.map */

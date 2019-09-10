@@ -59,7 +59,7 @@
         </div>
         {{ leader("Sponsors <i class='fas fa-money-check-alt'></i>", id="sponsors") }}
         <h3 class="important black-text">Want to sponsor us? Contact <a href="mailto:harris@ravenhack.org">us</a>!!</h3>
-        <div class="card wow animated fadeInUp" id="sponsor-images">
+        <div class="wow animated fadeInUp" id="sponsor-images">
             <div class="row">
                 <div class="col">
                     {{ sponsor(url="https://surcle.io", file="surcle.png", tier="silver") }}
@@ -186,6 +186,11 @@
            stylers: [{color: '#17263c'}]
          }
        ]
+     });
+     var marker = new google.maps.Marker({
+          position: {lat: 32.8843509, lng: -117.2392354},
+          map: map,
+          title: 'Triton Hack Venue'
      });
    }
 </script>

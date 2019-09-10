@@ -1,54 +1,56 @@
 {% from "partials/leader.html" import leader with context %}
 {% from "partials/button.html" import button with context %}
 {% from "partials/card.html" import card with context %}
-{{ leader("Schedule <i class='far fa-calendar-alt'></i>", id="schedule") }}
+<div id="schedule">
+    {{ leader("Schedule <i class='far fa-calendar-alt'></i>", id="schedule") }}
 
-<div class="row wow animated fadeInUp">
-      <div class="col-sm-6" style="margin-bottom: 20px">
-        <div class="calendar">
-            <table class="table transparent sand-text-40" id="calendar-table">
-                <thead>
+    <div class="row wow animated fadeInUp">
+          <div class="col-sm-6" style="margin-bottom: 20px">
+            <div class="calendar">
+                <table class="table transparent sand-text-40" id="calendar-table">
+                    <thead>
 
-                </thead>
-              <tbody>
-                <tr class="bg-black">
-                    <td><h2 class="important sand-text">February 1, 2020</h2></td>
-                    <td></td>
-                </tr>
-                <tr id="checkin">
-                  <td>8:00 AM</td>
-                  <td>Check-in</td>
-                </tr>
-                <tr id="teams">
-                  <td>9:00 AM</td>
-                  <td>Teams Formed</td>
-                </tr>
-                <tr id="food">
-                  <td>1:00 PM</td>
-                  <td>Lunch</td>
-                </tr>
-                <tr id="workshop">
-                  <td>2:00 PM</td>
-                  <td>Workshop (Make School)</td>
-                </tr>
-                <tr id="judging">
-                  <td>5:00 PM</td>
-                  <td>Judging Begins</td>
-                </tr>
-                <tr id="keynote">
-                  <td>6:30 PM</td>
-                  <td>Keynote/Dinner</td>
-                </tr>
-                <tr id="closing">
-                  <td>7:30 PM</td>
-                  <td>Results/Closing Ceremony</td>
-                </tr>
-              </tbody>
-        </table>
-        </div>
-      </div>
-        <div class="col-sm-6" style="margin-bottom: 20px">
-          {{ card(calendar=true, title="Check In", content="For the first hour, participants of Triton Hack will get their goodies (such as stickers & API codes) as well as the basic rundown of the schedule.") }}
-        </div>
+                    </thead>
+                  <tbody>
+                    <tr class="bg-black">
+                        <td><h2 class="important sand-text">February 1, 2020</h2></td>
+                        <td></td>
+                    </tr>
+                    <tr id="checkin">
+                      <td>8:00 AM</td>
+                      <td>Check-in</td>
+                    </tr>
+                    <tr id="teams">
+                      <td>9:00 AM</td>
+                      <td>Teams Formed</td>
+                    </tr>
+                    <tr id="food">
+                      <td>1:00 PM</td>
+                      <td>Lunch</td>
+                    </tr>
+                    <tr id="workshop">
+                      <td>2:00 PM</td>
+                      <td>Workshop (Make School)</td>
+                    </tr>
+                    <tr id="judging">
+                      <td>5:00 PM</td>
+                      <td>Judging Begins</td>
+                    </tr>
+                    <tr id="keynote">
+                      <td>6:30 PM</td>
+                      <td>Keynote/Dinner</td>
+                    </tr>
+                    <tr id="closing">
+                      <td>7:30 PM</td>
+                      <td>Results/Closing Ceremony</td>
+                    </tr>
+                  </tbody>
+            </table>
+            </div>
+          </div>
+            <div class="col-sm-6" style="margin-bottom: 20px">
+              {{ card(calendar=true, title="Check In", content="For the first hour, participants of Triton Hack will get their goodies (such as stickers & API codes) as well as the basic rundown of the schedule.") }}
+            </div>
+    </div>
+    {{ button(text='ADD TO CALENDAR', url="https://calendar.google.com/event?action=TEMPLATE&tmeid=NDR1ZGcxdnNza3E2cmNhMzBscWtpdTJpZnUgbGVnb3N0YXJ3YXJzZ3V5MDJAbQ&tmsrc=legostarwarsguy02%40gmail.com", shadow=true) }}
 </div>
-{{ button(text='ADD TO CALENDAR', url="https://calendar.google.com/event?action=TEMPLATE&tmeid=NDR1ZGcxdnNza3E2cmNhMzBscWtpdTJpZnUgbGVnb3N0YXJ3YXJzZ3V5MDJAbQ&tmsrc=legostarwarsguy02%40gmail.com", shadow=true) }}
