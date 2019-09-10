@@ -169,9 +169,12 @@ body {
   box-shadow: 0px 0px;
   max-width: 150px;
   transition: 200ms ease-in-out all;
-  margin: 20px; }
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px; }
   .sponsorship-logo:hover {
-    transform: translateY(-5px); }
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2); }
 
 .platinum-tier {
   max-width: 350px !important; }
@@ -186,8 +189,8 @@ body {
   max-width: 200px !important; }
 
 #sponsor-images {
-  background: white;
-  text-align: center; }
+  text-align: center;
+  background: #F6D7B0; }
 
 #mobile {
   position: fixed;
@@ -234,8 +237,17 @@ h1 {
   transition: all 0.2s ease-in-out;
   margin-bottom: 20px; }
 
+.sand-text-40 {
+  color: #c47716; }
+
 .sand-text {
-  color: #eca954; }
+  color: #F6D7B0; }
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
 
 a {
   font-family: "Gilroy Bold";
@@ -258,8 +270,8 @@ a {
 .transparent {
   background: transparent; }
 
-.semi-transparent {
-  background: rgba(255, 255, 255, 0.2); }
+.bg-black {
+  background: black !important; }
 
 .row.display-flex {
   display: flex;
@@ -296,7 +308,7 @@ tr {
   margin: 20px 0px;
   transition: 250ms ease-in-out all;
   color: black;
-  border-bottom: 3px solid rgba(246, 215, 176, 0.25); }
+  border: 3px solid black; }
   tr td {
     font-family: "Gilroy Bold" !important; }
   tr:hover {

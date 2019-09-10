@@ -259,39 +259,42 @@ body {
   max-width: 150px;
   transition: 200ms ease-in-out all;
   margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
 }
-/* line 159 */
+/* line 161 */
 .sponsorship-logo:hover {
   transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 164 */
+/* line 167 */
 .platinum-tier {
   max-width: 350px !important;
 }
 
-/* line 167 */
+/* line 170 */
 .gold-tier {
   max-width: 300px !important;
 }
 
-/* line 170 */
+/* line 173 */
 .silver-tier {
   max-width: 250px !important;
 }
 
-/* line 173 */
+/* line 176 */
 .community-tier {
   max-width: 200px !important;
 }
 
-/* line 177 */
+/* line 180 */
 #sponsor-images {
-  background: white;
   text-align: center;
+  background: #F6D7B0;
 }
 
-/* line 183 */
+/* line 186 */
 #mobile {
   position: fixed;
   bottom: 0;
@@ -301,48 +304,48 @@ body {
   z-index: 999;
 }
 
-/* line 192 */
+/* line 195 */
 h1 {
   margin-top: 100px !important;
   margin-bottom: 0;
 }
 
-/* line 197 */
+/* line 200 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 202 */
+/* line 205 */
 .mobile-icon {
   font-size: 30pt !important;
   padding: 5px;
 }
 
-/* line 207 */
+/* line 210 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 5px;
 }
 
-/* line 212 */
+/* line 215 */
 .btn {
   border-radius: 500px;
 }
 
-/* line 216 */
+/* line 219 */
 .yellow-gradient {
   background: yellow !important;
 }
 
-/* line 220 */
+/* line 223 */
 .leader-text {
   color: black;
   position: relative;
   display: inline-block;
 }
 
-/* line 226 */
+/* line 229 */
 .card {
   background: linear-gradient(90deg, #2c36d5, #22bffb);
   -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);
@@ -354,67 +357,80 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* line 235 */
-.sand-text {
-  color: #eca954;
+/* line 238 */
+.sand-text-40 {
+  color: #c47716;
 }
 
-/* line 239 */
+/* line 242 */
+.sand-text {
+  color: #F6D7B0;
+}
+
+/* line 246 */
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 253 */
 a {
   font-family: "Gilroy Bold";
-  color: #eca954;
+  color: #c47716;
 }
 
-/* line 244 */
+/* line 258 */
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.05, 1.05) rotate(-0.18deg);
 }
 
-/* line 249 */
+/* line 263 */
 .text-raven {
   background: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 253 */
+/* line 267 */
 .bg-triton {
   background: linear-gradient(90deg, #2c36d5, #22bffb);
   -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);
   -webkit-background-image: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
 }
 
-/* line 257 */
+/* line 271 */
 .transparent {
   background: transparent;
 }
 
-/* line 261 */
-.semi-transparent {
-  background: rgba(255, 255, 255, 0.2);
+/* line 275 */
+.bg-black {
+  background: black !important;
 }
 
-/* line 265 */
+/* line 279 */
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 270 */
+/* line 284 */
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
 }
 
-/* line 275 */
+/* line 289 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 281 */
+/* line 295 */
 #logo {
   display: inline-block;
   vertical-align: middle;
@@ -423,42 +439,42 @@ a {
   animation: rotate 2s infinite ease-in-out;
 }
 
-/* line 289 */
+/* line 303 */
 #map {
   height: 100%;
 }
 
-/* line 293 */
+/* line 307 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 296 */
+/* line 310 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt;
 }
 
-/* line 302 */
+/* line 316 */
 tr {
   transition: all 0.2s ease-in-out;
   margin: 20px 0px;
   transition: 250ms ease-in-out all;
   color: black;
-  border-bottom: 3px solid rgba(246, 215, 176, 0.25);
+  border: 3px solid black;
 }
-/* line 307 */
+/* line 321 */
 tr td {
   font-family: "Gilroy Bold" !important;
 }
-/* line 312 */
+/* line 326 */
 tr:hover {
   color: #F6D7B0;
   background: black;
   cursor: pointer;
 }
 
-/* line 319 */
+/* line 333 */
 #san-diego {
   background-image: url("../images/palmtrees.svg");
   background-color: #222586;
@@ -466,7 +482,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 326 */
+/* line 340 */
 #time-frame {
   background-image: url("../images/clocks.svg");
   background-color: #FFC107;
@@ -474,7 +490,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 332 */
+/* line 346 */
 #attendees {
   background-image: url("../images/people.svg");
   background-color: #0f5d27;
@@ -482,19 +498,19 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 339 */
+/* line 353 */
 #welcome {
   font-size: 64px;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
-/* line 343 */
+/* line 357 */
 #header-logo {
   display: none;
 }
 
-/* line 346 */
+/* line 360 */
 .nav-item {
   margin: 10px 10px;
 }

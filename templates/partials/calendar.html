@@ -1,14 +1,20 @@
 {% from "partials/leader.html" import leader with context %}
 {% from "partials/button.html" import button with context %}
 {% from "partials/card.html" import card with context %}
-{{ leader("Schedule 📅", id="schedule") }}
+{{ leader("Schedule <i class='far fa-calendar-alt'></i>", id="schedule") }}
 
 <div class="row wow animated fadeInUp">
       <div class="col-sm-6" style="margin-bottom: 20px">
         <div class="calendar">
-            <table class="table transparent sand-text" id="calendar-table">
-                  <h2 class="important sand-text">February 1, 2020</h2>
+            <table class="table transparent sand-text-40" id="calendar-table">
+                <thead>
+
+                </thead>
               <tbody>
+                <tr class="bg-black">
+                    <td><h2 class="important sand-text">February 1, 2020</h2></td>
+                    <td></td>
+                </tr>
                 <tr id="checkin">
                   <td>8:00 AM</td>
                   <td>Check-in</td>

@@ -3,16 +3,405 @@
   <component name="ChangeListManager">
     <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/00cd7a5bc2407046ce80330412e64fbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/013461d093f146925f4001bb694c2c4f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/01e45519586cd0587e5da27ac45179d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0281feff8b8a98b6bb2b62bb8ca406cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/030f7254f2a8919b63aa93f54bdb3041" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0313144771ff987fb1581a245df78971" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/03a14886fac2f264a622a00b8a4c38a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/03e5b4c4ca7e3bd2b4ab351b00ebe740" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/03ede761f4c646044403312226f84720" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/04745e4585aa36410ad0d26d813da277" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/04bc95cead48b9bc310a34d3f5e10cbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/071374ba8bf80553be1d8a2b494f1e07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/07ac0e8b41439b75d00a016db6c3a3a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/080b4ec54ba543a745cc6c4f87ae9d8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/085e3a6b5e3b27a347277495361a8d87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/08b1bd31988d12c99c26cc77c72891ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/08f9e1804793c3d523457057cf293db1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0a37ed9ccf445f2d4de274ae03f0e3d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0a97ebf91b97a3b668f4aeeaf33b482a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0ad31dc36fab18fa386f8dba23f681f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0ad848b1d328724d6a66e67867654e28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0b4dd94c1430487b3f8788864a3b31cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0ba754872e5a734cdb006754026876cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0bbf6aa63d540c924f99f47b83cad1dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0bfdad9be930e932557c4f7e11b58365" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0c49d565ed9db79e8e79d114c3ae902c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0cfdaa899283e55a6a70a2944e0bd4f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0e315064528d87ace0f309dea14d8fc5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0e6510b9792534d0092525e2499efca9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0e9400e8a121998064cb439257f4307d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/0f64a78a72c98d6d9a8cc36dc43b8c17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/103666022504028651a1ee8fc6812b4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1051d3be941cac5e784e281257fdfb87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/105c11362cfc97df7ca9f46be598b392" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1177550899b2bfd46a52c2c9ce817f96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/135c2e0e40329f64fccec2e0422e2d84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/136f72ae008a560d6ada6a72f8f32895" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/149feb17628279ea41512492aad239b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/14cab703e43b2097251a87d5b7c4d9bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/15338bd132949dd01f9f2d1ea74a1d91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/15d63df8bd245fe29f26119010f7182f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/161e097ad37b95470bea9125e635d7bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/179b06a0fd7c4d34cdbc78c9dc59e621" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1829bd74e0925791114486c5e71e4fda" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/18535ebe926f6fac397ece16dad14ce3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/18ab558e637c7bcdcbac94a8309f5f7a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/19597d1fd666fcaedaa0b1042863801a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/19e4eaf062357117df6c2d403ff8d942" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1a3baf9ef77d8a8aed4989ca03f24fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1ba70ca304973acdc5c05219155f9cf6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1bbdf68eb4187c62e917905dec6cad2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1dc657028fcb2d15d7a849d312f80a59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1de4a06801f8c74189d2f88e853aa4bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1e61cb049f36db4f230332f1bca9e556" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1ea4d587e2d1e550c93988ae1bf11408" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1f15ab39241ed1505719b3a85cc5f9a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/1f3237b8d58b524184910c4d801582ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/21403e79d22cc47d0496d9047f67f1f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/214268ca9e2a58ab8a8061f8cb9dac17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/21b39736a9281f56d6a40d405ca5b052" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/24fe4dff126e37d6590c911c69a17d69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/254c07eeb8709b021e538b82b5da9252" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/25ddd2205b4fbb1c7a2329320c93c366" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/270aabfad4cd5bbfa78be7d554215df8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/276ebb3233c18220337b1c1a2f5353fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/2810a8208e9c18056da010313597e82f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/28ab6f00537607be3fabd9450e7c2436" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/28e01ea42c5b7a9d20d453eeee4028a0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/2a9e4ad63fbce72431bf9b6b45e91a05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/2ae4698f2b419fa791ca47ba56faec02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/306335fc78005210c37859fd61931f90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/30cd0e2a6b21a4b7310c369859d62356" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/31693cf5eb080e420f91299359c3985b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/32aa0db00d3d9e687629a1805b258d37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/32d3fc580c47e380c83d99d968adaeaf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3403dc39c797092be47c922d77381cd0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/34a58f2e091caf849d3cbc4dc84fb622" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3730f490045423f0e9f0a0078bcf892d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/37b145618de93ea5ab30d386b99c2b11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/384361fa2c4993441cd2b9f2dccbcca7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3846590b58ce63b8fed83851e760d23d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3946dbd14fcbbc235ab6f6346df16c8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3a87a2340c056d46ede8c8907e82fbba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3af827d460caca8503192f98667593b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3b2309ec7b36d167788f500b62d0939c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3dc56e3ea03a92e7b6438f1fd4955523" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3f4f275a81563157e1d5d3f000b8b965" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3f69e0fd7e6231aef6f9af5bd80e32c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3f89feb3a298bc1c766ecc10c8177411" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3f9110a41f9900e51421a3a4bd69e6d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/3f96d2f80fbf9236803819dfe7100440" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4292599aa444276c8598ea0311ca9ed9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/42a505a63595b5f15a10e177fde22182" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/42e5923c299592d4009d5f6f8d7d139d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/43378b4c554d00502ac17e8d96aaa9b6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4380c3b8784c4f3fd8524056e49407df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/43b4ba4894adcef6f591dd5b042ceac9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/454d93413ff079fe803b3990d37a66e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/45cba615c1d648ca2c40852c40f4e1e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/476224330d6b659ac2edc6189902ffad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/47a3b7953ca9616c7e162fcc4c8ce441" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/497024e18ba1bcf34b5a88ebc43c87a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/49ce38a395574af0e4969b9731de3a7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/49e633506d09a5d9293c877886b58ee9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4ad5d1be666838b9841adab9b17a115e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4b9cb23178a25451bb18ed9a4e4c91a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4c370bc330de41a8a47e6bea3aa4ffac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4d36e760a6e991ff5b42c12fcbf8e5de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4d5b55640427c4d566f8754f569c6340" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4db50d9179f1f1ddd041a10372808161" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4e2cc3f066f29bc35574db23bc6819e4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4e7a9ca64360f6109916a358f125e48f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4ef47d8151b5dba1637ff9567e1e124c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/4fc30e2a3e267692ca8461288c7b9b57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/51af320562cbf1ee0106c78bb83dcd66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/51f37a9c5bedac5fc536ab42b6f635db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/5266cf7e3b561673535787f7f86e612f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/539e15528f7b157d2558d2e0c1cf36f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/53e5374d690b9e3d5b077939e1d8e40a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/541df253c3206cb4bc2f2323d50aeada" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/557c15a14882afe2ca3d5a639874800a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/55de3feda71876b7476af65bfc1deb25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/573282d07cb65c6b1a506cd0ffe880be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/575047521494ed9832cb9da6082e568d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/5833b5e1d1fd85ea506272662a3b7042" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/5898b0f7da33d09ebbbf6f2cf41ae7c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/58ddc4468fafea9e5905a54c0f15a252" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/590d6ab5d255371f172915cd9b893c2a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/5917df80d0d28c17b6613b7bcdcde9af" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/59754ff3771cbbb0ed630fba66fe6ddb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/5b2968181ccb332d08eb540f1f720754" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/5b5daf6cc41038de663fb50f14a41bb2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/5bf78f3d6c0f04afa0c0436faa525ee4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/5c74c25e6e05c352436724ff507a59a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/5d9a61874ef2f6c9afddafe54ad505f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/5e2644f52902f1de2f94aaae94e42f81" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/5e9150bca111f13a05d47f627179f7a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/60b6e0c41f51ddd47c7773e1a12c026f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/60d4ecaf9a7f4e0ad921e82f971ea723" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/62fe9acc07129567def9aa6fba54e31f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/63053aa29a7cbe7c9a305d5595ec8723" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6414ca9e9f48c40bc409e26fff70aba9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/64bb36c41a7218a3ee92c8ff3fae9e43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/64e6152a725114615e18a0dbe0442863" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6517cbc2bb119178835043ddf54a23c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/67cc3ca54509ae40b8a4449a78fe3f85" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/67d5b3624e32c7cbfddbbef83c3f6fda" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6a1bf1f94e95200251a50b0577edaa2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6a76928a5e0ecc126bee8182cea71ef3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6b06e535f1f8aa299d38612dadd5cfa3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6b9887c4593ebe6d68f9eb05a5624bfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6c3fac08ab3718fc147349a59ae6d587" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6c496819106619aeb7e1510ac0cd1e5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6cf679738092e02af0c1f0782a1e92d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6d3ea8a7a6ef6da79746bf630c5b2ee4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6dd4b1d7ed389b560c63082a127c7b7b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6dd5329bda6ec48bf2c67013d3931a21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6e61aae35c9089f4c9b265d7390f975c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6e8777850932bca52c276cee4bf5f1c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6ed6428a395bbe1c6119fe28ad222305" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6eefe0e5bd1abf9bf05346726edcc32d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6f6a5c82dede613803dac2d4f7501758" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/6fe3b065a122c2914099ab1f13ad2362" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7068462029fddd727b3389c3c4549300" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/70f198abf9eccb009ee8ff6cff618332" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/713a418f3d4a6bc36f8a1b25754a9af7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7141e45d0761389c35e2832828aba25e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/71ae2846a4e374346259a6fe8dccfbfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/71e3ac3ac5ec09e8d3b77f9582ee4895" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/72037e1b1d1c62a94717d379c911be8e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/72ae7847eade8e0820c42f4afe578665" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/75947ef6aeb7eea668ab66dec2eedcd6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/761d18d376341f4f6dafa246ed2249ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/76846f8a9de5da7f99916417f064192a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/773068f886efb738c250c1098a411641" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/776878ed7b4f7864733f076ca0da2814" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/781c78d34880768698f1cc4b2ddd8def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/781e49f14a507177ea1b76fa0c8f2f34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/79e72439f5a381fdf94891d36ec212a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7a41f72e19bdadb131714b2dc157aac2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7a539a0e883d5ad705c38ff431a385a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7afcac4bb2a3db082ffb600e97c23c51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7c04a796061b3b2c87b71994646ba203" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7c276dc756c5347b8807ba77a4b5c561" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7cac61dfdb6c008d1a99266417dd9c17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7cc13adb7be407264b8c2698f363dbf8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7e0d894343156d7d927f3c58858e228f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7e6f4b3ff54833c35514ae85fa6e2a19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7ec816d2f6a33bc7028d9ae96fcde478" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7f14ff3a78cfdc42766255d217bc51fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/7fa01918813353d50939dfd0851f3bcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/804337113d1456d993aef0ffdde89fdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/80572d8861866b476371003231d5e0f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/80c95d0db815486f8c55ea997f53fcf9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/81833c9e68b0e10adc9b310008104b14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/8269307f46ca2ffa736e94c1e4ca2564" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/8317f6a58a2edc3f458e5d4aa50a33ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/837ddb38f57eec1612a652f479dbb4e8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/841b2f15957881ac6f593d4081930561" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/841cd9be5a7c6de84e2c1e05ce4f4460" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/841ed4d8014437c3305c2fb36861a48a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/8669e07bf77f84374819952670bd05d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/869317ae935aaf92e543bd3d2e97e3bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/86cae48647e9172edaf080836b77404d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/870461357729c2d9767ab66e39d82bbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/88eb8cae18729d01d3152ccdf92dae2f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/8a07160b986ca065efbdc1bb90caf395" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/8ae15a3c3dcd6ff8877d4e5e23b2f9b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/8b7ddfb612a223b70bc0efde9ef9eb18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/8baa1d7306048a3968f189ddc1417111" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/8c5ea273ad7302e5b709481c7a986691" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/8d0744be51f27ce47aa4e85d8ee343f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/8f9c3f4bb8a68d4094f8b5962b8c2909" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/900634b6d11b7cf87473e49a845a6dd6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/90c46ae164024194f915e3ad5db62043" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/920b61033f89bc8757e7edf29da53b67" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/92765d85edbdf102964d769cacb605c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/92d71ce51c3880a3bfff3e93354fc9e4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/93739667b1f3462d549340c69c987bc8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/93ce9804405b5c02ead434bfa5950276" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/94087ea2e0a103cb2fce4ce7b5601dec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/95aec3c603a503b3e21301c1f9d4eb0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/963ce035ac0270e762341819f6160e31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/96e52563f90a3943e791f450d5b3e3df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/97ad6ef4d1f4362e5b4318fbf4c9cbdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9b33da77138dc68468fc34e3c4bb10d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9b3c128b634e5ca4fcf74fa61867e52b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9b8d3c0f6e638552bb38ca49cb5d9943" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9ba50e748eacd76b3f192044b1eff69a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9c00f468596d501a32ce20e6cba00c75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9c998f768a885e14a082a450a0a9f1fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9d941f355390dd0e554cd2deb398084d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9e051133916e79ed87316dad20a26f22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9e3677947637c47f18e71e0317d8db6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9e953362b4f8e360e923b5a3585bd393" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9ee9e1c0aa144ef985ffe559e7a45abf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9f454176448d00a91d60534d7a16013b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9f5c6fc820ec7e24754bdc6720cbac48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/9f9ba957730353bf9c3e3e2028d84901" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/a0938f0279bd8a8081499650a3c85247" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/a173f7f0cf35a536d4a645bc6efdcdf4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/a237b504bf49e7fceb2593bd68c7fa02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/a3341411286762f2e4cbb4ab4690ae1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/a37a3dafa5a52017035de0195ff0de6d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/a4319f102d9a28f23189e06c6d44ab4e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/a52934828850ccce556dc950227537cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/a55272daabf7b034e51ff750a31e8513" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/a5ae107b0bf6275f5ee3fc1e031bb6cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/a5c33495d4600917a6710049eaf6f784" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/a815b5cda6fc3976d5780280420a478f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/aa5282d2f3b8af0ec854281a6a9f14c6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/aab546156c54345b2fea7abedcae81d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/aacd645b77c08f07d01694022fa5250b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ab0ea8e24757e6462bab67d35503f606" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/acc8ea86423ebda1b592421efa2e143b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/accb0a3e466ee29c3869119f892d03b6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ad087013107ad1123349470b8ac0c80c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ad692518a112295d3a99665e2c71b5b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/adce618331c06d6283cab58033fbc66e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/adeac9f47efc97ae969520a49be8d64a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/aeba820a62a37c5d2ac29b015eb250f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/af5e1adf628942b1b58ce4bde807a5db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b2942dc86f74c6cd472935829f1359ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b2f8a839be72bc641666fcdb66b7887e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b30efa5900361eaf7c6ece9011a10f65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b372772d90bba0550707e78e3bae9bcc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b4343ca283d1b711e5c213f6c0f851ed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b63243a5334c73de297eda84d56930f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b6ba7714388c535acbab6666d4ac0b9f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b7081ed96872fd595eaa5b50e554ead3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b7089edeef47e0c474d07048b72221f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b77bd408a54649c1297b01ab2775f7e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b7dfa202e9f3360211f56b8750ea468c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b925d0a6cbdb1515fe448a6dff880ca8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b944b93c5a35ca1c718605c25fccdc5f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b94532a0e30ab83166e821fbf88496c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/b9668d141fe773347579ffed95fce090" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ba8be26183fff9881d5b8531364557ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/bb7be6584352d48e45520fe08c32dfa4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/bc6b768b2ed652c14898c3812f8f77bd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c00254b2273ca21f75a8e355ae7b248b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c0155f3c015dd8f145af61545d47fd4e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c0603e08fc985bf114fc21e47b2d6438" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c095a8c520b3116f622a86b4301a45c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c0d520a0a4cbad79b4f49f3acdba13cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c1c5f5639c52dde084ea433b36d1826c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c203709c92b6ba865c1b8a53336908d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c301dec56a760e0387750c85c6b64365" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c4f81c2d0f2cc0db24354145b463153a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c4fe9aeabf6e473c4f9e91d7a4ad908e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c676e8524907cd2248479dc42e62257b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c6c3dc88c37a2717b930de313cd2bbb3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c76e562737ece096175c382d421d5beb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c79363cb616b6efe3dd37ad8adf521b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c9395fbd1bed7bef53307182db7c8b9d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c970f9bfe9c96fb651b978de6280437e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/c9c45656c1f4aad905fc641883883c37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ca19aeed77680f5a299a0fee98dfe73a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ca763bbc63c1d69f8b6ceef06c79e11c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ca92d5bf3bb810ff940f10b5a53f430f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ca9c46a92338cbab2cb07ed4fdf99216" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/cb129fb9c8b2e5d494dc64e7913ad29c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/cbd8ae259de85e4fa581d0a0b58f2211" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/cc769da12291718f5012cdc3d6939cc9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ccc39ee645e1bb78184ee9c2cf47a013" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/cd09d1d2471a216efe00a24eac63bd2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/cd0be88918ee90498c7e567a95ad5e83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/cda27ee1f9c6cc4482e6716ab511b183" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/cdc646b1276942d790799422e90dc6dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ceff12975bc924c959516924c81bfa88" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d0ca0154a5bf01cacdf8c7e4539121dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d28e6ce138c1db50399e8ca3d75431bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d3a09c489d09779281600a32cfbdb0a5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d4eaa3f6484febedf11cfbcbb9040b31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d67e9ebf98cf9997fa54f6461688992e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d6f76c61dab41c4cf6c6ca87dc70f518" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d725eab56b59fa3ddf2d2e15b80e0823" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d78e40645b5df02604130a77333c36b1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d8d02ec4ce8d436aa0ef7fb367fc99e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d996f03d2104d1994d8ccff6e3179356" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d9bbc613a3a37d41e584777d3108566c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/d9c787730131fb8e51a69d774159b28f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/dac3b4819ef7098773e7519c35253b55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/dae59b3427353256e8814ec4923376e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/db5737900e82ddb108cad1fb3424bbdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/dc0dda7b89f2c63ba06b952f6df44cfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/dc1503c7da6b2ce1fd4785fd75fc61ae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/dc2a3ef259ab1fdd681d30dcf74a8b73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/dc6a2b5122dcb719299d02473fd1e49c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ddbae012ad682fd7a2a502f22fe00224" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/dddc8e05c1a47e48e8d4ebe77685d274" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/de6ff4b09d7287090d8400dfacacb0bf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/de72ba8938e744e93d4983e1c51d390e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/def26dd0fe80b6d58f0dbc37c79eb162" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/df44964f87602c3d8767786e617cd244" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e0ae3e7aad4bf3d3d090aea63ff4753e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e0f574e851bbc9f5826d5a37d37b9849" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e123a920c088384b92f3b9acc09feffb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e4c6b92c7079afead1d7fdfaf285b4b1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e5e701886a60acabcbe46792dbf63a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e669c55811cc0fbfec50a683b5819414" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e6b34b09c2698bbd94d28557c096cf11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e85210a331230e3a86752df107601d6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e904a5316e010a5d1316d6c866119f3c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e91a6f2e39037ac4502cad047bb005c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e99486585c6614507622da7a3ac45241" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/e99fd1d15ed400cf0bd2bc7317b39a0b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/eb7d787355bd39ec592435d99f1645ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/eb8a2223401c2b408dcd0dee00380eba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ebc0efec495af29065de3ab48a26c65d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ecba343431846f9613452053d2356b36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ed566197cea0b44678ebbe2384e37fcb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/edad6be0b09923daaa857737409ea0b8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ee2fb891acfe1d441fd9a23fc1dee748" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ef7e62998f2845c9f3c4b4590103f07b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/efb74416b897bca70b26101f2cd62e13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/efd09beb78b5ef0e7e5413da1f46be87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f11aa2cb266491c5039fb2d68757ba66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f282d01261ac4eee95572e148cbac6fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f2ae5260fa5afbc9cadcdc6eb73d668c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f2e4ca127da614f9b649b69c726f1e87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f35a39e7443ae5097f928598c78e4972" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f399597524f97bebc510993351761a98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f3b88ae9ff269058d0a6d8a5b4762eb5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f438ec441a9d828d4e0353a86bf754f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f5a889ec83086a67338169cdad5b3b94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f5b6cd5a5d75d3d1eb9dc15b9fd2a08f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f60e14c8b422044234ed0fc736276dc1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f668cbf863eb70470aa5fbb9dbdeab6c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f6947809806012b14ccea9074120a9df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f70ec8690724a032779222324d4d7e7f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f82d53663a0958985c3dc612247dda02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f8bfe1822cd674eb145314fa5cf9f537" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f96d7062d28fe1184313f7d460cd2808" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f9ab6f1a605a017958f8c09e6ac243d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/f9c60a360c078cb8f9cba97690041a81" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/fa8cffe6c2055764ee502899407ad6e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/fa914bb8730df9189540019de66c5c7c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/facc8673788e6fc07d4c6bcb1755d2dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/faffdd818fd01349c9120a286518bee2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/fcfaec837d4b70ceefcc1faec24c14e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/fd6e3231ff76e287b912f624ee4690c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/fd6ea54f2f09637e47d31495d055d525" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/fe5b494a17bc423c17a7264c60c2cf32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/fe64903a8fbbd18ddaa1c2abc818f5be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ffa49ec3a420bfee8ef91ada97a6a6a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/sass/8632901b0876d6deb60669c18582d27da43833f9/variables.scssc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/gen/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/gen/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/index.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/card.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/leader.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/leader.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +417,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="60" column="62" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="62" />
+            <state relative-caret-position="246">
+              <caret line="73" column="56" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -37,8 +426,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="408">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -46,7 +435,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/partials/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="317">
               <caret line="36" column="114" selection-start-line="36" selection-start-column="114" selection-end-line="36" selection-end-column="114" />
             </state>
           </provider>
@@ -55,8 +444,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/partials/leader.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="17">
+              <caret line="1" column="146" selection-start-line="1" selection-start-column="146" selection-end-line="1" selection-end-column="146" />
             </state>
           </provider>
         </entry>
@@ -64,8 +453,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="290" selection-start-line="290" selection-end-line="290" />
+            <state relative-caret-position="117">
+              <caret line="275" column="31" selection-start-line="275" selection-start-column="31" selection-end-line="275" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -74,16 +463,16 @@
         <entry file="file://$PROJECT_DIR$/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="16" />
+              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="119">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -91,8 +480,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
+            <state relative-caret-position="255">
+              <caret line="54" column="141" selection-start-line="54" selection-start-column="141" selection-end-line="54" selection-end-column="141" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/partials/calendar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="e#291#318#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,9 +511,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>yellow-te</find>
-      <find>grad</find>
-      <find>leader</find>
       <find>d53032</find>
       <find>fb0074</find>
       <find>$seconda</find>
@@ -136,10 +534,13 @@
       <find>.nav-item</find>
       <find>.leader</find>
       <find>spons</find>
-      <find>sponsor</find>
       <find>rotate</find>
       <find>@media</find>
       <find>map</find>
+      <find>tr {</find>
+      <find>sponsor</find>
+      <find>sand-text</find>
+      <find>semi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,18 +559,18 @@
         <option value="$PROJECT_DIR$/templates/document.html" />
         <option value="$PROJECT_DIR$/static/scss/index.css" />
         <option value="$PROJECT_DIR$/static/.webassets-cache/all.css" />
-        <option value="$PROJECT_DIR$/templates/partials/leader.html" />
         <option value="$PROJECT_DIR$/templates/partials/divider.html" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/partials/footer.html" />
-        <option value="$PROJECT_DIR$/templates/partials/card.html" />
-        <option value="$PROJECT_DIR$/templates/partials/calendar.html" />
         <option value="$PROJECT_DIR$/static/gen/all.css" />
+        <option value="$PROJECT_DIR$/static/js/main.js" />
+        <option value="$PROJECT_DIR$/static/scss/variables.scss" />
+        <option value="$PROJECT_DIR$/templates/partials/leader.html" />
+        <option value="$PROJECT_DIR$/templates/partials/card.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/partials/header.html" />
         <option value="$PROJECT_DIR$/static/scss/index.scss" />
-        <option value="$PROJECT_DIR$/static/js/main.js" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/static/scss/variables.scss" />
+        <option value="$PROJECT_DIR$/templates/partials/calendar.html" />
       </list>
     </option>
   </component>
@@ -208,12 +609,6 @@
               <item name="raven-hack" type="b2602c69:ProjectViewProjectNode" />
               <item name="raven-hack" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="raven-hack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="raven-hack" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,6 +622,13 @@
               <item name="raven-hack" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raven-hack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raven-hack" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="index.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="raven-hack" type="b2602c69:ProjectViewProjectNode" />
@@ -379,23 +781,23 @@
       <workItem from="1567725461349" duration="8343000" />
       <workItem from="1567782166510" duration="1123000" />
       <workItem from="1567785188220" duration="241000" />
-      <workItem from="1568077995698" duration="1909000" />
+      <workItem from="1568077995698" duration="5708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110951000" />
+    <option name="totallyTimeSpent" value="114750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23157895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23157895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49959514" weight="0.79888266" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8963563" weight="0.3268206" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8963563" visible="true" weight="0.3268206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,7 +806,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.79888266" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.8931174" visible="true" weight="0.29129663" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.8931174" weight="0.29129663" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -544,27 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="114" selection-start-line="36" selection-start-column="114" selection-end-line="36" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/leader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/gen/all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -574,43 +955,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="290" selection-start-line="290" selection-end-line="290" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="60" column="62" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="62" />
+        <state relative-caret-position="408">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="16" />
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="73" column="56" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="36" column="114" selection-start-line="36" selection-start-column="114" selection-end-line="36" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/leader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="146" selection-start-line="1" selection-start-column="146" selection-end-line="1" selection-end-column="146" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
+        <state relative-caret-position="255">
+          <caret line="54" column="141" selection-start-line="54" selection-start-column="141" selection-end-line="54" selection-end-column="141" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="275" column="31" selection-start-line="275" selection-start-column="31" selection-end-line="275" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#291#318#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -156,8 +156,11 @@ body {
   max-width: 150px;
   transition: 200ms ease-in-out all;
   margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
   &:hover {
     transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
   }
 }
 
@@ -175,8 +178,8 @@ body {
   }
 
 #sponsor-images {
-  background: white;
   text-align: center;
+  background: $sand;
 }
 
 
@@ -232,8 +235,19 @@ h1 {
   margin-bottom: 20px;
 }
 
+.sand-text-40 {
+  color: darken($sand,40);
+}
+
 .sand-text {
-  color: darken($sand,20);
+  color: $sand;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 a {
@@ -258,8 +272,8 @@ a {
   background: transparent;
 }
 
-.semi-transparent {
-  background: rgba(255, 255, 255, 0.2);
+.bg-black {
+  background: black !important;
 }
 
 .row.display-flex {
@@ -308,7 +322,7 @@ tr {
     font-family: "Gilroy Bold" !important;
   }
   //background-image: url("../images/message.svg");
-  border-bottom: 3px solid rgba($sand, 0.25);
+  border: 3px solid black;
   &:hover {
     color: $sand;
     background: black;

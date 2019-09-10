@@ -28,8 +28,7 @@
     <div class="card wow fadeInUp" style="{% if color %}background: {{ color }}; {% elif gradient %}  background: linear-gradient({{ gradient[0] }},{{ gradient[1] }}); {% endif %}">
         <div class="card-body text-light">
         <h5 class="card-title important" style="font-size: 32px;" {% if calendar %}id="calendar-title"{% endif %}>{{ title }}</h5>
-          <a class="btn semi-transparent important text-light" style="width: 100%" data-toggle="collapse" href="#{{ id }}" role="button" aria-expanded="false" aria-controls="{{ id }}">...</a>
-            <div class="card-content collapse" id="{{ id }}">
+            <div class="card-content collapse show" id="{{ id }}">
                 <p class="text-light" style="font-size: 24px;" {% if calendar %}id="calendar-description"{% endif %}>{{ content|safe }}</p>
             </div>
             {% if email %}
@@ -46,7 +45,7 @@
             </div>
             <div class="col">
                 <h3 class="important ">{{ name }}</h3>
-                <a class="badge badge-secondary bg-triton" href="mailto:{{ email }}">{{ role }}</a>
+                <a class="badge badge-secondary bg-triton" href="mailto:{{ email }}"><i class="fas fa-paper-plane"></i> {{ role }}</a>
             </div>
         </div>
     </div>
