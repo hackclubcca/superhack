@@ -84,10 +84,11 @@ html {
   background: #22bffb; }
 
 .navbar {
-  background: transparent;
+  background: #1f2161;
   transition: 250ms ease-in-out all;
   border-radius: 0 0 20px 20px !important;
   position: fixed;
+  padding: 20px;
   width: 100%;
   z-index: 999; }
 
@@ -218,7 +219,8 @@ h1 {
   padding: 5px; }
 
 .btn {
-  border-radius: 500px; }
+  border-radius: 500px;
+  font-size: 18px !important; }
 
 .leader-text {
   color: black;
@@ -302,7 +304,7 @@ a {
   font-size: 24pt; }
   .footer .btn-footer {
     color: white;
-    font-size: 24pt; }
+    font-size: 24pt !important; }
 
 tr {
   transition: all 0.2s ease-in-out;
@@ -349,7 +351,9 @@ tr {
   background-position: center center; }
 
 .nav-item {
-  margin: 10px 10px; }
+  margin: 0px 10px;
+  font-size: 18px;
+  text-transform: uppercase; }
   .nav-item:hover:not(.btn) {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 500px; }
