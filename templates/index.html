@@ -4,8 +4,11 @@
 {% from "partials/divider.html" import Divider with context %}
 {% block content %}
 <div class="center" id="header-bg" style="margin-top:-1px; height: 100%;">
-   <span id="logo-helper"></span>
     <img src="{{ url_for('static', filename='svg/triton.svg') }} " alt="Logo" id="logo" class="rellax" data-rellax-speed="1"/>
+    <h1 class="important text-light">Triton Hack</h1>
+    <h2 class="text-light">February 2, 2020 @ <span class="important">SDSC</span></h2>
+        <a role="button" href="https://tritonform.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">Register <i class="fas fa-arrow-right"></i></a>
+
 </div>
 {{ Divider("#29ABE2") }}
 <div class="container">
@@ -58,7 +61,7 @@
        </div>
         </div>
         {{ leader("Sponsors <i class='fas fa-money-check-alt'></i>", id="sponsors") }}
-        <h3 class="important black-text">Want to sponsor us? Contact <a href="mailto:harris@ravenhack.org">us</a>!!</h3>
+        <h3 class="important black-text">Want to sponsor us? Contact <a href="mailto:harris@ravenhack.org">us</a>!</h3>
         <div class="wow animated fadeInUp" id="sponsor-images">
             <div class="row">
                 <div class="col">
@@ -94,13 +97,13 @@
                 </div>
             </div>
         </div>
-    {{ leader("Meet the Team <i class='fas fa-smile-beam'></i>", id="team") }}
+    {{ leader("Meet the Team <i class='fas fa-address-book'></i>", id="team") }}
     <div class="row">
-        {{ team_member(name="Harris Beg", role="President", email="harris@ravenhack.org", file="IMG_6074.jpg") }}
+        {{ team_member(name="Harris Beg", role="Organizer", email="harris@ravenhack.org", file="IMG_6074.jpg") }}
         {{ team_member(name="Danial Beg", role="Marketing Lead", email="danial@ravenhack.org", file="IMG_6075.jpg") }}
     </div>
     {{ leader("Want to register? <i class='fas fa-user-plus'></i>") }}
-    {{ card(content="All you need to do is fill out <a href='https://tritonform.typeform.com/to/PKNkom'>this</a> form and we'll send you a confirmation email ASAP. We thank you for your interest in Triton Hack.", title="Registration form") }}
+    {{ card(content="All you need to do is fill out <a href='https://tritonform.typeform.com/to/PKNkom'>this</a> form and we'll send you a confirmation email once we start rolling out decisions. We thank you for your interest in Triton Hack.", title="Registration form") }}
     </div>
     <div id="map"></div>
 <script>

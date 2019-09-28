@@ -2,7 +2,7 @@ from flask import Flask, render_template, make_response, request
 from wtforms import Form
 from flask_assets import Environment, Bundle
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static', static_url_path='')
 assets = Environment(app)
 scss = Bundle('scss/index.scss',
               filters='scss', output='gen/all.css')

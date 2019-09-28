@@ -32,7 +32,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if($(window).scrollTop() < 200){
             $("#header-logo").css({"display": "none"});
-            $(".navbar").css({"background-color":"#1f2161"});
+            $(".navbar").css({"background-color":"#0071bc"});
         }
         else {
             $("#header-logo").css({"display": "inline-block"});

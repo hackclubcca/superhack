@@ -4,14 +4,14 @@
 
  */
 
-$primary: #2c36d5;
+$primary: #0071bc;
 $secondary: #22bffb;
 $sand: #F6D7B0;
 $sand-20: darken($sand, 40);
-$medium-size: 18px;
+$medium-size: 18pt;
 
 @mixin g($start, $stop) {
-    background: linear-gradient($start, $stopy);
+    background: linear-gradient($start, $stop);
     -moz-background-image: -moz-linear-gradient($start, $stop);
     -webkit-background-image: -webkit-linear-gradient($start, $stop);
 }

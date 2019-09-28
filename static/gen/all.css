@@ -95,12 +95,12 @@ html {
 /* line 42 */
 ::selection {
   transition: all ease-in-out 0.2s;
-  background: #2c36d5;
+  background: #0071bc;
 }
 
 /* line 46 */
 ::-moz-selection {
-  background: #2c36d5;
+  background: #0071bc;
 }
 
 /* line 50 */
@@ -131,7 +131,7 @@ html {
 
 /* line 68 */
 .navbar {
-  background: #1f2161;
+  background: #0071bc;
   transition: 250ms ease-in-out all;
   border-radius: 0 0 20px 20px !important;
   position: fixed;
@@ -164,7 +164,7 @@ html {
 
 /* line 94 */
 body {
-  background: #F6D7B0 !important;
+  background: #93d4f0 !important;
   padding-bottom: 0;
 }
 
@@ -226,36 +226,34 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 135 */
+/*
 .box-shadow {
   transition: all ease-in-out 0.2s;
   box-shadow: 5px 5px 6px rgba(46, 46, 46, 0.6);
 }
-
-/* line 139 */
 .box-shadow:hover {
   box-shadow: 1px 1px 6px rgba(46, 46, 46, 0.6);
 }
-
-/* line 143 */
+*/
+/* line 144 */
 .team-member {
   min-height: 50px;
   border-radius: 500px;
 }
-/* line 146 */
+/* line 147 */
 .team-member img {
   border-radius: 50%;
   height: 100px;
   background-color: white;
 }
-/* line 151 */
+/* line 152 */
 .team-member a {
   font-size: 24px;
   color: white !important;
   font-family: "Gilroy";
 }
 
-/* line 158 */
+/* line 159 */
 .sponsorship-logo {
   box-shadow: 0px 0px;
   max-width: 150px;
@@ -264,39 +262,43 @@ body {
   padding: 20px;
   border-radius: 20px;
 }
-/* line 165 */
+/* line 166 */
 .sponsorship-logo:hover {
   transform: translateY(-5px);
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 171 */
+/* line 172 */
 .platinum-tier {
   max-width: 350px !important;
 }
 
-/* line 174 */
+/* line 175 */
 .gold-tier {
   max-width: 300px !important;
 }
 
-/* line 177 */
+/* line 178 */
 .silver-tier {
   max-width: 250px !important;
 }
 
-/* line 180 */
+/* line 181 */
 .community-tier {
   max-width: 200px !important;
 }
 
-/* line 184 */
+/* line 185 */
 #sponsor-images {
   text-align: center;
-  background: #F6D7B0;
+  background: transparent;
+}
+/* line 188 */
+#sponsor-images .col {
+  flex-grow: 0 !important;
 }
 
-/* line 190 */
+/* line 194 */
 #mobile {
   position: fixed;
   bottom: 0;
@@ -306,66 +308,65 @@ body {
   z-index: 999;
 }
 
-/* line 199 */
+/* line 203 */
 h1 {
-  margin-top: 100px !important;
   margin-bottom: 0;
 }
 
-/* line 204 */
+/* line 207 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 209 */
+/* line 212 */
 .mobile-icon {
   font-size: 30pt !important;
   padding: 5px;
 }
 
-/* line 214 */
+/* line 217 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 5px;
 }
 
-/* line 219 */
-.btn {
+/* line 222 */
+.btn:not(.btn-mobile):not(.btn-footer) {
   border-radius: 500px;
-  font-size: 18px !important;
+  background: transparent;
+  color: white;
+  transition: 250ms ease-in-out all;
+  border: 4px solid white !important;
+  font-size: 18pt;
+}
+/* line 229 */
+.btn:not(.btn-mobile):not(.btn-footer):hover {
+  background: white;
+  color: #0071bc;
 }
 
-/* line 224 */
+/* line 235 */
 .leader-text {
+  margin-top: 80px !important;
   color: black;
   position: relative;
   display: inline-block;
 }
 
-/* line 230 */
+/* line 242 */
 .card {
-  background: linear-gradient(90deg, #2c36d5, #22bffb);
-  -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);
-  -webkit-background-image: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
+  background: linear-gradient(90deg, #0071bc, #22bffb);
+  -moz-background-image: -moz-linear-gradient(90deg, #0071bc, #22bffb);
+  -webkit-background-image: -webkit-linear-gradient(90deg, #0071bc, #22bffb);
   border: 0 !important;
   border-radius: 20px !important;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.15);
   transition: all 0.2s ease-in-out;
   margin-bottom: 20px;
 }
 
-/* line 239 */
-.sand-text-40 {
-  color: #c47716;
-}
-
-/* line 243 */
-.sand-text {
-  color: #F6D7B0;
-}
-
-/* line 247 */
+/* line 250 */
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -373,111 +374,111 @@ h1 {
   display: flex;
 }
 
-/* line 254 */
+/* line 257 */
 a {
   font-family: "Gilroy Bold";
-  color: #c47716;
+  color: white;
 }
-/* line 257 */
+/* line 260 */
 a:hover {
-  color: black;
+  color: #f1f1f1;
   text-decoration-style: unset;
 }
 
-/* line 263 */
+/* line 266 */
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.05, 1.05) rotate(-0.18deg);
 }
 
-/* line 268 */
+/* line 271 */
 .text-raven {
-  background: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
+  background: -webkit-linear-gradient(90deg, #0071bc, #22bffb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 272 */
+/* line 275 */
 .bg-triton {
-  background: linear-gradient(90deg, #2c36d5, #22bffb);
-  -moz-background-image: -moz-linear-gradient(90deg, #2c36d5, #22bffb);
-  -webkit-background-image: -webkit-linear-gradient(90deg, #2c36d5, #22bffb);
+  background: linear-gradient(90deg, #0071bc, #22bffb);
+  -moz-background-image: -moz-linear-gradient(90deg, #0071bc, #22bffb);
+  -webkit-background-image: -webkit-linear-gradient(90deg, #0071bc, #22bffb);
 }
 
-/* line 276 */
+/* line 279 */
 .transparent {
   background: transparent;
 }
 
-/* line 280 */
+/* line 283 */
 .bg-black {
   background: black !important;
 }
 
-/* line 284 */
+/* line 287 */
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 289 */
+/* line 292 */
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
 }
 
-/* line 294 */
+/* line 297 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 300 */
+/* line 303 */
 #logo {
   display: inline-block;
   vertical-align: middle;
   width: 50vw;
-  max-height: 50vh;
+  max-height: 30vh;
   animation: rotate 2s infinite ease-in-out;
+  margin-top: 100px;
 }
 
-/* line 308 */
+/* line 312 */
 #map {
   height: 100%;
 }
 
-/* line 312 */
+/* line 316 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 315 */
+/* line 319 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt !important;
 }
 
-/* line 321 */
+/* line 325 */
 tr {
   transition: all 0.2s ease-in-out;
   margin: 20px 0px;
-  transition: 250ms ease-in-out all;
   color: black;
   border: 3px solid black;
 }
-/* line 326 */
+/* line 329 */
 tr td {
   font-family: "Gilroy Bold" !important;
 }
-/* line 331 */
+/* line 334 */
 tr:hover {
-  color: #F6D7B0;
+  color: white;
   background: black;
   cursor: pointer;
 }
 
-/* line 338 */
+/* line 341 */
 #san-diego {
   background-image: url("../images/palmtrees.svg");
   background-color: #222586;
@@ -485,7 +486,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 345 */
+/* line 348 */
 #time-frame {
   background-image: url("../images/clocks.svg");
   background-color: #FFC107;
@@ -493,7 +494,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 351 */
+/* line 354 */
 #attendees {
   background-image: url("../images/people.svg");
   background-color: #0f5d27;
@@ -501,32 +502,47 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 358 */
+/* line 361 */
 #welcome {
   font-size: 64px;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
-/* line 362 */
+/* line 365 */
 #header-logo {
   display: none;
 }
 
-/* line 365 */
+/* line 368 */
 #header-bg {
   background: url("../svg/head-bg.svg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 370 */
+/* line 374 */
+#register-button {
+  padding: 8px 32px !important;
+  font-size: 24pt !important;
+  background: transparent;
+  color: white;
+  transition: 250ms ease-in-out all;
+  border: 4px solid white;
+}
+/* line 381 */
+#register-button:hover {
+  background: white;
+  color: #0071bc;
+}
+
+/* line 386 */
 .nav-item {
   margin: 0px 10px;
-  font-size: 18px;
+  font-size: 18pt;
   text-transform: uppercase;
 }
-/* line 374 */
+/* line 390 */
 .nav-item:hover:not(.btn) {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 500px;
