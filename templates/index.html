@@ -15,13 +15,13 @@
    <h1 class="leader-text important animated fadeInUp"  id="welcome">Welcome to Triton Hack '20!</h1>
     <div class="row wow fadeInUp display-flex">
         <div class="col-sm-4">
-            {{ importantcard(title="150+", content="attendees from all over SD", class="green-text-gradient", id="attendees") }}
+            {{ importantcard(title="150+", content="attendees from all over San Diego", class="green-text-gradient", id="attendees") }}
         </div>
         <div class="col-sm-4">
             {{ importantcard(title="12 hrs", content="to build, explore, and deploy", class="yellow-text-gradient", id="time-frame") }}
         </div>
         <div class="col-sm-4">
-            {{ importantcard(title="1st", content="high school hackathon in SD", class="purple-text-gradient", id="san-diego") }}
+            {{ importantcard(title="1st", content="high school hackathon in San Diego", class="purple-text-gradient", id="san-diego") }}
         </div>
     </div>
         {% include "partials/calendar.html" %}
@@ -34,34 +34,34 @@
              }}
           </div>
           <div class="col-sm-4">
-             {{ collapsiblecard(id="faq2",content="Anyone!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", gradient=["#11998e","#38ef7d"])}}
+             {{ collapsiblecard(id="faq2",content="Anyone!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", color="#11998e")}}
           </div>
           <div class="col-sm-4">
              {{
-             collapsiblecard(id="faq3",content="At UCSD's San Diego Supercomputer Center (depicted in the map below)", title="Where is it?", gradient=["#FDC830", "#F37335"])
+             collapsiblecard(id="faq3",content="At UCSD's San Diego Supercomputer Center (depicted in the map below)", title="Where is it?", color="#F37335")
              }}
           </div>
        </div>
        <div class="row row-eq-height wow animated fadeInUp">
           <div class="col-sm-4">
              {{
-             collapsiblecard(id="faq4",content="No - the modern definition of \"hacking\" is constructive and means working on cool, creative projects.",title="Hacking??", gradient=["#FF416C","#FF4B2B"])
+             collapsiblecard(id="faq4",content="The modern definition of \"hacking\" is constructive and means working on cool, creative projects: not what you see in the movies.",title="Hacking??", color="#FF416C")
              }}
           </div>
           <div class="col-sm-4">
              {{
-             collapsiblecard(id="faq5",content="Don't take my word for it, but we may be reimbursing 15 students from across the nation ;)", title="Do you provide reimbursements?", gradient=["#654ea3","#eaafc8"])
+             collapsiblecard(id="faq5",content="Don't take my word for it, but we may be reimbursing 15 students from across the nation ;)", title="Do you reimburse travel?", color="#654ea3")
              }}
           </div>
           <div class="col-sm-4">
              {{
-             collapsiblecard(id="faq6",content="Yes, as it turns out, we have plans for just that. Think you're a good candidate? Contact us!", title="Can I do it next year?", gradient=["#8360c3","#2ebf91"])
+             collapsiblecard(id="faq6",content="We'll release the official theme on the day of the event to ensure that all projects are organic.", title="What's the theme?", color="#2ebf91")
              }}
           </div>
        </div>
         </div>
         {{ leader("Sponsors <i class='fas fa-money-check-alt'></i>", id="sponsors") }}
-        <h3 class="important black-text">Want to sponsor us? Contact <a href="mailto:harris@ravenhack.org">us</a>!</h3>
+        <h3 class="black-text">Want to sponsor us?  <a href="mailto:harris@ravenhack.org">Contact us!</a></h3>
         <div class="wow animated fadeInUp" id="sponsor-images">
             <div class="row">
                 <div class="col">
@@ -102,8 +102,8 @@
         {{ team_member(name="Harris Beg", role="Organizer", email="harris@ravenhack.org", file="IMG_6074.jpg") }}
         {{ team_member(name="Danial Beg", role="Marketing Lead", email="danial@ravenhack.org", file="IMG_6075.jpg") }}
     </div>
-    {{ leader("Want to register? <i class='fas fa-user-plus'></i>") }}
-    {{ card(content="All you need to do is fill out <a href='https://tritonform.typeform.com/to/PKNkom'>this</a> form and we'll send you a confirmation email once we start rolling out decisions. We thank you for your interest in Triton Hack.", title="Registration form") }}
+    {# leader("Want to register? <i class='fas fa-user-plus'></i>") #}
+    {# card(content="All you need to do is fill out <a href='https://tritonform.typeform.com/to/PKNkom'>this</a> form and we'll send you a confirmation email once we start rolling out decisions. We thank you for your interest in Triton Hack.", title="Registration form") #}
     </div>
     <div id="map"></div>
 <script>
@@ -194,10 +194,11 @@
        ]
      });
      var marker = new google.maps.Marker({
-          position: {lat: 32.8843509, lng: -117.2392354},
-          map: map,
-          title: 'Triton Hack Venue'
-     });
+         position: {lat: 32.8843509, lng: -117.2392354},
+         map: map,
+         title: 'Triton Hack Venue',
+         icon: "https://www.tritonhack.com/images/favicon-32x32.png"
+     }); //https://www.tritonhack.com/static/images/android-chrome-512x512.png
    }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAujkibpyc00cL01654mEAtiJ4BXrYb_KU&callback=initMap"

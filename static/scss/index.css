@@ -24,19 +24,19 @@
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
-@keyframes rotate {
-  0% {
-    transform: rotate(0.2deg); }
-  50% {
-    transform: rotate(-0.2deg); }
-  100% {
-    transform: rotate(0.2deg); } }
 @font-face {
   font-family: "Gilroy Bold";
   src: url("../gen/Gilroy-ExtraBold.otf"); }
 @font-face {
   font-family: "Gilroy";
-  src: url("../gen/Gilroy-Light.otf"); }
+  src: url("../gen/Gilroy-Medium.ttf"); }
+@keyframes anchor-rotate {
+  0% {
+    transform: rotate(1deg); }
+  50% {
+    transform: rotate(-1deg); }
+  100% {
+    transform: rotate(1deg); } }
 h1 {
   font-size: 72px; }
 
@@ -239,9 +239,7 @@ h1 {
   display: inline-block; }
 
 .card {
-  background: linear-gradient(90deg, #0071bc, #22bffb);
-  -moz-background-image: -moz-linear-gradient(90deg, #0071bc, #22bffb);
-  -webkit-background-image: -webkit-linear-gradient(90deg, #0071bc, #22bffb);
+  background: #0071bc;
   border: 0 !important;
   border-radius: 20px !important;
   box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.15);
@@ -266,14 +264,10 @@ a {
   transform: scale(1.05, 1.05) rotate(-0.18deg); }
 
 .text-raven {
-  background: -webkit-linear-gradient(90deg, #0071bc, #22bffb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  color: #22bffb; }
 
 .bg-triton {
-  background: linear-gradient(90deg, #0071bc, #22bffb);
-  -moz-background-image: -moz-linear-gradient(90deg, #0071bc, #22bffb);
-  -webkit-background-image: -webkit-linear-gradient(90deg, #0071bc, #22bffb); }
+  background: #0071bc; }
 
 .transparent {
   background: transparent; }
@@ -299,11 +293,11 @@ a {
   vertical-align: middle;
   width: 50vw;
   max-height: 30vh;
-  animation: rotate 2s infinite ease-in-out;
+  animation: anchor-rotate 2s infinite ease-in-out;
   margin-top: 100px; }
 
 #map {
-  height: 100%; }
+  height: 50vh; }
 
 .footer {
   padding-top: 50px;
@@ -313,15 +307,15 @@ a {
     font-size: 24pt !important; }
 
 tr {
-  transition: all 0.2s ease-in-out;
+  transition: background-color 0.1s linear;
   margin: 20px 0px;
   color: black;
   border: 3px solid black; }
   tr td {
     font-family: "Gilroy Bold" !important; }
   tr:hover {
-    color: white;
-    background: black;
+    color: #93d4f0;
+    background-color: black;
     cursor: pointer; }
 
 #san-diego {

@@ -36,85 +36,85 @@
     background-position: 0% 50%;
   }
 }
-@keyframes rotate {
-  0% {
-    transform: rotate(0.2deg);
-  }
-  50% {
-    transform: rotate(-0.2deg);
-  }
-  100% {
-    transform: rotate(0.2deg);
-  }
-}
 @font-face {
   font-family: "Gilroy Bold";
   src: url("../gen/Gilroy-ExtraBold.otf");
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("../gen/Gilroy-Light.otf");
+  src: url("../gen/Gilroy-Medium.ttf");
 }
-/* line 12 */
+@keyframes anchor-rotate {
+  0% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
+}
+/* line 18 */
 h1 {
   font-size: 72px;
 }
 
 @media screen and (max-width: 700px) {
-  /* line 17 */
+  /* line 23 */
   .divider {
     margin-top: -15px;
   }
 
-  /* line 20 */
+  /* line 26 */
   .calendar {
     width: 100% !important;
   }
 
-  /* line 23 */
+  /* line 29 */
   .footer {
     margin-bottom: 60px;
   }
 
-  /* line 26 */
+  /* line 32 */
   h1 {
     font-size: 48px !important;
   }
 }
 @media screen and (min-width: 1001px) {
-  /* line 34 */
+  /* line 40 */
   #mobileMenu {
     display: none !important;
   }
 }
-/* line 39 */
+/* line 45 */
 html {
   scroll-behavior: smooth;
 }
 
-/* line 42 */
+/* line 48 */
 ::selection {
   transition: all ease-in-out 0.2s;
   background: #0071bc;
 }
 
-/* line 46 */
+/* line 52 */
 ::-moz-selection {
   background: #0071bc;
 }
 
-/* line 50 */
+/* line 56 */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
-/* line 54 */
+/* line 60 */
 ::-webkit-scrollbar-track {
   background: #100e16;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-/* line 59 */
+/* line 65 */
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: linear-gradient(#ff1e1e, #ff9c00, #ffc900, #18c51e, #00a1df, #000eff, #9c00ff, #ff00da, #ff0000);
@@ -124,12 +124,12 @@ html {
   animation: rainbow 1ms ease infinite;
 }
 
-/* line 64 */
+/* line 70 */
 ::-webkit-scrollbar-thumb:hover {
   background: #22bffb;
 }
 
-/* line 68 */
+/* line 74 */
 .navbar {
   background: #0071bc;
   transition: 250ms ease-in-out all;
@@ -140,16 +140,16 @@ html {
   z-index: 999;
 }
 
-/* line 78 */
+/* line 84 */
 * {
   font-family: "Gilroy";
   transition: 250ms ease-in-out all;
 }
-/* line 81 */
+/* line 87 */
 * .important {
   font-family: "Gilroy Bold";
 }
-/* line 84 */
+/* line 90 */
 * button {
   font-family: "Gilroy Bold";
   border: 0px;
@@ -157,71 +157,71 @@ html {
   border-radius: 500px !important;
 }
 
-/* line 91 */
+/* line 97 */
 .center {
   text-align: center;
 }
 
-/* line 94 */
+/* line 100 */
 body {
   background: #93d4f0 !important;
   padding-bottom: 0;
 }
 
-/* line 98 */
+/* line 104 */
 .grey-text {
   color: #100e16 !important;
 }
 
-/* line 101 */
+/* line 107 */
 .pink-text-gradient {
   background: -webkit-linear-gradient(#d53032, #fb0074);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 105 */
+/* line 111 */
 .yellow-text-gradient {
   background: -webkit-linear-gradient(#FF5722, #FF9800);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 108 */
+/* line 114 */
 .purple-text-gradient {
   background: -webkit-linear-gradient(#ff3bff, #ad0088);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 111 */
+/* line 117 */
 .green-text-gradient {
   background: -webkit-linear-gradient(#05b937, #069468);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* line 115 */
+/* line 121 */
 .secondary {
   background: #22bffb;
 }
 
-/* line 119 */
+/* line 125 */
 .black-text {
   color: black !important;
 }
 
-/* line 123 */
+/* line 129 */
 .btn-primary {
   border-color: transparent !important;
 }
 
-/* line 127 */
+/* line 133 */
 .full-width {
   width: 100% !important;
 }
 
-/* line 131 */
+/* line 137 */
 .row > *[class^="col"] {
   margin-bottom: 20px;
 }
@@ -235,25 +235,25 @@ body {
   box-shadow: 1px 1px 6px rgba(46, 46, 46, 0.6);
 }
 */
-/* line 144 */
+/* line 150 */
 .team-member {
   min-height: 50px;
   border-radius: 500px;
 }
-/* line 147 */
+/* line 153 */
 .team-member img {
   border-radius: 50%;
   height: 100px;
   background-color: white;
 }
-/* line 152 */
+/* line 158 */
 .team-member a {
   font-size: 24px;
   color: white !important;
   font-family: "Gilroy";
 }
 
-/* line 159 */
+/* line 165 */
 .sponsorship-logo {
   box-shadow: 0px 0px;
   max-width: 150px;
@@ -262,43 +262,43 @@ body {
   padding: 20px;
   border-radius: 20px;
 }
-/* line 166 */
+/* line 172 */
 .sponsorship-logo:hover {
   transform: translateY(-5px);
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 172 */
+/* line 178 */
 .platinum-tier {
   max-width: 350px !important;
 }
 
-/* line 175 */
+/* line 181 */
 .gold-tier {
   max-width: 300px !important;
 }
 
-/* line 178 */
+/* line 184 */
 .silver-tier {
   max-width: 250px !important;
 }
 
-/* line 181 */
+/* line 187 */
 .community-tier {
   max-width: 200px !important;
 }
 
-/* line 185 */
+/* line 191 */
 #sponsor-images {
   text-align: center;
   background: transparent;
 }
-/* line 188 */
+/* line 194 */
 #sponsor-images .col {
   flex-grow: 0 !important;
 }
 
-/* line 194 */
+/* line 200 */
 #mobile {
   position: fixed;
   bottom: 0;
@@ -308,30 +308,30 @@ body {
   z-index: 999;
 }
 
-/* line 203 */
+/* line 209 */
 h1 {
   margin-bottom: 0;
 }
 
-/* line 207 */
+/* line 213 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 212 */
+/* line 218 */
 .mobile-icon {
   font-size: 30pt !important;
   padding: 5px;
 }
 
-/* line 217 */
+/* line 223 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 5px;
 }
 
-/* line 222 */
+/* line 228 */
 .btn:not(.btn-mobile):not(.btn-footer) {
   border-radius: 500px;
   background: transparent;
@@ -340,13 +340,13 @@ h1 {
   border: 4px solid white !important;
   font-size: 18pt;
 }
-/* line 229 */
+/* line 235 */
 .btn:not(.btn-mobile):not(.btn-footer):hover {
   background: white;
   color: #0071bc;
 }
 
-/* line 235 */
+/* line 241 */
 .leader-text {
   margin-top: 80px !important;
   color: black;
@@ -354,11 +354,9 @@ h1 {
   display: inline-block;
 }
 
-/* line 242 */
+/* line 248 */
 .card {
-  background: linear-gradient(90deg, #0071bc, #22bffb);
-  -moz-background-image: -moz-linear-gradient(90deg, #0071bc, #22bffb);
-  -webkit-background-image: -webkit-linear-gradient(90deg, #0071bc, #22bffb);
+  background: #0071bc;
   border: 0 !important;
   border-radius: 20px !important;
   box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.15);
@@ -366,7 +364,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* line 250 */
+/* line 256 */
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -374,111 +372,107 @@ h1 {
   display: flex;
 }
 
-/* line 257 */
+/* line 263 */
 a {
   font-family: "Gilroy Bold";
   color: white;
 }
-/* line 260 */
+/* line 266 */
 a:hover {
   color: #f1f1f1;
   text-decoration-style: unset;
 }
 
-/* line 266 */
+/* line 272 */
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.05, 1.05) rotate(-0.18deg);
 }
 
-/* line 271 */
+/* line 277 */
 .text-raven {
-  background: -webkit-linear-gradient(90deg, #0071bc, #22bffb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #22bffb;
 }
 
-/* line 275 */
+/* line 281 */
 .bg-triton {
-  background: linear-gradient(90deg, #0071bc, #22bffb);
-  -moz-background-image: -moz-linear-gradient(90deg, #0071bc, #22bffb);
-  -webkit-background-image: -webkit-linear-gradient(90deg, #0071bc, #22bffb);
+  background: #0071bc;
 }
 
-/* line 279 */
+/* line 285 */
 .transparent {
   background: transparent;
 }
 
-/* line 283 */
+/* line 289 */
 .bg-black {
   background: black !important;
 }
 
-/* line 287 */
+/* line 293 */
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 292 */
+/* line 298 */
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
 }
 
-/* line 297 */
+/* line 303 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 303 */
+/* line 309 */
 #logo {
   display: inline-block;
   vertical-align: middle;
   width: 50vw;
   max-height: 30vh;
-  animation: rotate 2s infinite ease-in-out;
+  animation: anchor-rotate 2s infinite ease-in-out;
   margin-top: 100px;
 }
 
-/* line 312 */
+/* line 318 */
 #map {
-  height: 100%;
+  height: 50vh;
 }
 
-/* line 316 */
+/* line 322 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 319 */
+/* line 325 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt !important;
 }
 
-/* line 325 */
+/* line 331 */
 tr {
-  transition: all 0.2s ease-in-out;
+  transition: background-color 0.1s linear;
   margin: 20px 0px;
   color: black;
   border: 3px solid black;
 }
-/* line 329 */
+/* line 335 */
 tr td {
   font-family: "Gilroy Bold" !important;
 }
-/* line 334 */
+/* line 340 */
 tr:hover {
-  color: white;
-  background: black;
+  color: #93d4f0;
+  background-color: black;
   cursor: pointer;
 }
 
-/* line 341 */
+/* line 347 */
 #san-diego {
   background-image: url("../images/palmtrees.svg");
   background-color: #222586;
@@ -486,7 +480,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 348 */
+/* line 354 */
 #time-frame {
   background-image: url("../images/clocks.svg");
   background-color: #FFC107;
@@ -494,7 +488,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 354 */
+/* line 360 */
 #attendees {
   background-image: url("../images/people.svg");
   background-color: #0f5d27;
@@ -502,26 +496,26 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 361 */
+/* line 367 */
 #welcome {
   font-size: 64px;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
-/* line 365 */
+/* line 371 */
 #header-logo {
   display: none;
 }
 
-/* line 368 */
+/* line 374 */
 #header-bg {
   background: url("../svg/head-bg.svg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 374 */
+/* line 380 */
 #register-button {
   padding: 8px 32px !important;
   font-size: 24pt !important;
@@ -530,19 +524,19 @@ tr:hover {
   transition: 250ms ease-in-out all;
   border: 4px solid white;
 }
-/* line 381 */
+/* line 387 */
 #register-button:hover {
   background: white;
   color: #0071bc;
 }
 
-/* line 386 */
+/* line 392 */
 .nav-item {
   margin: 0px 10px;
   font-size: 18pt;
   text-transform: uppercase;
 }
-/* line 390 */
+/* line 396 */
 .nav-item:hover:not(.btn) {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 500px;
