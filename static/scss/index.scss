@@ -109,13 +109,13 @@ body {
 }
 
 .yellow-text-gradient {
-  @include text-g(#FF5722, #FF9800);
+  color: #FF5722;
 }
 .purple-text-gradient {
-  @include text-g(#ff3bff,#ad0088);
+  color: #ff3bff;
 }
 .green-text-gradient {
-  @include text-g(#05b937,#069468);
+  color: #05b937;
 }
 
 .secondary {

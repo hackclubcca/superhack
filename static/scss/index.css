@@ -119,19 +119,13 @@ body {
   -webkit-text-fill-color: transparent; }
 
 .yellow-text-gradient {
-  background: -webkit-linear-gradient(#FF5722, #FF9800);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  color: #FF5722; }
 
 .purple-text-gradient {
-  background: -webkit-linear-gradient(#ff3bff, #ad0088);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  color: #ff3bff; }
 
 .green-text-gradient {
-  background: -webkit-linear-gradient(#05b937, #069468);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  color: #05b937; }
 
 .secondary {
   background: #22bffb; }
