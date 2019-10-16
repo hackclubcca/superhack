@@ -118,6 +118,14 @@ body {
   color: #05b937;
 }
 
+.padding-none {
+  padding: 0 !important;
+}
+
+.border-radius-none {
+  border-radius: 0 !important;
+}
+
 .secondary {
   background: $secondary;
 }

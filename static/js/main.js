@@ -2,7 +2,7 @@ var rellax = new Rellax('.rellax');
 new WOW().init();
 $("#checkin").on("mouseover", function() {
    $("#calendar-title").html("Check In");
-    $("#calendar-description").html("For the first hour, participants of Triton Hack will get their goodies (such as stickers & API codes) as well as the basic rundown of the schedule.");
+    $("#calendar-description").html("For the first hour, participants of Super Hack will get their goodies (such as stickers & API codes) as well as the basic rundown of the schedule.");
 });
 $("#teams").on("mouseover", function() {
    $("#calendar-title").html("Team Forming");

@@ -196,26 +196,36 @@ body {
 }
 
 /* line 121 */
+.padding-none {
+  padding: 0 !important;
+}
+
+/* line 125 */
+.border-radius-none {
+  border-radius: 0 !important;
+}
+
+/* line 129 */
 .secondary {
   background: #22bffb;
 }
 
-/* line 125 */
+/* line 133 */
 .black-text {
   color: black !important;
 }
 
-/* line 129 */
+/* line 137 */
 .btn-primary {
   border-color: transparent !important;
 }
 
-/* line 133 */
+/* line 141 */
 .full-width {
   width: 100% !important;
 }
 
-/* line 137 */
+/* line 145 */
 .row > *[class^="col"] {
   margin-bottom: 20px;
 }
@@ -229,25 +239,25 @@ body {
   box-shadow: 1px 1px 6px rgba(46, 46, 46, 0.6);
 }
 */
-/* line 150 */
+/* line 158 */
 .team-member {
   min-height: 50px;
   border-radius: 500px;
 }
-/* line 153 */
+/* line 161 */
 .team-member img {
   border-radius: 50%;
   height: 100px;
   background-color: white;
 }
-/* line 158 */
+/* line 166 */
 .team-member a {
   font-size: 24px;
   color: white !important;
   font-family: "Gilroy";
 }
 
-/* line 165 */
+/* line 173 */
 .sponsorship-logo {
   box-shadow: 0px 0px;
   max-width: 150px;
@@ -256,43 +266,43 @@ body {
   padding: 20px;
   border-radius: 20px;
 }
-/* line 172 */
+/* line 180 */
 .sponsorship-logo:hover {
   transform: translateY(-5px);
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 178 */
+/* line 186 */
 .platinum-tier {
   max-width: 350px !important;
 }
 
-/* line 181 */
+/* line 189 */
 .gold-tier {
   max-width: 300px !important;
 }
 
-/* line 184 */
+/* line 192 */
 .silver-tier {
   max-width: 250px !important;
 }
 
-/* line 187 */
+/* line 195 */
 .community-tier {
   max-width: 200px !important;
 }
 
-/* line 191 */
+/* line 199 */
 #sponsor-images {
   text-align: center;
   background: transparent;
 }
-/* line 194 */
+/* line 202 */
 #sponsor-images .col {
   flex-grow: 0 !important;
 }
 
-/* line 200 */
+/* line 208 */
 #mobile {
   position: fixed;
   bottom: 0;
@@ -302,30 +312,30 @@ body {
   z-index: 999;
 }
 
-/* line 209 */
+/* line 217 */
 h1 {
   margin-bottom: 0;
 }
 
-/* line 213 */
+/* line 221 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 218 */
+/* line 226 */
 .mobile-icon {
   font-size: 30pt !important;
   padding: 5px;
 }
 
-/* line 223 */
+/* line 231 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 5px;
 }
 
-/* line 228 */
+/* line 236 */
 .btn:not(.btn-mobile):not(.btn-footer) {
   border-radius: 500px;
   background: transparent;
@@ -334,13 +344,13 @@ h1 {
   border: 4px solid white !important;
   font-size: 18pt;
 }
-/* line 235 */
+/* line 243 */
 .btn:not(.btn-mobile):not(.btn-footer):hover {
   background: white;
   color: #0071bc;
 }
 
-/* line 241 */
+/* line 249 */
 .leader-text {
   margin-top: 80px !important;
   color: black;
@@ -348,7 +358,7 @@ h1 {
   display: inline-block;
 }
 
-/* line 248 */
+/* line 256 */
 .card {
   background: #0071bc;
   border: 0 !important;
@@ -358,7 +368,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* line 256 */
+/* line 264 */
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -366,63 +376,63 @@ h1 {
   display: flex;
 }
 
-/* line 263 */
+/* line 271 */
 a {
   font-family: "Gilroy Bold";
   color: white;
 }
-/* line 266 */
+/* line 274 */
 a:hover {
   color: #f1f1f1;
   text-decoration-style: unset;
 }
 
-/* line 272 */
+/* line 280 */
 .card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: scale(1.05, 1.05) rotate(-0.18deg);
 }
 
-/* line 277 */
+/* line 285 */
 .text-raven {
   color: #22bffb;
 }
 
-/* line 281 */
+/* line 289 */
 .bg-triton {
   background: #0071bc;
 }
 
-/* line 285 */
+/* line 293 */
 .transparent {
   background: transparent;
 }
 
-/* line 289 */
+/* line 297 */
 .bg-black {
   background: black !important;
 }
 
-/* line 293 */
+/* line 301 */
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 298 */
+/* line 306 */
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
 }
 
-/* line 303 */
+/* line 311 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 309 */
+/* line 317 */
 #logo {
   display: inline-block;
   vertical-align: middle;
@@ -432,41 +442,41 @@ a:hover {
   margin-top: 100px;
 }
 
-/* line 318 */
+/* line 326 */
 #map {
   height: 50vh;
 }
 
-/* line 322 */
+/* line 330 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 325 */
+/* line 333 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt !important;
 }
 
-/* line 331 */
+/* line 339 */
 tr {
   transition: background-color 0.1s linear;
   margin: 20px 0px;
   color: black;
   border: 3px solid black;
 }
-/* line 335 */
+/* line 343 */
 tr td {
   font-family: "Gilroy Bold" !important;
 }
-/* line 340 */
+/* line 348 */
 tr:hover {
   color: #93d4f0;
   background-color: black;
   cursor: pointer;
 }
 
-/* line 347 */
+/* line 355 */
 #san-diego {
   background-image: url("../images/palmtrees.svg");
   background-color: #222586;
@@ -474,7 +484,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 354 */
+/* line 362 */
 #time-frame {
   background-image: url("../images/clocks.svg");
   background-color: #FFC107;
@@ -482,7 +492,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 360 */
+/* line 368 */
 #attendees {
   background-image: url("../images/people.svg");
   background-color: #0f5d27;
@@ -490,26 +500,26 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 367 */
+/* line 375 */
 #welcome {
   font-size: 64px;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
-/* line 371 */
+/* line 379 */
 #header-logo {
   display: none;
 }
 
-/* line 374 */
+/* line 382 */
 #header-bg {
   background: url("../svg/head-bg.svg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 380 */
+/* line 388 */
 #register-button {
   padding: 8px 32px !important;
   font-size: 24pt !important;
@@ -518,19 +528,19 @@ tr:hover {
   transition: 250ms ease-in-out all;
   border: 4px solid white;
 }
-/* line 387 */
+/* line 395 */
 #register-button:hover {
   background: white;
   color: #0071bc;
 }
 
-/* line 392 */
+/* line 400 */
 .nav-item {
   margin: 0px 10px;
   font-size: 18pt;
   text-transform: uppercase;
 }
-/* line 396 */
+/* line 404 */
 .nav-item:hover:not(.btn) {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 500px;

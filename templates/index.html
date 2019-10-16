@@ -5,14 +5,14 @@
 {% block content %}
 <div class="center" id="header-bg" style="margin-top:-1px; height: 100%;">
     <img src="{{ url_for('static', filename='svg/superhack-logo.svg') }} " alt="Logo" id="logo" class="rellax" data-rellax-speed="1"/>
-    <h1 class="important text-light">Super Hacks</h1>
+    <h1 class="important text-light">Super Hack</h1>
     <h2 class="text-light">February 1, 2020 @ <span class="important">SDSC</span></h2>
-        <a role="button" href="https://tritonform.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">Apply <i class="fas fa-arrow-right"></i></a>
+        <a role="button" href="https://superhack.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">Apply <i class="fas fa-arrow-right"></i></a>
 
 </div>
 {{ Divider("#29ABE2") }}
 <div class="container">
-   <h1 class="leader-text important animated fadeInUp"  id="welcome">Welcome to Super Hacks '20!</h1>
+   <h1 class="leader-text important animated fadeInUp"  id="welcome">Welcome to Super Hack '20!</h1>
     <div class="row wow fadeInUp display-flex">
         <div class="col-sm-4">
             {{ importantcard(title="150+", content="attendees from all over San Diego", class="green-text-gradient", id="attendees") }}
@@ -28,6 +28,9 @@
         <div id="faq">
         {{ leader("Frequently Asked Questions <i class='fas fa-question'></i>", id="faq")}}
        <div class="row row-eq-height wow fadeInUp display-flex">
+           <div class="col-sm-4">
+             {{ collapsiblecard(id="faq0",content="Registration officially opens November 4, 2019 and ends December 15. We'll notify you over whether or not you've been admitted on January 6.", title="When can I apply?", color="#d9a700")}}
+          </div>
           <div class="col-sm-4">
              {{
              collapsiblecard(id="faq1",content="Of course not! In fact, we encourage novices to attend too!",title="Do I need to know how to code?")
@@ -36,13 +39,13 @@
           <div class="col-sm-4">
              {{ collapsiblecard(id="faq2",content="Anyone!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", color="#11998e")}}
           </div>
-          <div class="col-sm-4">
+       </div>
+       <div class="row row-eq-height wow animated fadeInUp">
+           <div class="col-sm-4">
              {{
              collapsiblecard(id="faq3",content="At UCSD's San Diego Supercomputer Center (depicted in the map below)", title="Where is it?", color="#F37335")
              }}
           </div>
-       </div>
-       <div class="row row-eq-height wow animated fadeInUp">
           <div class="col-sm-4">
              {{
              collapsiblecard(id="faq4",content="The modern definition of \"hacking\" is constructive and means working on cool, creative projects: not what you see in the movies.",title="Hacking??", color="#FF416C")
@@ -59,9 +62,10 @@
              }}
           </div>
        </div>
+
         </div>
         {{ leader("Sponsors <i class='fas fa-money-check-alt'></i>", id="sponsors") }}
-        <h3 class="black-text">Want to sponsor us?  <a href="mailto:harris@ravenhack.org">Contact us!</a></h3>
+        <h3 class="black-text">Want to sponsor us?  <a href="mailto:harris@superhack.org">Contact us!</a></h3>
         <div class="wow animated fadeInUp" id="sponsor-images">
             <div class="row">
                 <div class="col">
@@ -79,7 +83,7 @@
                     {{ sponsor(url="https://makeschool.com", file="makeschool.png", tier="community") }}
                 </div>
                 <div class="col">
-                    {{ sponsor(url="https://hackclub.com/", file="hackclub.png", tier="community") }}
+                    {{ sponsor(url="https://hackclub.com/", file="hackclub.svg", tier="community", class="padding-none border-radius-none") }}
                 </div>
             </div>
             <div class="row">
@@ -87,23 +91,23 @@
                     {{ sponsor(url="https://balsamiq.com/", file="balsamiq.svg") }}
                 </div>
                 <div class="col">
-                    {{ sponsor(url="http://wolfram.com/", file="wolfram.svg") }}
+                    {{ sponsor(url="http://wolfram.com/", file="wolfram.png") }}
                 </div>
                 <div class="col">
                     {{ sponsor(url="https://desmos.com/", file="desmos.png") }}
                 </div>
                 <div class="col">
-                    {{ sponsor(url="https://blockstack.com/", file="blockstack.svg") }}
+                    {{ sponsor(url="https://blockstack.com/", file="blockstack.svg", class="padding-none") }}
                 </div>
             </div>
         </div>
     {{ leader("Meet the Team <i class='fas fa-address-book'></i>", id="team") }}
     <div class="row">
-        {{ team_member(name="Harris Beg", role="Organizer", email="harris@ravenhack.org", file="IMG_6074.jpg") }}
-        {{ team_member(name="Danial Beg", role="Marketing Lead", email="danial@ravenhack.org", file="IMG_6075.jpg") }}
+        {{ team_member(name="Harris Beg", role="Organizer", email="harris@superhack.org", file="IMG_6074.jpg") }}
+        {{ team_member(name="Danial Beg", role="Marketing Lead", email="harris@superhack.org", file="IMG_6075.jpg") }}
     </div>
     {# leader("Want to register? <i class='fas fa-user-plus'></i>") #}
-    {# card(content="All you need to do is fill out <a href='https://tritonform.typeform.com/to/PKNkom'>this</a> form and we'll send you a confirmation email once we start rolling out decisions. We thank you for your interest in Super Hacks.", title="Registration form") #}
+    {# card(content="All you need to do is fill out <a href='https://tritonform.typeform.com/to/PKNkom'>this</a> form and we'll send you a confirmation email once we start rolling out decisions. We thank you for your interest in Super Hack.", title="Registration form") #}
     </div>
     <div id="map"></div>
 <script>
@@ -196,9 +200,9 @@
      var marker = new google.maps.Marker({
          position: {lat: 32.8843509, lng: -117.2392354},
          map: map,
-         title: 'Super Hacks Venue',
-         icon: "https://www.tritonhack.com/images/favicon-32x32.png"
-     }); //https://www.tritonhack.com/static/images/android-chrome-512x512.png
+         title: 'Super Hack Venue',
+         icon: "https://www.superhack.org/images/favicon-32x32.png"
+     });
    }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAujkibpyc00cL01654mEAtiJ4BXrYb_KU&callback=initMap"
