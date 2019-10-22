@@ -248,16 +248,17 @@ body {
 .team-member img {
   border-radius: 50%;
   height: 100px;
-  background-color: white;
+  padding: 5px;
+  background-color: black;
 }
-/* line 166 */
+/* line 167 */
 .team-member a {
   font-size: 24px;
-  color: white !important;
   font-family: "Gilroy";
+  color: white !important;
 }
 
-/* line 173 */
+/* line 174 */
 .sponsorship-logo {
   box-shadow: 0px 0px;
   max-width: 150px;
@@ -266,43 +267,43 @@ body {
   padding: 20px;
   border-radius: 20px;
 }
-/* line 180 */
+/* line 181 */
 .sponsorship-logo:hover {
   transform: translateY(-5px);
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 186 */
+/* line 187 */
 .platinum-tier {
   max-width: 350px !important;
 }
 
-/* line 189 */
+/* line 190 */
 .gold-tier {
   max-width: 300px !important;
 }
 
-/* line 192 */
+/* line 193 */
 .silver-tier {
   max-width: 250px !important;
 }
 
-/* line 195 */
+/* line 196 */
 .community-tier {
   max-width: 200px !important;
 }
 
-/* line 199 */
+/* line 200 */
 #sponsor-images {
   text-align: center;
   background: transparent;
 }
-/* line 202 */
+/* line 203 */
 #sponsor-images .col {
   flex-grow: 0 !important;
 }
 
-/* line 208 */
+/* line 209 */
 #mobile {
   position: fixed;
   bottom: 0;
@@ -312,30 +313,30 @@ body {
   z-index: 999;
 }
 
-/* line 217 */
+/* line 218 */
 h1 {
   margin-bottom: 0;
 }
 
-/* line 221 */
+/* line 222 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 226 */
+/* line 227 */
 .mobile-icon {
   font-size: 30pt !important;
   padding: 5px;
 }
 
-/* line 231 */
+/* line 232 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 5px;
 }
 
-/* line 236 */
+/* line 237 */
 .btn:not(.btn-mobile):not(.btn-footer) {
   border-radius: 500px;
   background: transparent;
@@ -344,31 +345,37 @@ h1 {
   border: 4px solid white !important;
   font-size: 18pt;
 }
-/* line 243 */
+/* line 244 */
 .btn:not(.btn-mobile):not(.btn-footer):hover {
   background: white;
   color: #0071bc;
 }
 
-/* line 249 */
+/* line 250 */
 .leader-text {
   margin-top: 80px !important;
   color: black;
   position: relative;
   display: inline-block;
+  text-shadow: 4px 4px #005fab;
 }
 
-/* line 256 */
+/* line 258 */
 .card {
-  background: #0071bc;
-  border: 0 !important;
+  background: #4ab7ff;
+  border: 8px solid black !important;
   border-radius: 20px !important;
   box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.15);
   transition: all 0.2s ease-in-out;
   margin-bottom: 20px;
 }
+/* line 265 */
+.card:hover {
+  box-shadow: 8px 8px #222222;
+  transform: scale(1.05, 1.05) rotate(-0.18deg);
+}
 
-/* line 264 */
+/* line 270 */
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -376,63 +383,57 @@ h1 {
   display: flex;
 }
 
-/* line 271 */
+/* line 277 */
 a {
   font-family: "Gilroy Bold";
-  color: white;
+  color: black;
 }
-/* line 274 */
+/* line 280 */
 a:hover {
-  color: #f1f1f1;
+  color: #100e16;
   text-decoration-style: unset;
 }
 
-/* line 280 */
-.card:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transform: scale(1.05, 1.05) rotate(-0.18deg);
-}
-
-/* line 285 */
+/* line 286 */
 .text-raven {
   color: #22bffb;
 }
 
-/* line 289 */
+/* line 290 */
 .bg-triton {
   background: #0071bc;
 }
 
-/* line 293 */
+/* line 294 */
 .transparent {
   background: transparent;
 }
 
-/* line 297 */
+/* line 298 */
 .bg-black {
   background: black !important;
 }
 
-/* line 301 */
+/* line 302 */
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 306 */
+/* line 307 */
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
 }
 
-/* line 311 */
+/* line 312 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 317 */
+/* line 318 */
 #logo {
   display: inline-block;
   vertical-align: middle;
@@ -442,41 +443,41 @@ a:hover {
   margin-top: 100px;
 }
 
-/* line 326 */
+/* line 327 */
 #map {
   height: 50vh;
 }
 
-/* line 330 */
+/* line 331 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 333 */
+/* line 334 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt !important;
 }
 
-/* line 339 */
+/* line 340 */
 tr {
   transition: background-color 0.1s linear;
   margin: 20px 0px;
   color: black;
   border: 3px solid black;
 }
-/* line 343 */
+/* line 344 */
 tr td {
   font-family: "Gilroy Bold" !important;
 }
-/* line 348 */
+/* line 349 */
 tr:hover {
   color: #93d4f0;
   background-color: black;
   cursor: pointer;
 }
 
-/* line 355 */
+/* line 356 */
 #san-diego {
   background-image: url("../images/palmtrees.svg");
   background-color: #222586;
@@ -484,7 +485,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 362 */
+/* line 363 */
 #time-frame {
   background-image: url("../images/clocks.svg");
   background-color: #FFC107;
@@ -492,7 +493,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 368 */
+/* line 369 */
 #attendees {
   background-image: url("../images/people.svg");
   background-color: #0f5d27;
@@ -500,26 +501,26 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 375 */
+/* line 376 */
 #welcome {
   font-size: 64px;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
-/* line 379 */
-#header-logo {
+/* line 380 */
+#header-logo, #zxYzUx {
   display: none;
 }
 
-/* line 382 */
+/* line 383 */
 #header-bg {
   background: url("../svg/head-bg.svg");
   background-size: cover;
   background-position: center center;
 }
 
-/* line 388 */
+/* line 389 */
 #register-button {
   padding: 8px 32px !important;
   font-size: 24pt !important;
@@ -528,19 +529,19 @@ tr:hover {
   transition: 250ms ease-in-out all;
   border: 4px solid white;
 }
-/* line 395 */
+/* line 396 */
 #register-button:hover {
   background: white;
   color: #0071bc;
 }
 
-/* line 400 */
+/* line 401 */
 .nav-item {
   margin: 0px 10px;
   font-size: 18pt;
   text-transform: uppercase;
 }
-/* line 404 */
+/* line 405 */
 .nav-item:hover:not(.btn) {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 500px;

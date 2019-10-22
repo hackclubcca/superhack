@@ -161,12 +161,13 @@ body {
   img {
     border-radius: 50%;
     height: 100px;
-    background-color: white;
+    padding: 5px;
+    background-color: black;
   }
   a {
     font-size: 24px;
-    color: white !important;
     font-family: "Gilroy";
+    color: white !important;
   }
 }
 
@@ -251,15 +252,20 @@ h1 {
   color: black;
   position: relative;
   display: inline-block;
+  text-shadow: 4px 4px #005fab;
 }
 
 .card {
-  background: $primary;
-  border: 0 !important;
+  background: #4ab7ff;
+  border: 8px solid black !important;
   border-radius: 20px !important;
   box-shadow: 2px 2px 5px rgba(255,255,255,0.15);
   transition: all 0.2s ease-in-out;
   margin-bottom: 20px;
+  &:hover {
+    box-shadow: 8px 8px #222222;
+    transform: scale(1.05, 1.05) rotate(-0.18deg);
+  }
 }
 .row-eq-height {
   display: -webkit-box;
@@ -270,16 +276,11 @@ h1 {
 
 a {
   font-family: $bold;
-  color: white;
+  color: black;
   &:hover {
-    color: #f1f1f1;
+    color: $off-black;
     text-decoration-style: unset;
   }
-}
-
-.card:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transform: scale(1.05, 1.05) rotate(-0.18deg);
 }
 
 .text-raven {
@@ -376,7 +377,7 @@ tr {
   font-size: 64px; margin-top: 100px; margin-bottom: 20px;
 }
 
-#header-logo {
+#header-logo, #zxYzUx {
   display: none;
 }
 #header-bg {

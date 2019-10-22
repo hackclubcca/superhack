@@ -45,7 +45,6 @@
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
           gtag('config', 'UA-83210436-3');
         </script>
 
@@ -53,6 +52,7 @@
    <body>
       <nav class="navbar navbar-expand-lg navbar-dark">
          <a class="navbar-brand text-light" href="/">
+             <img id="zxYzUx" src="{{ url_for('static', filename='svg/superhack-logo.svg') }}" height="60"/>
              <h2 id="header-logo">SuperHack</h2>
          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Mobile Menu">
@@ -76,7 +76,7 @@
                   <a class="nav-link text-light important" href="/#faq">FAQ</a>
                </li>
                 <li class="nav-item">
-                    {{ button(text='APPLY', url="https://tritonform.typeform.com/to/PKNkom", shadow=true) }}
+                    {{ button(text='APPLY', url="https://superhack.typeform.com/to/PKNkom") }}
                </li>
             </ul>
          </div>

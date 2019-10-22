@@ -4,30 +4,25 @@
 {% from "partials/divider.html" import Divider with context %}
 {% block content %}
 <div class="center" id="header-bg" style="margin-top:-1px; height: 100%;">
+    <div class="container">
     <img src="{{ url_for('static', filename='svg/superhack-logo.svg') }} " alt="Logo" id="logo" class="rellax" data-rellax-speed="1"/>
     <h1 class="important text-light">Super Hack</h1>
     <h2 class="text-light">February 1, 2020 @ <span class="important">SDSC</span></h2>
         <a role="button" href="https://superhack.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">Apply <i class="fas fa-arrow-right"></i></a>
-
+    </div>
 </div>
 {{ Divider("#29ABE2") }}
 <div class="container">
    <h1 class="leader-text important animated fadeInUp"  id="welcome">Welcome to Super Hack '20!</h1>
     <div class="row wow fadeInUp display-flex">
-        <div class="col-sm-4">
-            {{ importantcard(title="150+", content="attendees from all over San Diego", class="green-text-gradient", id="attendees") }}
-        </div>
-        <div class="col-sm-4">
-            {{ importantcard(title="12 hrs", content="to build, explore, and deploy", class="yellow-text-gradient", id="time-frame") }}
-        </div>
-        <div class="col-sm-4">
-            {{ importantcard(title="1st", content="high school hackathon in San Diego", class="purple-text-gradient", id="san-diego") }}
-        </div>
+        {{ importantcard(title="150+", content="attendees from all over San Diego", class="green-text-gradient", id="attendees") }}
+        {{ importantcard(title="12 hrs", content="to build, explore, and deploy", class="yellow-text-gradient", id="time-frame") }}
+        {{ importantcard(title="1st", content="high school hackathon in San Diego", class="purple-text-gradient", id="san-diego") }}
     </div>
         {% include "partials/calendar.html" %}
         <div id="faq">
         {{ leader("Frequently Asked Questions <i class='fas fa-question'></i>", id="faq")}}
-       <div class="row row-eq-height wow fadeInUp display-flex">
+       <div class="row row-eq-height wow fadeInUp">
            <div class="col-sm-4">
              {{ collapsiblecard(id="faq0",content="Registration officially opens November 4, 2019 and ends December 15. We'll notify you over whether or not you've been admitted on January 6.", title="When can I apply?", color="#d9a700")}}
           </div>
@@ -40,7 +35,7 @@
              {{ collapsiblecard(id="faq2",content="Anyone!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", color="#11998e")}}
           </div>
        </div>
-       <div class="row row-eq-height wow animated fadeInUp">
+       <div class="row row-eq-height wow fadeInUp">
            <div class="col-sm-4">
              {{
              collapsiblecard(id="faq3",content="At UCSD's San Diego Supercomputer Center (depicted in the map below)", title="Where is it?", color="#F37335")
@@ -66,13 +61,13 @@
         </div>
         {{ leader("Sponsors <i class='fas fa-money-check-alt'></i>", id="sponsors") }}
         <h3 class="black-text">Want to sponsor us?  <a href="mailto:harris@superhack.org">Contact us!</a></h3>
-        <div class="wow animated fadeInUp" id="sponsor-images">
+        <div id="sponsor-images">
             <div class="row">
                 <div class="col">
                     {{ sponsor(url="https://surcle.io", file="surcle.png", tier="silver") }}
                 </div>
                 <div class="col">
-                    {{ sponsor(url="https://sdsc.edu", file="sdsc.png", tier="silver") }}
+                    {{ sponsor(url="https://www.sdsc.edu/", file="sdsc.png", tier="silver") }}
                 </div>
             </div>
             <div class="row">
@@ -91,7 +86,7 @@
                     {{ sponsor(url="https://balsamiq.com/", file="balsamiq.svg") }}
                 </div>
                 <div class="col">
-                    {{ sponsor(url="http://wolfram.com/", file="wolfram.png") }}
+                    {{ sponsor(url="http://wolfram.com/", file="wolfram.svg") }}
                 </div>
                 <div class="col">
                     {{ sponsor(url="https://desmos.com/", file="desmos.png") }}
