@@ -181,18 +181,18 @@ body {
 }
 
 /* line 111 */
-.yellow-text-gradient {
+.orange-text {
   color: #FF5722;
 }
 
 /* line 114 */
-.purple-text-gradient {
+.purple-text {
   color: #ff3bff;
 }
 
 /* line 117 */
-.green-text-gradient {
-  color: #05b937;
+.white-text {
+  color: white;
 }
 
 /* line 121 */
@@ -464,11 +464,11 @@ tr {
   transition: background-color 0.1s linear;
   margin: 20px 0px;
   color: black;
-  border: 3px solid black;
 }
 /* line 344 */
 tr td {
   font-family: "Gilroy Bold" !important;
+  border-top: 8px solid black !important;
 }
 /* line 349 */
 tr:hover {
@@ -488,15 +488,15 @@ tr:hover {
 /* line 363 */
 #time-frame {
   background-image: url("../images/clocks.svg");
-  background-color: #FFC107;
+  background-color: #ea3a3a;
   background-position: center center;
   background-size: cover;
 }
 
 /* line 369 */
 #attendees {
-  background-image: url("../images/people.svg");
-  background-color: #0f5d27;
+  background-image: url("../images/callinghackers.svg");
+  background-color: black;
   background-position: center center;
   background-size: cover;
 }

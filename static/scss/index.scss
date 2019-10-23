@@ -108,14 +108,14 @@ body {
   @include text-g(#d53032,#fb0074);
 }
 
-.yellow-text-gradient {
+.orange-text {
   color: #FF5722;
 }
-.purple-text-gradient {
+.purple-text {
   color: #ff3bff;
 }
-.green-text-gradient {
-  color: #05b937;
+.white-text {
+  color: white;
 }
 
 .padding-none {
@@ -343,9 +343,9 @@ tr {
   color: black;
   td {
     font-family: "Gilroy Bold" !important;
+    border-top: 8px solid black !important;
   }
   //background-image: url("../images/message.svg");
-  border: 3px solid black;
   &:hover {
     color: $baby-blue;
     background-color: black;
@@ -362,13 +362,13 @@ tr {
 
 #time-frame {
   background-image: url("../images/clocks.svg");
-  background-color: #FFC107;
+  background-color: #ea3a3a;
   background-position: center center;
   background-size: cover;
 }
 #attendees {
-  background-image: url("../images/people.svg");
-  background-color: #0f5d27;
+  background-image: url("../images/callinghackers.svg");
+  background-color: black;
   background-position: center center;
   background-size: cover;
 }

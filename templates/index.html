@@ -15,9 +15,9 @@
 <div class="container">
    <h1 class="leader-text important animated fadeInUp"  id="welcome">Welcome to Super Hack '20!</h1>
     <div class="row wow fadeInUp display-flex">
-        {{ importantcard(title="150+", content="attendees from all over San Diego", class="green-text-gradient", id="attendees") }}
-        {{ importantcard(title="12 hrs", content="to build, explore, and deploy", class="yellow-text-gradient", id="time-frame") }}
-        {{ importantcard(title="1st", content="high school hackathon in San Diego", class="purple-text-gradient", id="san-diego") }}
+        {{ importantcard(title="150+", content="attendees from all over San Diego County", class="white-text", id="attendees") }}
+        {{ importantcard(title="12 hrs", content="to build, explore, and deploy solutions", class="yellow-text", id="time-frame") }}
+        {{ importantcard(title="1st", content="high school hackathon in San Diego", class="purple-text", id="san-diego") }}
     </div>
         {% include "partials/calendar.html" %}
         <div id="faq">
@@ -28,17 +28,17 @@
           </div>
           <div class="col-sm-4">
              {{
-             collapsiblecard(id="faq1",content="Of course not! In fact, we encourage novices to attend too!",title="Do I need to know how to code?")
+             collapsiblecard(id="faq1",content="Of course not! In fact, we encourage novices to attend too! We'll hold some workshops and demos to get everyone caught up to speed.",title="Do I need to know how to code?")
              }}
           </div>
           <div class="col-sm-4">
-             {{ collapsiblecard(id="faq2",content="Anyone!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", color="#11998e")}}
+             {{ collapsiblecard(id="faq2",content="Any high-schoolers in grades 10-12 (we can make some exceptions)!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", color="#11998e")}}
           </div>
        </div>
        <div class="row row-eq-height wow fadeInUp">
            <div class="col-sm-4">
              {{
-             collapsiblecard(id="faq3",content="At UCSD's San Diego Supercomputer Center (depicted in the map below)", title="Where is it?", color="#F37335")
+             collapsiblecard(id="faq3",content="At UCSD's San Diego Supercomputer Center (depicted in the map below). Specifically, it'll take place in the SDSC Auditorium.", title="Where is it?", color="#F37335")
              }}
           </div>
           <div class="col-sm-4">

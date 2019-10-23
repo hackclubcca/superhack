@@ -3,7 +3,13 @@
 {% from "partials/card.html" import card with context %}
 <div id="schedule">
     {{ leader("Schedule <i class='far fa-calendar-alt'></i>", id="schedule") }}
-
+    <style>
+        .calendar {
+            border-radius: 20px;
+            border-collapse: separate;
+            border: solid black 8px;
+        }
+    </style>
     <div class="row wow animated fadeInUp">
           <div class="col-sm-6" style="margin-bottom: 20px">
             <div class="calendar">

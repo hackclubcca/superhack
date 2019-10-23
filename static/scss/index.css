@@ -118,14 +118,14 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-.yellow-text-gradient {
+.orange-text {
   color: #FF5722; }
 
-.purple-text-gradient {
+.purple-text {
   color: #ff3bff; }
 
-.green-text-gradient {
-  color: #05b937; }
+.white-text {
+  color: white; }
 
 .padding-none {
   padding: 0 !important; }
@@ -310,10 +310,10 @@ a {
 tr {
   transition: background-color 0.1s linear;
   margin: 20px 0px;
-  color: black;
-  border: 3px solid black; }
+  color: black; }
   tr td {
-    font-family: "Gilroy Bold" !important; }
+    font-family: "Gilroy Bold" !important;
+    border-top: 8px solid black !important; }
   tr:hover {
     color: #93d4f0;
     background-color: black;
@@ -327,13 +327,13 @@ tr {
 
 #time-frame {
   background-image: url("../images/clocks.svg");
-  background-color: #FFC107;
+  background-color: #ea3a3a;
   background-position: center center;
   background-size: cover; }
 
 #attendees {
-  background-image: url("../images/people.svg");
-  background-color: #0f5d27;
+  background-image: url("../images/callinghackers.svg");
+  background-color: black;
   background-position: center center;
   background-size: cover; }
 
