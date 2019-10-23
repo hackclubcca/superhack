@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/callinghackers.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/gen/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/gen/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/index.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="40" column="172" selection-start-line="40" selection-start-column="172" selection-end-line="40" selection-end-column="172" />
+            <state relative-caret-position="17">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="8" column="165" selection-start-line="8" selection-start-column="165" selection-end-line="8" selection-end-column="165" />
+              <caret line="12" column="230" selection-start-line="12" selection-start-column="230" selection-end-line="12" selection-end-column="230" />
+              <caret line="24" column="99" selection-start-line="24" selection-start-column="99" selection-end-line="24" selection-end-column="99" />
+              <caret line="24" column="185" selection-start-line="24" selection-start-column="185" selection-end-line="24" selection-end-column="185" />
             </state>
           </provider>
         </entry>
@@ -54,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="612">
               <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
             </state>
           </provider>
@@ -63,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
+            <state relative-caret-position="5865">
               <caret line="345" column="43" selection-start-line="345" selection-start-column="43" selection-end-line="345" selection-end-column="43" />
             </state>
           </provider>
@@ -74,9 +78,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -108,7 +109,6 @@
       <find>Gilroy-</find>
       <find>No -</find>
       <find>triton.svg</find>
-      <find>Triton Hack</find>
       <find>Super Ha</find>
       <find>February 2</find>
       <find>Hacks</find>
@@ -124,6 +124,7 @@
       <find>white-te</find>
       <find>calendar</find>
       <find>td</find>
+      <find>Triton Hack</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,7 +154,6 @@
         <option value="$PROJECT_DIR$/static/images/site.webmanifest" />
         <option value="$PROJECT_DIR$/static/images/safari-pinned-tab.svg" />
         <option value="$PROJECT_DIR$/templates/partials/header.html" />
-        <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/static/images/sponsors/hackclub.svg" />
         <option value="$PROJECT_DIR$/static/images/sponsors/replit.svg" />
         <option value="$PROJECT_DIR$/static/images/sponsors/wolfram.svg" />
@@ -162,6 +162,7 @@
         <option value="$PROJECT_DIR$/static/scss/index.scss" />
         <option value="$PROJECT_DIR$/templates/partials/calendar.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/js/main.js" />
       </list>
     </option>
   </component>
@@ -403,23 +404,24 @@
       <workItem from="1571527392024" duration="213000" />
       <workItem from="1571717588118" duration="3710000" />
       <workItem from="1571756366853" duration="92000" />
-      <workItem from="1571803934166" duration="1475000" />
+      <workItem from="1571803934166" duration="2098000" />
+      <workItem from="1571842867361" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150993000" />
+    <option name="totallyTimeSpent" value="151642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22024292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2242915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49959514" weight="0.7975133" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8963563" visible="true" weight="0.3268206" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8963563" weight="0.3268206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,7 +430,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.79888266" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.8931174" weight="0.29129663" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.8931174" visible="true" weight="0.29129663" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -474,12 +476,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/index.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/.webassets-cache/all.css" />
     <entry file="file://$PROJECT_DIR$/static/scss/index.css">
@@ -602,31 +604,10 @@
     <entry file="file://$PROJECT_DIR$/static/images/sponsors/wolfram.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/leader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -642,9 +623,30 @@
     <entry file="file://$PROJECT_DIR$/static/images/callinghackers.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/leader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
+        <state relative-caret-position="5865">
           <caret line="345" column="43" selection-start-line="345" selection-start-column="43" selection-end-line="345" selection-end-column="43" />
         </state>
       </provider>
@@ -659,17 +661,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
+        <state relative-caret-position="17">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="40" column="172" selection-start-line="40" selection-start-column="172" selection-end-line="40" selection-end-column="172" />
+        <state relative-caret-position="317">
+          <caret line="8" column="165" selection-start-line="8" selection-start-column="165" selection-end-line="8" selection-end-column="165" />
+          <caret line="12" column="230" selection-start-line="12" selection-start-column="230" selection-end-line="12" selection-end-column="230" />
+          <caret line="24" column="99" selection-start-line="24" selection-start-column="99" selection-end-line="24" selection-end-column="99" />
+          <caret line="24" column="185" selection-start-line="24" selection-start-column="185" selection-end-line="24" selection-end-column="185" />
         </state>
       </provider>
     </entry>

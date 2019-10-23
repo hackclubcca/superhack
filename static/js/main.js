@@ -6,11 +6,11 @@ $("#checkin").on("mouseover", function() {
 });
 $("#teams").on("mouseover", function() {
    $("#calendar-title").html("Team Forming");
-    $("#calendar-description").html("Simultaneously to the check in process, teams of 3-4 will be formed in an efficient manner to ensure that everyone at Triton Hack is involved in some regard.");
+    $("#calendar-description").html("Simultaneously to the check in process, teams of 3-4 will be formed in an efficient manner to ensure that everyone at Super Hack is involved in some regard.");
 });
 $("#workshop").on("mouseover", function() {
    $("#calendar-title").html("Workshop");
-    $("#calendar-description").html("We understand that some students, regardless of their expertise, will have trouble finding a starting point. In light of aiding these very students, we will host workshops throughout Triton Hack to introduce new APIs and technologies for our hackers to use.");
+    $("#calendar-description").html("We understand that some students, regardless of their expertise, will have trouble finding a starting point. In light of aiding these very students, we will host workshops throughout Super Hack to introduce new APIs and technologies for our hackers to use.");
 });
 $("#food").on("mouseover", function() {
    $("#calendar-title").html("Food");
@@ -22,7 +22,7 @@ $("#judging").on("mouseover", function() {
 });
 $("#keynote").on("mouseover", function() {
    $("#calendar-title").html("Keynote");
-    $("#calendar-description").html("This keynote will bring you the takeaway message of Triton Hack - it's not about hacking, but rather the experience. An idea you take from Triton Hack could emerge as the next big thing.");
+    $("#calendar-description").html("This keynote will bring you the takeaway message of Super Hack - it's not about hacking, but rather the experience. An idea you take from Super Hack could emerge as the next big thing.");
 });
 $("#closing").on("mouseover", function() {
    $("#calendar-title").html("Closing Remarks & Dinner");
