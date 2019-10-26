@@ -1,6 +1,6 @@
 {
-    "name": "Super Hacks",
-    "short_name": "Super Hacks",
+    "name": "Super Hack",
+    "short_name": "Super Hack",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#22bffb",
-    "background_color": "#22bffb",
+    "theme_color": "#0071bc",
+    "background_color": "#0071bc",
     "display": "standalone"
 }
