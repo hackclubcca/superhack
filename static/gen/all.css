@@ -245,20 +245,33 @@ body {
   border-radius: 500px;
 }
 /* line 161 */
-.team-member img {
-  border-radius: 50%;
+.team-member .logo {
+  border-radius: 16px;
+  overflow: hidden;
   height: 100px;
-  padding: 5px;
+  border: 8px solid black;
+  width: 100px;
   background-color: black;
 }
-/* line 167 */
+/* line 169 */
+.team-member .logo img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+/* line 170 */
+.team-member .logo:hover {
+  box-shadow: 8px 8px #222222 !important;
+}
+/* line 174 */
 .team-member a {
   font-size: 24px;
   font-family: "Gilroy";
   color: white !important;
 }
 
-/* line 174 */
+/* line 181 */
 .sponsorship-logo {
   box-shadow: 0px 0px;
   max-width: 150px;
@@ -267,43 +280,43 @@ body {
   padding: 20px;
   border-radius: 20px;
 }
-/* line 181 */
+/* line 188 */
 .sponsorship-logo:hover {
   transform: translateY(-5px);
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 187 */
+/* line 194 */
 .platinum-tier {
   max-width: 350px !important;
 }
 
-/* line 190 */
+/* line 197 */
 .gold-tier {
   max-width: 300px !important;
 }
 
-/* line 193 */
+/* line 200 */
 .silver-tier {
   max-width: 250px !important;
 }
 
-/* line 196 */
+/* line 203 */
 .community-tier {
   max-width: 200px !important;
 }
 
-/* line 200 */
+/* line 207 */
 #sponsor-images {
   text-align: center;
   background: transparent;
 }
-/* line 203 */
+/* line 210 */
 #sponsor-images .col {
   flex-grow: 0 !important;
 }
 
-/* line 209 */
+/* line 216 */
 #mobile {
   position: fixed;
   bottom: 0;
@@ -313,30 +326,30 @@ body {
   z-index: 999;
 }
 
-/* line 218 */
+/* line 225 */
 h1 {
   margin-bottom: 0;
 }
 
-/* line 222 */
+/* line 229 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 227 */
+/* line 234 */
 .mobile-icon {
   font-size: 30pt !important;
   padding: 5px;
 }
 
-/* line 232 */
+/* line 239 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 5px;
 }
 
-/* line 237 */
+/* line 244 */
 .btn:not(.btn-mobile):not(.btn-footer) {
   border-radius: 500px;
   background: transparent;
@@ -345,13 +358,13 @@ h1 {
   border: 4px solid white !important;
   font-size: 18pt;
 }
-/* line 244 */
+/* line 251 */
 .btn:not(.btn-mobile):not(.btn-footer):hover {
   background: white;
   color: #0071bc;
 }
 
-/* line 250 */
+/* line 257 */
 .leader-text {
   margin-top: 80px !important;
   color: black;
@@ -360,7 +373,7 @@ h1 {
   text-shadow: 4px 4px #005fab;
 }
 
-/* line 258 */
+/* line 265 */
 .card {
   background: #4ab7ff;
   border: 8px solid black !important;
@@ -369,13 +382,13 @@ h1 {
   transition: all 0.2s ease-in-out;
   margin-bottom: 20px;
 }
-/* line 265 */
+/* line 272 */
 .card:hover {
   box-shadow: 8px 8px #222222;
   transform: scale(1.05, 1.05) rotate(-0.18deg);
 }
 
-/* line 270 */
+/* line 277 */
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -383,57 +396,57 @@ h1 {
   display: flex;
 }
 
-/* line 277 */
+/* line 284 */
 a {
   font-family: "Gilroy Bold";
   color: black;
 }
-/* line 280 */
+/* line 287 */
 a:hover {
   color: #100e16;
   text-decoration-style: unset;
 }
 
-/* line 286 */
+/* line 293 */
 .text-raven {
   color: #22bffb;
 }
 
-/* line 290 */
+/* line 297 */
 .bg-triton {
   background: #0071bc;
 }
 
-/* line 294 */
+/* line 301 */
 .transparent {
   background: transparent;
 }
 
-/* line 298 */
+/* line 305 */
 .bg-black {
   background: black !important;
 }
 
-/* line 302 */
+/* line 309 */
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 307 */
+/* line 314 */
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
 }
 
-/* line 312 */
+/* line 319 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 318 */
+/* line 325 */
 #logo {
   display: inline-block;
   vertical-align: middle;
@@ -443,41 +456,41 @@ a:hover {
   margin-top: 100px;
 }
 
-/* line 327 */
+/* line 334 */
 #map {
   height: 50vh;
 }
 
-/* line 331 */
+/* line 338 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 334 */
+/* line 341 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt !important;
 }
 
-/* line 340 */
+/* line 347 */
 tr {
   transition: background-color 0.1s linear;
   margin: 20px 0px;
   color: black;
 }
-/* line 344 */
+/* line 351 */
 tr td {
   font-family: "Gilroy Bold" !important;
   border-top: 8px solid black !important;
 }
-/* line 349 */
+/* line 356 */
 tr:hover {
   color: #93d4f0;
   background-color: black;
   cursor: pointer;
 }
 
-/* line 356 */
+/* line 363 */
 #san-diego {
   background-image: url("../images/palmtrees.svg");
   background-color: #222586;
@@ -485,7 +498,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 363 */
+/* line 370 */
 #time-frame {
   background-image: url("../images/clocks.svg");
   background-color: #ea3a3a;
@@ -493,7 +506,7 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 369 */
+/* line 376 */
 #attendees {
   background-image: url("../images/callinghackers.svg");
   background-color: black;
@@ -501,26 +514,30 @@ tr:hover {
   background-size: cover;
 }
 
-/* line 376 */
+/* line 383 */
 #welcome {
   font-size: 64px;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
-/* line 380 */
+/* line 387 */
 #header-logo, #zxYzUx {
   display: none;
 }
 
-/* line 383 */
+/* line 390 */
 #header-bg {
   background: url("../svg/head-bg.svg");
   background-size: cover;
   background-position: center center;
 }
+/* line 394 */
+#header-bg span.badge-danger {
+  margin-top: 10px;
+}
 
-/* line 389 */
+/* line 399 */
 #register-button {
   padding: 8px 32px !important;
   font-size: 24pt !important;
@@ -529,19 +546,19 @@ tr:hover {
   transition: 250ms ease-in-out all;
   border: 4px solid white;
 }
-/* line 396 */
+/* line 406 */
 #register-button:hover {
   background: white;
   color: #0071bc;
 }
 
-/* line 401 */
+/* line 411 */
 .nav-item {
   margin: 0px 10px;
   font-size: 18pt;
   text-transform: uppercase;
 }
-/* line 405 */
+/* line 415 */
 .nav-item:hover:not(.btn) {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 500px;

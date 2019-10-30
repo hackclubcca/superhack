@@ -158,11 +158,18 @@ body {
 .team-member {
   min-height: 50px;
   border-radius: 500px;
-  img {
-    border-radius: 50%;
+  .logo {
+    border-radius: 16px;
+    overflow: hidden;
     height: 100px;
-    padding: 5px;
+    border: 8px solid black;
+    width: 100px;
     background-color: black;
+
+    img { position: absolute; right: 0; bottom: 0; width: 100%; }
+    &:hover {
+      box-shadow: 8px 8px #222222 !important;
+    }
   }
   a {
     font-size: 24px;
@@ -384,6 +391,9 @@ tr {
   background: url("../svg/head-bg.svg");
   background-size: cover;
   background-position: center center;
+  span.badge-danger {
+    margin-top: 10px;
+  }
 }
 
 #register-button {

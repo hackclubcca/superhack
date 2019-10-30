@@ -42,8 +42,8 @@
 {% macro team_member(name, description, role, email, file) %}
     <div class="col col-sm-4 team-member">
         <div class="row">
-            <div class="col-md-auto">
-                <img src="{% if file %}{{ url_for('static', filename='images/'+file) }}{% else %}https://via.placeholder.com/200x200{% endif %}" class="profile-image" />
+            <div class="col-md-auto logo">
+                <img src="{% if file %}{{ url_for('static', filename='images/'+file) }}{% else %}https://icon-library.net/images/default-profile-icon/default-profile-icon-16.jpg{% endif %}" class="profile-image" />
             </div>
             <div class="col">
                 <h3 class="important ">{{ name }}</h3>

@@ -5,10 +5,12 @@
 {% block content %}
 <div class="center" id="header-bg" style="margin-top:-1px; height: 100%;">
     <div class="container">
-    <img src="{{ url_for('static', filename='svg/superhack-logo.svg') }} " alt="Logo" id="logo" class="rellax" data-rellax-speed="1"/>
-    <h1 class="important text-light">Super Hack</h1>
-    <h2 class="text-light">February 1, 2020 @ <span class="important">SDSC</span></h2>
+        <img src="{{ url_for('static', filename='svg/superhack-logo.svg') }} " alt="Logo" id="logo" class="rellax" data-rellax-speed="1"/>
+        <h1 class="important text-light">Super Hack</h1>
+        <h2 class="text-light">February 1, 2020 @ <span class="important">SDSC</span></h2>
         <a role="button" href="https://superhack.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">Apply <i class="fas fa-arrow-right"></i></a>
+        <h5 class="text-light"><span class="badge badge-danger">Register from Nov. 6 to Dec. 15</span></h5>
+
     </div>
 </div>
 {{ Divider("#29ABE2") }}
@@ -17,7 +19,7 @@
     <div class="row wow fadeInUp display-flex">
         {{ importantcard(title="150+", content="attendees from all over San Diego County", class="white-text", id="attendees") }}
         {{ importantcard(title="12 hrs", content="to build, explore, and deploy solutions", class="yellow-text", id="time-frame") }}
-        {{ importantcard(title="1st", content="high school hackathon in San Diego", class="purple-text", id="san-diego") }}
+        {{ importantcard(title="1st", content="high school hackathon in San Diego*", class="purple-text", id="san-diego") }}
     </div>
         {% include "partials/calendar.html" %}
         <div id="faq">
@@ -48,12 +50,17 @@
           </div>
           <div class="col-sm-4">
              {{
-             collapsiblecard(id="faq5",content="Don't take my word for it, but we may be reimbursing 15 students from across the nation ;)", title="Do you reimburse travel?", color="rgb(167, 134, 255)")
+             collapsiblecard(id="faq5",content="Don't take my word for it, but we may be reimbursing 15 students from across the nation - apply regardless!", title="Do you reimburse travel?", color="rgb(167, 134, 255)")
              }}
           </div>
           <div class="col-sm-4">
              {{
-             collapsiblecard(id="faq6",content="We'll release the official theme on the day of the event to ensure that all projects are organic.", title="What's the theme?", color="#2ebf91")
+             collapsiblecard(id="faq6",content="We'll release the official theme on the day of the event to ensure that all projects are organic. The project must not violate <a href='https://hackclub.com/conduct/'>Hack Club's Code of Conduct</a>.", title="What's the theme?", color="#2ebf91")
+             }}
+          </div>
+           <div class="col-sm-4">
+             {{
+             collapsiblecard(id="faq7",content="Our event allows teams of up to 4 individuals, and participants may work alone though we strongly advise against it.", title="How big can my team be?", color="#ffffff")
              }}
           </div>
        </div>
@@ -94,12 +101,18 @@
                 <div class="col">
                     {{ sponsor(url="https://blockstack.com/", file="blockstack.svg") }}
                 </div>
+                <div class="col">
+                    {{ sponsor(url="https://stickermule.com/", file="stickermule.png") }}
+                </div>
             </div>
         </div>
     {{ leader("Meet the Team <i class='fas fa-address-book'></i>", id="team") }}
     <div class="row">
         {{ team_member(name="Harris Beg", role="President", email="harris@superhack.org", file="IMG_6074.jpg") }}
         {{ team_member(name="Danial Beg", role="Marketer", email="dbeg001@ucr.edu", file="IMG_6075.jpg") }}
+        {{ team_member(name="Eli Morris", role="Logistics", email="") }}
+        {{ team_member(name="Aniket Pratap", role="Sponsorships", email="", file="IMG_6076.jpg") }}
+        {{ team_member(name="Brandon Chao", role="Outreach", email="", file="IMG_20191029.jpg") }}
         {{ team_member(name="Ange Mason", role="Advisor", email="amason@sdsc.edu") }}
         {{ team_member(name="Saikat Thakur", role="Advisor", email="schakrabortythakur@ucsd.edu") }}
         {{ team_member(name="Farhat Beg", role="Advisor", email="fbeg@eng.ucsd.edu") }}

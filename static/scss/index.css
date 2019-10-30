@@ -160,11 +160,20 @@ body {
 .team-member {
   min-height: 50px;
   border-radius: 500px; }
-  .team-member img {
-    border-radius: 50%;
+  .team-member .logo {
+    border-radius: 16px;
+    overflow: hidden;
     height: 100px;
-    padding: 5px;
+    border: 8px solid black;
+    width: 100px;
     background-color: black; }
+    .team-member .logo img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 100%; }
+    .team-member .logo:hover {
+      box-shadow: 8px 8px #222222 !important; }
   .team-member a {
     font-size: 24px;
     font-family: "Gilroy";
@@ -349,6 +358,8 @@ tr {
   background: url("../svg/head-bg.svg");
   background-size: cover;
   background-position: center center; }
+  #header-bg span.badge-danger {
+    margin-top: 10px; }
 
 #register-button {
   padding: 8px 32px !important;
