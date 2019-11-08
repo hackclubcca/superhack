@@ -1,7 +1,7 @@
 {% from "partials/leader.html" import leader with context %}
 {% from "partials/button.html" import button with context %}
 {% from "partials/card.html" import card with context %}
-<div id="schedule">
+<div id="schedule" class="container">
     {{ leader("Schedule <i class='far fa-calendar-alt'></i>", id="schedule") }}
     <style>
         .calendar {
@@ -17,7 +17,7 @@
                     <thead>
 
                     </thead>
-                  <tbody>
+                  <tbody id="calendar-content">
                     <tr class="bg-black">
                         <td><h2 class="important text-light">February 1, 2020</h2></td>
                         <td></td>
@@ -26,9 +26,21 @@
                       <td>8:00 AM</td>
                       <td>Check-in</td>
                     </tr>
-                    <tr id="teams">
+                    <tr id="welcome-ceremony">
                       <td>9:00 AM</td>
+                      <td>Welcome Ceremony</td>
+                    </tr>
+                    <tr id="teams">
+                      <td>9:30 AM</td>
                       <td>Teams Formed</td>
+                    </tr>
+                    <tr id="teams">
+                      <td>10:15 AM</td>
+                      <td>Workshop I: Intro to Python</td>
+                    </tr>
+                    <tr id="teams">
+                      <td>11:30 AM</td>
+                      <td>Workshop II: Machine Learning</td>
                     </tr>
                     <tr id="food">
                       <td>1:00 PM</td>
@@ -36,7 +48,11 @@
                     </tr>
                     <tr id="workshop">
                       <td>2:00 PM</td>
-                      <td>Workshop (Make School)</td>
+                      <td>Make School Workshop</td>
+                    </tr>
+                    <tr id="workshop">
+                      <td>3:30 PM</td>
+                      <td>Workshop III: Web Development</td>
                     </tr>
                     <tr id="judging">
                       <td>5:00 PM</td>

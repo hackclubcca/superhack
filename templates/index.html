@@ -1,226 +1,255 @@
 {% extends "partials/header.html" %}
-{% from "partials/card.html" import card, team_member, image, importantcard, collapsiblecard with context %} {# Default card template #}
+{% from "partials/card.html" import card, team_member, image, importantcard, collapsiblecard with context %}
+{# Default card template #}
 {% from "partials/leader.html" import leader, sponsor with context %}
 {% from "partials/divider.html" import Divider with context %}
 {% block content %}
-<div class="center" id="header-bg" style="margin-top:-1px; height: 100%;">
-    <div class="container">
-        <img src="{{ url_for('static', filename='svg/superhack-logo.svg') }} " alt="Logo" id="logo" class="rellax" data-rellax-speed="1"/>
-        <h1 class="important text-light">Super Hack</h1>
-        <h2 class="text-light">February 1, 2020 @ <span class="important">SDSC</span></h2>
-        <a role="button" href="https://superhack.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">Apply <i class="fas fa-arrow-right"></i></a>
-        <h5 class="text-light"><span class="badge badge-danger">Register from Nov. 6 to Dec. 15</span></h5>
-
-    </div>
-</div>
-{{ Divider("#29ABE2") }}
-<div class="container">
-   <h1 class="leader-text important animated fadeInUp"  id="welcome">Welcome to Super Hack '20!</h1>
-    <div class="row wow fadeInUp display-flex">
-        {{ importantcard(title="150+", content="attendees from all over San Diego County", class="white-text", id="attendees") }}
-        {{ importantcard(title="12 hrs", content="to build, explore, and deploy solutions", class="yellow-text", id="time-frame") }}
-        {{ importantcard(title="1st", content="high school hackathon in San Diego*", class="purple-text", id="san-diego") }}
-    </div>
-        {% include "partials/calendar.html" %}
-        <div id="faq">
-        {{ leader("Frequently Asked Questions <i class='fas fa-question'></i>", id="faq")}}
-       <div class="row row-eq-height wow fadeInUp">
-           <div class="col-sm-4">
-             {{ collapsiblecard(id="faq0",content="Registration officially opens November 4, 2019 and ends December 15. We'll notify you over whether or not you've been admitted on January 6.", title="When can I apply?", color="#d9a700")}}
-          </div>
-          <div class="col-sm-4">
-             {{
-             collapsiblecard(id="faq1",content="Of course not! In fact, we encourage novices to attend too! We'll hold some workshops and demos to get everyone caught up to speed.",title="Do I need to know how to code?")
-             }}
-          </div>
-          <div class="col-sm-4">
-             {{ collapsiblecard(id="faq2",content="Any high-schoolers in grades 10-12 (we can make some exceptions)!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?", color="#11998e")}}
-          </div>
-       </div>
-       <div class="row row-eq-height wow fadeInUp">
-           <div class="col-sm-4">
-             {{
-             collapsiblecard(id="faq3",content="At UCSD's San Diego Supercomputer Center (depicted in the map below). Specifically, it'll take place in the SDSC Auditorium.", title="Where is it?", color="#F37335")
-             }}
-          </div>
-          <div class="col-sm-4">
-             {{
-             collapsiblecard(id="faq4",content="The modern definition of \"hacking\" is constructive and means working on cool, creative projects: not what you see in the movies.",title="Hacking??", color="#FF416C")
-             }}
-          </div>
-          <div class="col-sm-4">
-             {{
-             collapsiblecard(id="faq5",content="Don't take my word for it, but we may be reimbursing 15 students from across the nation - apply regardless!", title="Do you reimburse travel?", color="rgb(167, 134, 255)")
-             }}
-          </div>
-          <div class="col-sm-4">
-             {{
-             collapsiblecard(id="faq6",content="We'll release the official theme on the day of the event to ensure that all projects are organic. The project must not violate <a href='https://hackclub.com/conduct/'>Hack Club's Code of Conduct</a>.", title="What's the theme?", color="#2ebf91")
-             }}
-          </div>
-           <div class="col-sm-4">
-             {{
-             collapsiblecard(id="faq7",content="Our event allows teams of up to 4 individuals, and participants may work alone though we strongly advise against it.", title="How big can my team be?", color="#ffffff")
-             }}
-          </div>
-       </div>
+    <div class="center" id="header-bg" style="margin-top:-1px; height: 100%;">
+        <div class="container">
+            <img alt="Logo" src="{{ url_for('static', filename='svg/superhack-logo.svg') }} " alt="Logo" id="logo"
+                 class="rellax" data-rellax-speed="1"/>
+            <h1 class="important text-light">Super Hack</h1>
+            <h2 class="text-light">February 1, 2020 @ <span class="important">SDSC</span></h2>
+            <a role="button" href="https://superhack.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">Apply
+                <i class="fas fa-arrow-right"></i></a>
+            <h5 class="text-light"><span class="badge badge-danger">Register from Nov. 4 to Dec. 15</span></h5>
 
         </div>
-        {{ leader("Sponsors <i class='fas fa-money-check-alt'></i>", id="sponsors") }}
-        <h3 class="black-text">Want to sponsor us?  <a href="mailto:harris@superhack.org">Contact us!</a></h3>
-        <div id="sponsor-images">
-            <div class="row">
-                <div class="col">
-                    {{ sponsor(url="https://surcle.io", file="surcle.png", tier="silver") }}
+    </div>
+    {{ Divider("#29ABE2") }}
+    <div class="container" id="main-content">
+        <h2 class="leader-text important wow animated fadeIn" id="welcome">Welcome to Super Hack '20!</h2>
+        <div class="row wow fadeIn display-flex">
+            {{ importantcard(title="108", content="attendees from all over San Diego County", class="white-text", id="attendees") }}
+            {{ importantcard(title="12 hrs", content="to build, explore, and deploy solutions", class="white-text", id="time-frame") }}
+            {{ importantcard(title="1st", content="Hack Club high-school hackathon in San Diego", class="white-text", id="san-diego") }}
+            <div class="col-sm-6">
+                <div class="card wow animated fadeIn" style=" text-align: center;">
+                    <div class="card-body">
+                        <h5 class="card-title important" style="font-size: 30pt;">Idea-Driven Learning</h5>
+                        <div class="card-content">
+                            <p style="font-size: 18pt; text-align: left;">
+                                In the modern age, a student shouldn't need a
+                                textbook to learn. Students learn best through
+                                making, but they're never encouraged to explore and create.
+                                We want to offer this encouragement to high schoolers across
+                                San Diego over a 12-hour event at the San Diego Supercomputer Center
+                                on February 1, 2020.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    {{ sponsor(url="https://www.sdsc.edu/", file="sdsc.png", tier="silver") }}
+
+            </div>
+            <div class="col-sm-6">
+                <div class="card wow animated fadeIn" id="community-card"></div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card wow animated fadeIn" id="everyone-card"></div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card wow animated fadeIn" style=" text-align: center;">
+                    <div class="card-body">
+                        <h5 class="card-title important" style="font-size: 30pt;">For everyone</h5>
+                        <div class="card-content">
+                            <p style="font-size: 18pt; text-align: left;">
+                                Traditionally, specific groups of students are excluded - whether
+                                the reason is finance-driven or based on community expectations, we want
+                                to destroy these barriers. That's why Super Hack is completely free and open
+                                to anyone willing to invest 12 hours on a Saturday into finally manifesting their ideas
+                                into realities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            {% include "partials/calendar.html" %}
+            <div id="faq" class="container">
+                {{ leader("Frequently Asked Questions <i class='fas fa-question'></i>", id="faq") }}
+                <div class="row row-eq-height wow fadeIn">
+                    <div class="col-sm-4">
+                        {{ collapsiblecard(id="faq0",content="Registration officially opens November 4, 2019 and ends December 15. We'll notify you over whether or not you've been admitted on January 6.", title="When can I apply?") }}
+                    </div>
+                    <div class="col-sm-4">
+                        {{ collapsiblecard(id="faq1",content="Of course not! In fact, we encourage novices to attend too! We'll hold some workshops and demos to get everyone caught up to speed.",title="Do I need to know how to code?") }}
+                    </div>
+                    <div class="col-sm-4">
+                        {{ collapsiblecard(id="faq2",content="Any high-schoolers in grades 10-12 (we can make some exceptions)!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?") }}
+                    </div>
+                </div>
+                <div class="row row-eq-height wow fadeIn">
+                    <div class="col-sm-4">
+                        {{ collapsiblecard(id="faq3",content="At UCSD's San Diego Supercomputer Center (depicted in the map below). Specifically, it'll take place in the SDSC Auditorium.", title="Where is it?") }}
+                    </div>
+                    <div class="col-sm-4">
+                        {{ collapsiblecard(id="faq4",content="The modern definition of \"hacking\" is constructive and means working on cool, creative projects: not what you see in the movies.",title="Hacking?") }}
+                    </div>
+                    <div class="col-sm-4">
+                        {{ collapsiblecard(id="faq5",content="Don't take my word for it, but we may be reimbursing 15 students from across the nation - apply regardless!", title="Do you reimburse travel?") }}
+                    </div>
+                    <div class="col-sm-4">
+                        {{ collapsiblecard(id="faq6",content="We'll release the official theme on the day of the event to ensure that all projects are organic. The project must not violate <a href='https://hackclub.com/conduct/' class='text-light'>Hack Club's Code of Conduct</a>.", title="What's the theme?") }}
+                    </div>
+                    <div class="col-sm-4">
+                        {{ collapsiblecard(id="faq7",content="Our event allows teams of up to 4 individuals, and participants may work alone though we strongly advise against it.", title="How big can my team be?") }}
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    {{ sponsor(url="https://repl.it", file="replit.svg", tier="community") }}
+            <div class="container">
+                {{ leader("Sponsors <i class='fas fa-money-check-alt'></i>", id="sponsors") }}
+                <h3 class="black-text">Want to sponsor us? <a class="underline" href="mailto:gary@superhack.org">Contact us!</a></h3>
+                <div id="sponsor-images">
+                    <div class="row">
+                        <div class="col">
+                            {{ sponsor(url="https://surcle.io", file="surcle.png", tier="silver") }}
+                        </div>
+                        <div class="col">
+                            {{ sponsor(url="https://www.sdsc.edu/", file="sdsc.png", tier="silver") }}
+                        </div>
+                        <div class="col">
+                            {{ sponsor(url="https://www.github.com/", file="github-logo.svg", tier="silver") }}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            {{ sponsor(url="https://repl.it", file="replit.svg", tier="community") }}
+                        </div>
+                        <div class="col">
+                            {{ sponsor(url="https://makeschool.com", file="makeschool.png", tier="community") }}
+                        </div>
+                        <div class="col">
+                            {{ sponsor(url="https://hackclub.com/", file="hackclub.svg", tier="community", class="padding-none border-radius-none") }}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            {{ sponsor(url="https://balsamiq.com/", file="balsamiq.svg") }}
+                        </div>
+                        <div class="col">
+                            {{ sponsor(url="http://wolfram.com/", file="wolfram.svg") }}
+                        </div>
+                        <div class="col">
+                            {{ sponsor(url="https://desmos.com/", file="desmos.png") }}
+                        </div>
+                        <div class="col">
+                            {{ sponsor(url="https://blockstack.com/", file="blockstack.svg") }}
+                        </div>
+                        <div class="col">
+                            {{ sponsor(url="https://stickermule.com/", file="stickermule.png") }}
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    {{ sponsor(url="https://makeschool.com", file="makeschool.png", tier="community") }}
-                </div>
-                <div class="col">
-                    {{ sponsor(url="https://hackclub.com/", file="hackclub.svg", tier="community", class="padding-none border-radius-none") }}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    {{ sponsor(url="https://balsamiq.com/", file="balsamiq.svg") }}
-                </div>
-                <div class="col">
-                    {{ sponsor(url="http://wolfram.com/", file="wolfram.svg") }}
-                </div>
-                <div class="col">
-                    {{ sponsor(url="https://desmos.com/", file="desmos.png") }}
-                </div>
-                <div class="col">
-                    {{ sponsor(url="https://blockstack.com/", file="blockstack.svg") }}
-                </div>
-                <div class="col">
-                    {{ sponsor(url="https://stickermule.com/", file="stickermule.png") }}
-                </div>
+                {{ leader("Organizers <i class='fas fa-money-check-alt'></i>", id="organizers") }}
+                <h3 class="black-text"><a class="underline" href="/organizers">Click here to view the full team!</a></h3>
+
             </div>
         </div>
-    {{ leader("Meet the Team <i class='fas fa-address-book'></i>", id="team") }}
-    <div class="row">
-        {{ team_member(name="Harris Beg", role="President", email="harris@superhack.org", file="IMG_6074.jpg") }}
-        {{ team_member(name="Danial Beg", role="Marketer", email="dbeg001@ucr.edu", file="IMG_6075.jpg") }}
-        {{ team_member(name="Eli Morris", role="Logistics", email="") }}
-        {{ team_member(name="Aniket Pratap", role="Sponsorships", email="", file="IMG_6076.jpg") }}
-        {{ team_member(name="Brandon Chao", role="Outreach", email="", file="IMG_20191029.jpg") }}
-        {{ team_member(name="Ange Mason", role="Advisor", email="amason@sdsc.edu") }}
-        {{ team_member(name="Saikat Thakur", role="Advisor", email="schakrabortythakur@ucsd.edu") }}
-        {{ team_member(name="Farhat Beg", role="Advisor", email="fbeg@eng.ucsd.edu") }}
-
     </div>
-
+    <div class="full-width" style="background: #242f3e;">
+        {{ Divider("#F6D7B0") }}
+    </div>
     {# leader("Want to register? <i class='fas fa-user-plus'></i>") #}
     {# card(content="All you need to do is fill out <a href='https://tritonform.typeform.com/to/PKNkom'>this</a> form and we'll send you a confirmation email once we start rolling out decisions. We thank you for your interest in Super Hack.", title="Registration form") #}
-    </div>
     <div id="map"></div>
-<script>
-   function initMap() {
-     // Styles a map in night mode.
-     var map = new google.maps.Map(document.getElementById('map'), {
-       center: {lat: 32.8843509, lng: -117.2392354},
-       zoom: 17,
-       styles: [
-         {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-         {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-         {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-         {
-           featureType: 'administrative.locality',
-           elementType: 'labels.text.fill',
-           stylers: [{color: '#d59563'}]
-         },
-         {
-           featureType: 'poi',
-           elementType: 'labels.text.fill',
-           stylers: [{color: '#d59563'}]
-         },
-         {
-           featureType: 'poi.park',
-           elementType: 'geometry',
-           stylers: [{color: '#263c3f'}]
-         },
-         {
-           featureType: 'poi.park',
-           elementType: 'labels.text.fill',
-           stylers: [{color: '#6b9a76'}]
-         },
-         {
-           featureType: 'road',
-           elementType: 'geometry',
-           stylers: [{color: '#38414e'}]
-         },
-         {
-           featureType: 'road',
-           elementType: 'geometry.stroke',
-           stylers: [{color: '#212a37'}]
-         },
-         {
-           featureType: 'road',
-           elementType: 'labels.text.fill',
-           stylers: [{color: '#9ca5b3'}]
-         },
-         {
-           featureType: 'road.highway',
-           elementType: 'geometry',
-           stylers: [{color: '#746855'}]
-         },
-         {
-           featureType: 'road.highway',
-           elementType: 'geometry.stroke',
-           stylers: [{color: '#1f2835'}]
-         },
-         {
-           featureType: 'road.highway',
-           elementType: 'labels.text.fill',
-           stylers: [{color: '#f3d19c'}]
-         },
-         {
-           featureType: 'transit',
-           elementType: 'geometry',
-           stylers: [{color: '#2f3948'}]
-         },
-         {
-           featureType: 'transit.station',
-           elementType: 'labels.text.fill',
-           stylers: [{color: '#d59563'}]
-         },
-         {
-           featureType: 'water',
-           elementType: 'geometry',
-           stylers: [{color: '#17263c'}]
-         },
-         {
-           featureType: 'water',
-           elementType: 'labels.text.fill',
-           stylers: [{color: '#515c6d'}]
-         },
-         {
-           featureType: 'water',
-           elementType: 'labels.text.stroke',
-           stylers: [{color: '#17263c'}]
-         }
-       ]
-     });
-     var marker = new google.maps.Marker({
-         position: {lat: 32.8843509, lng: -117.2392354},
-         map: map,
-         title: 'Super Hack Venue',
-         icon: "https://www.superhack.org/images/favicon-32x32.png"
-     });
-   }
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAujkibpyc00cL01654mEAtiJ4BXrYb_KU&callback=initMap"
-   async defer></script>
-<div class="bg-triton full-width">
-   {{ Divider("#242f3e") }}
-</div>
+    <script>
+        function initMap() {
+            // Styles a map in night mode.
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 32.8843509, lng: -117.2392354},
+                zoom: 17,
+                styles: [
+                    {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+                    {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+                    {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+                    {
+                        featureType: 'administrative.locality',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#d59563'}]
+                    },
+                    {
+                        featureType: 'poi',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#d59563'}]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'geometry',
+                        stylers: [{color: '#263c3f'}]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#6b9a76'}]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry',
+                        stylers: [{color: '#38414e'}]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#212a37'}]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#9ca5b3'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry',
+                        stylers: [{color: '#746855'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#1f2835'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#f3d19c'}]
+                    },
+                    {
+                        featureType: 'transit',
+                        elementType: 'geometry',
+                        stylers: [{color: '#2f3948'}]
+                    },
+                    {
+                        featureType: 'transit.station',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#d59563'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'geometry',
+                        stylers: [{color: '#17263c'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#515c6d'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.stroke',
+                        stylers: [{color: '#17263c'}]
+                    }
+                ]
+            });
+            var marker = new google.maps.Marker({
+                position: {lat: 32.8843509, lng: -117.2392354},
+                map: map,
+                title: 'Super Hack Venue',
+                icon: "https://www.superhack.org/images/favicon-32x32.png"
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAujkibpyc00cL01654mEAtiJ4BXrYb_KU&callback=initMap"
+            async defer></script>
+    <div class="bg-super full-width">
+        {{ Divider("#242f3e") }}
+    </div>
 {% endblock %}

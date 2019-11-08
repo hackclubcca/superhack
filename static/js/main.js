@@ -2,15 +2,19 @@ var rellax = new Rellax('.rellax');
 new WOW().init();
 $("#checkin").on("mouseover", function() {
    $("#calendar-title").html("Check In");
-    $("#calendar-description").html("For the first hour, participants of Super Hack will get their goodies (such as stickers & API codes) as well as the basic rundown of the schedule.");
+    $("#calendar-description").html(
+        "For the first hour, participants of Super Hack will get their goodies (such as stickers & API codes) as well as the basic rundown of the schedule."
+    );
 });
 $("#teams").on("mouseover", function() {
    $("#calendar-title").html("Team Forming");
-    $("#calendar-description").html("Simultaneously to the check in process, teams of 3-4 will be formed in an efficient manner to ensure that everyone at Super Hack is involved in some regard.");
+    $("#calendar-description").html(
+        "Simultaneously to the check in process, groups of 1-4 members will form based on the choosing of our participants."
+    );
 });
 $("#workshop").on("mouseover", function() {
    $("#calendar-title").html("Workshop");
-    $("#calendar-description").html("We understand that some students, regardless of their expertise, will have trouble finding a starting point. In light of aiding these very students, we will host workshops throughout Super Hack to introduce new APIs and technologies for our hackers to use.");
+    $("#calendar-description").html("");
 });
 $("#food").on("mouseover", function() {
    $("#calendar-title").html("Food");

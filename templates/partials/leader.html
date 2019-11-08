@@ -1,8 +1,8 @@
 {% macro leader(text,id,class) %}
-    <h1 class="leader-text {{ class }}" id="{{ id }}-leader" style="margin-top: 20px; margin-bottom: 20px"><span class="important underline">{{ text|safe }}</span></h1>
+    <h2 class="leader-text {{ class }}" id="{{ id }}-leader" style="margin-top: 20px; margin-bottom: 20px"><span class="important underline">{{ text|safe }}</span></h2>
 {% endmacro %}
 {% macro sponsor(url, file, tier, class) %}
     <a class="wow fadeInUp" href="{{ url }}">
-        <img src="{{ url_for('static', filename='images/sponsors/'+file) }}" class="sponsorship-logo {{ tier }}-tier {{ class }}" />
+        <img alt="{{ tier }}" src="{{ url_for('static', filename='images/sponsors/'+file) }}" class="sponsorship-logo {{ tier }}-tier {{ class }}" />
     </a>
 {% endmacro %}

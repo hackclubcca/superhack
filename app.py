@@ -1,6 +1,6 @@
-from flask import Flask, render_template, make_response, request
-from flask_sitemap import Sitemap
 from datetime import datetime, timedelta
+
+from flask import Flask, render_template, make_response
 from flask_assets import Environment, Bundle
 
 app = Flask(__name__, static_folder='static', static_url_path='')
@@ -14,9 +14,12 @@ STATIC_URL = "/static/"
 
 @app.route('/')
 def index():
-    if not request.headers.get("USER_AGENT"):
-        return "You found an easter egg! Email harris@ravenhack.org with the message 'I like turtles'"
     return render_template("index.html")
+
+
+@app.route('/organizers')
+def organizers():
+    return render_template("organizers.html")
 
 
 @app.route('/document/prospectus.pdf')
@@ -38,4 +41,5 @@ def sitemap():
 
 
 if __name__ == '__main__':
+    app.jinja_env.cache = {}
     app.run(debug=True)

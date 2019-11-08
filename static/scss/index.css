@@ -60,7 +60,7 @@ html {
 
 ::selection {
   transition: all ease-in-out 0.2s;
-  background: #0071bc; }
+  background: #e4ad85; }
 
 ::-moz-selection {
   background: #0071bc; }
@@ -107,7 +107,7 @@ html {
   text-align: center; }
 
 body {
-  background: #93d4f0 !important;
+  background: #F6D7B0 !important;
   padding-bottom: 0; }
 
 .grey-text {
@@ -197,7 +197,8 @@ body {
   max-width: 300px !important; }
 
 .silver-tier {
-  max-width: 250px !important; }
+  max-width: 250px !important;
+  max-height: 100px; }
 
 .community-tier {
   max-width: 200px !important; }
@@ -206,15 +207,16 @@ body {
   text-align: center;
   background: transparent; }
   #sponsor-images .col {
-    flex-grow: 0 !important; }
+    /* flex-grow: 0 !important; */ }
 
 #mobile {
   position: fixed;
   bottom: 0;
-  background: black;
+  background: #001f33;
   width: 100%;
   font-size: 50pt;
-  z-index: 999; }
+  z-index: 999;
+  height: 60px; }
 
 h1 {
   margin-bottom: 0; }
@@ -242,20 +244,32 @@ h1 {
     background: white;
     color: #0071bc; }
 
+.calendar {
+  overflow-y: scroll;
+  height: 400px; }
+  .calendar::-webkit-scrollbar-track {
+    background: transparent !important; }
+  .calendar::-webkit-scrollbar-thumb {
+    border-radius: 0 5px 5px 0;
+    background: #100e16; }
+
 .leader-text {
   margin-top: 80px !important;
   color: black;
   position: relative;
   display: inline-block;
-  text-shadow: 4px 4px #005fab; }
+  text-shadow: 4px 4px #da915c;
+  font-size: 48pt; }
 
 .card {
-  background: #4ab7ff;
+  background: black;
   border: 8px solid black !important;
   border-radius: 20px !important;
   box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.15);
   transition: all 0.2s ease-in-out;
-  margin-bottom: 20px; }
+  box-shadow: 4px 4px #222222;
+  margin-bottom: 20px;
+  color: white !important; }
   .card:hover {
     box-shadow: 8px 8px #222222;
     transform: scale(1.05, 1.05) rotate(-0.18deg);
@@ -271,13 +285,16 @@ a {
   font-family: "Gilroy Bold";
   color: black; }
   a:hover {
-    color: #100e16;
+    color: #515151;
     text-decoration-style: unset; }
 
-.text-raven {
+.underline {
+  text-decoration: underline !important; }
+
+.text-super {
   color: #22bffb; }
 
-.bg-triton {
+.bg-super {
   background: #0071bc; }
 
 .transparent {
@@ -310,6 +327,12 @@ a {
 #map {
   height: 50vh; }
 
+#main-content {
+  text-align: center !important; }
+
+#meet-the-team-leader {
+  margin-top: 100px !important; }
+
 .footer {
   padding-top: 50px;
   font-size: 24pt; }
@@ -325,19 +348,19 @@ tr {
     font-family: "Gilroy Bold" !important;
     border-top: 8px solid black !important; }
   tr:hover {
-    color: #93d4f0;
+    color: #edc9af;
     background-color: black;
     cursor: pointer; }
 
 #san-diego {
   background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 700 500' style='enable-background:new 0 0 700 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bdisplay:none;fill:%23FFFFFF;%7D .st1%7Bfill:%2305003B;%7D%0A%3C/style%3E%3Cimage style='display:none;overflow:visible;' width='3246' height='1855' xlink:href='../../Documents/San_Diego,_CA_USA_-_View_from_Coronado_-_panoramio.jpg' transform='matrix(0.2311 0 0 0.2311 -25 35.1978)'%3E%3C/image%3E%3Cpolyline class='st0' points='0,339 28,339 28,309 32,309 32,303 34,303 34,301 40,301 49,301 51,303 51,310 54,310 54,329 60,324 62,325 72,320 72,310 75,310 75,309 81,309 88,309 88,328 88,330 90,330 90,308 92,306 92,288 94,288 95,283 103,283 103,286 107,286 107,289 107,307 109,309 109,328 113,328 113,324 115,324 115,321 117,321 117,315 120,315 120,298 '/%3E%3Cpath class='st1' d='M-37.5,505.5c0,0,68.4-125,72.2-280H72c0,0-39.5,266-82.1,280H-37.5z'/%3E%3Cpath class='st1' d='M27.5,225.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S27.5,225.5,27.5,225.5z'/%3E%3Cpath class='st1' d='M255.5,506.5c0,0,68.4-125,72.2-280H365c0,0-39.5,266-82.1,280H255.5z'/%3E%3Cpath class='st1' d='M320.5,226.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S320.5,226.5,320.5,226.5z'/%3E%3Cpath class='st1' d='M548.5,510.5c0,0,68.4-125,72.2-280H658c0,0-39.5,266-82.1,280H548.5z'/%3E%3Cpath class='st1' d='M613.5,230.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S613.5,230.5,613.5,230.5z'/%3E%3C/svg%3E%0A");
-  background-color: #222586;
+  background-color: black;
   background-position: center center;
   background-size: cover; }
 
 #time-frame {
   background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 750 500' style='enable-background:new 0 0 750 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bopacity:0.2;fill:none;stroke:%23FFFFFF;stroke-width:20;stroke-miterlimit:10;%7D .st1%7Bopacity:0.2;fill:none;stroke:%23FFFFFF;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Ccircle class='st0' cx='271.5' cy='262.5' r='184.5'/%3E%3Cpolyline class='st1' points='271.5,130.4 271.5,262.5 347.8,337.3 '/%3E%3C/svg%3E");
-  background-color: #ea3a3a;
+  background-color: black;
   background-position: center center;
   background-size: cover; }
 
@@ -355,20 +378,37 @@ tr {
 #header-logo, #zxYzUx {
   display: none; }
 
+#community-card {
+  background-image: url("../images/idea-driven.jpg");
+  background-color: black;
+  background-position: center center;
+  background-size: cover;
+  height: 350px !important; }
+
+#everyone-card {
+  background-image: url("../images/DAW_2883.jpg");
+  background-color: black;
+  background-position: center center;
+  background-size: cover;
+  height: 350px !important; }
+
 #header-bg {
   background: url("../svg/head-bg.svg");
   background-size: cover;
   background-position: center center; }
   #header-bg span.badge-danger {
-    margin-top: 10px; }
+    margin-top: 10px;
+    border-radius: 16px;
+    padding: 8px 16px; }
 
 #register-button {
   padding: 8px 32px !important;
   font-size: 24pt !important;
   background: transparent;
   color: white;
-  transition: 250ms ease-in-out all;
   border: 4px solid white; }
+  #register-button path {
+    transition: none !important; }
   #register-button:hover {
     background: white;
     color: #0071bc; }
