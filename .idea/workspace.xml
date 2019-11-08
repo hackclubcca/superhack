@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/Garyprofilepic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/IMG_6075.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/IMG_6075.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/organizers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/organizers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/calendar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/raven_hack$raven_hack.coverage" NAME="raven-hack Coverage Results" MODIFIED="1573237743846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/raven_hack$raven_hack.coverage" NAME="raven-hack Coverage Results" MODIFIED="1573238414370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -33,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="3401" lean-forward="true" selection-start-column="3401" selection-end-column="3401" />
+              <caret column="544" selection-start-column="544" selection-end-column="544" />
             </state>
           </provider>
         </entry>
@@ -108,7 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>team</find>
       <find>maniest</find>
       <find>browser</find>
       <find>#mobile</find>
@@ -138,6 +133,7 @@
       <find>img</find>
       <find>SuperHack</find>
       <find>.underl</find>
+      <find>choosing</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -445,18 +441,18 @@
       <workItem from="1573063043524" duration="1039000" />
       <workItem from="1573176782224" duration="3706000" />
       <workItem from="1573230275440" duration="831000" />
-      <workItem from="1573237271317" duration="471000" />
+      <workItem from="1573237271317" duration="1076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199606000" />
+    <option name="totallyTimeSpent" value="200211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33684212" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33684212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -470,7 +466,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.79888266" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.8931174" weight="0.2905028" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.8931174" visible="true" weight="0.2905028" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -704,7 +700,7 @@
     <entry file="file://$PROJECT_DIR$/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="3401" lean-forward="true" selection-start-column="3401" selection-end-column="3401" />
+          <caret column="544" selection-start-column="544" selection-end-column="544" />
         </state>
       </provider>
     </entry>
