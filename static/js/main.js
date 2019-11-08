@@ -18,7 +18,7 @@ $("#workshop").on("mouseover", function() {
 });
 $("#food").on("mouseover", function() {
    $("#calendar-title").html("Food");
-    $("#calendar-description").html("We know what everyone wants at 1PM... 🍕🍕🍕🍪🍪🥤. Of course, students are also welcome to continue working on their projects whilst eating.");
+    $("#calendar-description").html("We know what everyone wants at 1PM... food. Of course, students are also welcome to continue working on their projects whilst eating.");
 });
 $("#judging").on("mouseover", function() {
    $("#calendar-title").html("Judging");
