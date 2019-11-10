@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-US">
 {% from "partials/button.html" import button with context %}
 <head>
@@ -19,7 +20,7 @@
     <meta name="keywords"
           content="superhack, super hack, super, hack, superman, superhacks, super hacks, tritonhack, triton, triton hack, ravenhack, raven, hack, raven hack, canyon crest academy, cca, harris beg, harris, hackclub, hack, club, hackathon, high school, san diego high school hackathon"/>
     <meta name="description"
-          content="Super Hack is a 12-hour hackathon that will be held at SDSC during the spring of 2020. At Super Hack, students will collaborate to work on unique projects that apply their computer science skills to real-world applications."/>
+          content="Super Hack is a 12-hour hackathon that will be held at SDSC during the spring of 2020. At Super Hack, students will team up to create fun and useful projects."/>
     <meta name="subject" content="Super Hack"/>
     <meta name="robots" content="index, follow">
 
@@ -91,22 +92,22 @@
     </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css') }}"/>
     {% assets "scss" %}
         <link rel="stylesheet" href="{{ ASSET_URL }}"/>
     {% endassets %}
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.9.1/rellax.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+    <script defer src="{{ url_for('static', filename='js/rellax.min.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='js/all.js') }}"
             integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
             crossOrigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    <script src="{{ url_for('static', filename='js/jquery-3.2.1.slim.min.js') }}"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    <script src="{{ url_for('static', filename='js/popper.min.js') }}"
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
             crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
     <script defer="defer" src="{{ url_for('static', filename='js/main.js') }}"></script>
@@ -126,6 +127,7 @@
         <div class="navbar-nav center">
             <a class="nav-item nav-link" href="/#schedule">Schedule</a>
             <a class="nav-item nav-link" href="/#faq">FAQ</a>
+            <a class="nav-item nav-link" href="/organizers">Organizers</a>
             <a class="nav-item nav-link" href="/#">
                 {{ button(text='APPLY', url="https://superhack.typeform.com/to/PKNkom", shadow=true) }}
             </a>
@@ -138,6 +140,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link text-light important" href="/#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light important" href="/organizers">Organizers</a>
             </li>
             <li class="nav-item">
                 {{ button(text='APPLY', url="https://superhack.typeform.com/to/PKNkom") }}

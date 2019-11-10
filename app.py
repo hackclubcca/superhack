@@ -2,12 +2,16 @@ from datetime import datetime, timedelta
 
 from flask import Flask, render_template, make_response
 from flask_assets import Environment, Bundle
+from flask_compress import Compress
+
 
 app = Flask(__name__, static_folder='static', static_url_path='')
 assets = Environment(app)
 scss = Bundle('scss/index.scss',
               filters='scss', output='gen/all.css')
 assets.register('scss', scss)
+cmp = Compress(app)
+STATIC_URL = '/static/'
 
 STATIC_URL = "/static/"
 
