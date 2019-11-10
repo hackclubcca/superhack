@@ -4,7 +4,7 @@
 {% from "partials/leader.html" import leader, sponsor with context %}
 {% from "partials/divider.html" import Divider with context %}
 {% block content %}
-    <div class="center" id="header-bg" style="margin-top:-1px; height: 100%;">
+    <div class="center" id="header-bg" style="margin-top:-1px; height: calc(100vh - 60px)">
         <div class="container">
             <img alt="Logo" src="{{ url_for('static', filename='svg/superhack-logo.svg') }} " alt="Logo" id="logo"
                  class="rellax" data-rellax-speed="1"/>
@@ -64,21 +64,21 @@
                 {{ leader("Frequently Asked Questions <i class='fas fa-question'></i>", id="faq") }}
                 <div class="row row-eq-height wow fadeIn">
                     <div class="col-sm-4">
+                        {{ collapsiblecard(id="faq4",content="A hackathon is not a cybersecurity competition, as is often thought - it's an invention marathon in which students come up with ideas and deploy them.",title="What's a hackathon?") }}
+                    </div>
+                    <div class="col-sm-4">
                         {{ collapsiblecard(id="faq0",content="Registration officially opens in December, though you may pre-register now. We'll notify you over whether or not you've been admitted 3-4 weeks after you apply.", title="When can I apply?") }}
                     </div>
                     <div class="col-sm-4">
                         {{ collapsiblecard(id="faq1",content="Of course not! In fact, we encourage novices to attend too! We'll hold some workshops and demos to get everyone caught up to speed.",title="Do I need to know how to code?") }}
                     </div>
-                    <div class="col-sm-4">
-                        {{ collapsiblecard(id="faq2",content="Any high-schoolers in grades 10-12 (we can make some exceptions)!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?") }}
-                    </div>
                 </div>
                 <div class="row row-eq-height wow fadeIn">
                     <div class="col-sm-4">
-                        {{ collapsiblecard(id="faq3",content="At UCSD's San Diego Supercomputer Center (depicted in the map below). Specifically, it'll take place in the SDSC Auditorium.", title="Where is it?") }}
+                        {{ collapsiblecard(id="faq2",content="Any high-schoolers in grades 10-12 (we can make some exceptions)!! Now that our venue isn't at Canyon Crest, we can open the event to anyone from anywhere.", title="Who can attend?") }}
                     </div>
                     <div class="col-sm-4">
-                        {{ collapsiblecard(id="faq4",content="The modern definition of \"hacking\" is constructive and means working on cool, creative projects: not what you see in the movies.",title="Hacking?") }}
+                        {{ collapsiblecard(id="faq3",content="At UCSD's San Diego Supercomputer Center (depicted in the map below). Specifically, it'll take place in the SDSC Auditorium.", title="Where is it?") }}
                     </div>
                     <div class="col-sm-4">
                         {{ collapsiblecard(id="faq5",content="Don't take my word for it, but we may be reimbursing 15 students from across the nation - apply regardless!", title="Do you reimburse travel?") }}
