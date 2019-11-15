@@ -110,7 +110,7 @@ html {
 }
 
 body {
-  background: $sand !important;
+  background: $desert-sand !important;
   padding-bottom: 0;
 }
 
@@ -251,7 +251,6 @@ body {
   width: 100%;
   font-size: 50pt;
   z-index: 999;
-  height: 60px;
 }
 
 h1 {
@@ -346,6 +345,10 @@ a {
 
 .underline {
   text-decoration: underline !important;
+}
+
+.text-light {
+  color: white !important;
 }
 
 .text-super {

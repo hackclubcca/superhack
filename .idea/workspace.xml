@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" beforeDir="false" afterPath="$PROJECT_DIR$/static/.webassets-cache/ee98aa7b45fe0e9b32ec3e35b5badb22" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/gen/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/gen/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/.sass-cache/b23eefdfe022036352a3bf50f869ac67e05b9e84/index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/index.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/organizers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/organizers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/raven_hack$raven_hack.coverage" NAME="raven-hack Coverage Results" MODIFIED="1573418729376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/raven_hack$raven_hack.coverage" NAME="raven-hack Coverage Results" MODIFIED="1573781943949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -26,19 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/partials/button.html">
+        <entry file="file://$PROJECT_DIR$/templates/partials/leader.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/partials/calendar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+            <state relative-caret-position="92">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -55,42 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="77" column="165" selection-start-line="77" selection-start-column="165" selection-end-line="77" selection-end-column="165" />
-              <folding>
-                <element signature="e#366#404#0#HTML" expanded="true" />
-                <element signature="e#1787#1815#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="118">
+              <caret line="103" column="51" selection-start-line="103" selection-start-column="51" selection-end-line="103" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="13" column="75" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/robots.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/organizers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+            <state relative-caret-position="255">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -98,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7958">
-              <caret line="346" column="7" selection-start-line="346" selection-end-line="346" selection-end-column="7" />
+            <state relative-caret-position="642">
+              <caret line="253" selection-start-line="253" selection-end-line="253" />
             </state>
           </provider>
         </entry>
@@ -107,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="149">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -126,11 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>silver</find>
-      <find>text</find>
-      <find>card</find>
-      <find>attende</find>
-      <find>st1</find>
       <find>st2</find>
       <find>primar</find>
       <find>register</find>
@@ -156,6 +129,11 @@
       <find>course</find>
       <find>Feb</find>
       <find>check\x20</find>
+      <find>big</find>
+      <find>$sand</find>
+      <find>SDSC</find>
+      <find>height: 60px</find>
+      <find>san diego su</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,19 +162,19 @@
         <option value="$PROJECT_DIR$/static/images/sponsors/wolfram.svg" />
         <option value="$PROJECT_DIR$/static/images/manifest.json" />
         <option value="$PROJECT_DIR$/static/sitemap.xml" />
-        <option value="$PROJECT_DIR$/static/scss/variables.scss" />
         <option value="$PROJECT_DIR$/templates/partials/leader.html" />
         <option value="$PROJECT_DIR$/templates/partials/card.html" />
         <option value="$PROJECT_DIR$/templates/partials/footer.html" />
         <option value="$PROJECT_DIR$/templates/partials/button.html" />
-        <option value="$PROJECT_DIR$/static/scss/index.scss" />
-        <option value="$PROJECT_DIR$/templates/organizers.html" />
         <option value="$PROJECT_DIR$/templates/partials/calendar.html" />
-        <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/static/robots.txt" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/static/scss/variables.scss" />
+        <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/templates/partials/header.html" />
+        <option value="$PROJECT_DIR$/static/scss/index.scss" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/organizers.html" />
       </list>
     </option>
   </component>
@@ -211,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,6 +261,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,23 +440,25 @@
       <workItem from="1573310299400" duration="1382000" />
       <workItem from="1573318966455" duration="71000" />
       <workItem from="1573320448991" duration="610000" />
-      <workItem from="1573417682998" duration="1772000" />
+      <workItem from="1573417682998" duration="3696000" />
+      <workItem from="1573519886138" duration="17000" />
+      <workItem from="1573781758604" duration="783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207788000" />
+    <option name="totallyTimeSpent" value="210512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36761135" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3805668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49959514" weight="0.7970205" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8963563" weight="0.32588455" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8963563" visible="true" weight="0.32588455" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,7 +467,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.79888266" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.8931174" visible="true" weight="0.2905028" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.8931174" weight="0.2905028" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -638,27 +618,6 @@
     <entry file="file://$PROJECT_DIR$/static/images/IMG_6075.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="439" selection-start-column="439" selection-end-column="439" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/leader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/button.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -666,10 +625,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3168" selection-start-column="3168" selection-end-column="3168" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/calendar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        <state relative-caret-position="148">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="159" column="7" lean-forward="true" selection-start-line="159" selection-start-column="7" selection-end-line="159" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/leader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -683,49 +691,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/robots.txt">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="118">
+          <caret line="103" column="51" selection-start-line="103" selection-start-column="51" selection-end-line="103" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/organizers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7958">
-          <caret line="346" column="7" selection-start-line="346" selection-end-line="346" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scss/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="13" column="75" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="77" column="165" selection-start-line="77" selection-start-column="165" selection-end-line="77" selection-end-column="165" />
-          <folding>
-            <element signature="e#366#404#0#HTML" expanded="true" />
-            <element signature="e#1787#1815#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

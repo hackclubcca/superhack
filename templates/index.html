@@ -9,7 +9,7 @@
             <img alt="Logo" src="{{ url_for('static', filename='svg/superhack-logo.svg') }} " alt="Logo" id="logo"
                  class="rellax" data-rellax-speed="1"/>
             <h1 class="important text-light">Super Hack</h1>
-            <h2 class="text-light">Spring 2020 @ <span class="important">SDSC</span></h2>
+            <h2 class="text-light">Spring 2020, San Diego</h2>
             <a role="button" href="https://superhack.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">Apply
                 <i class="fas fa-arrow-right"></i></a>
             <h5 class="text-light"><span class="badge badge-danger">Preregister Now</span></h5>
@@ -63,31 +63,35 @@
             <div id="faq" class="container">
                 {{ leader("Frequently Asked Questions <i class='fas fa-question'></i>", id="faq") }}
                 <div class="row row-eq-height wow fadeIn">
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         {{ collapsiblecard(id="faq4",content="A hackathon is not a cybersecurity competition, as is often thought - it's an invention marathon in which students come up with ideas and deploy them.",title="What's a hackathon?") }}
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         {{ collapsiblecard(id="faq0",content="Registration officially opens in December, though you may pre-register now. We'll notify you over whether or not you've been admitted 3-4 weeks after you apply.", title="When can I apply?") }}
                     </div>
-                    <div class="col-sm-4">
-                        {{ collapsiblecard(id="faq1",content="Of course not! In fact, we encourage novices to attend too! We'll hold some workshops and demos to get everyone caught up to speed.",title="Do I need to know how to code?") }}
+                    <div class="col-sm-6">
+                        {{ collapsiblecard(id="faq1",content="Of course not! In fact, we encourage novices to attend too! We'll hold some workshops and demos to get newcomers caught up to speed - many hackathon attendees are new to programming.",title="Do I need to know how to code?") }}
                     </div>
-                </div>
-                <div class="row row-eq-height wow fadeIn">
-                    <div class="col-sm-4">
-                        {{ collapsiblecard(id="faq2",content="Any high-schoolers in grades 10-12 (we can make some exceptions)!! We encourage students from all over SoCal to apply, though we'll prioritize applicants from San Diego.", title="Who can attend?") }}
+                    <div class="col-sm-6">
+                        {{ collapsiblecard(id="faq2",content="Any high-schoolers in grades 10-12 (we can make some exceptions)! Unfortunately, parents and teachers may not help students with their projects, though they may mentor.", title="Who can attend?") }}
                     </div>
-                    <div class="col-sm-4">
-                        {{ collapsiblecard(id="faq3",content="At the San Diego Supercomputer Center (SDSC) Auditorium from 8AM to 9:30PM.", title="When and where is it?") }}
+                    <div class="col-sm-6">
+                        {{ collapsiblecard(id="faq3",content="Our event's venue will be determined and posted here soon. The hackathon will run from 8AM to 9:30PM.", title="When and where is it?") }}
                     </div>
-                    <div class="col-sm-4">
-                        {{ collapsiblecard(id="faq5",content="We will not be offering reimbursements at this time, though we encourage you to apply in case this changes.", title="Do you reimburse travel?") }}
+                    <div class="col-sm-6">
+                        {{ collapsiblecard(id="faq5",content="We will not be offering reimbursements at this time, though we encourage everyone to apply in case this changes.", title="Do you reimburse travel?") }}
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         {{ collapsiblecard(id="faq6",content="We'll release the official theme on the day of the event to ensure that all projects are organic. The project must not violate <a href='https://hackclub.com/conduct/' class='text-light'>Hack Club's Code of Conduct</a>.", title="What's the theme?") }}
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-6">
                         {{ collapsiblecard(id="faq7",content="Our event allows teams of up to 4 individuals, and participants may work alone though we strongly advise against it.", title="How big can my team be?") }}
+                    </div>
+                    <div class="col-sm-6">
+                        {{ collapsiblecard(id="faq8",content="Nope - you should have plenty of time during the event to work with others towards finding a cool idea for a project.", title="Do I need an idea beforehand?") }}
+                    </div>
+                    <div class="col-sm-6">
+                        {{ collapsiblecard(id="faq9",content="And we'd be more than happy to answer it. Email us at <a href='mailto:contact@superhack.org' class='text-light'>contact@superhack.org</a> and we'll address your inquiries.", title="I have another question") }}
                     </div>
                 </div>
             </div>
@@ -97,10 +101,14 @@
                 <div id="sponsor-images">
                     <div class="row">
                         <div class="col">
-                            {{ sponsor(url="https://surcle.io", file="surcle.png", tier="silver") }}
+                            <a class="wow fadeInUp">
+                                <h1 class="superhero-tier">Data Science Alliance</h1>
+                            </a>
                         </div>
+                    </div>
+                    <div class="row">
                         <div class="col">
-                            {{ sponsor(url="https://www.sdsc.edu/", file="sdsc.png", tier="silver") }}
+                            {{ sponsor(url="https://surcle.io", file="surcle.png", tier="silver") }}
                         </div>
                         <div class="col">
                             {{ sponsor(url="http://cer.ucsd.edu/", file="cer-logo.png", tier="silver") }}
@@ -145,7 +153,7 @@
         </div>
     </div>
     <div class="full-width" style="background: #242f3e;">
-        {{ Divider("#F6D7B0") }}
+        {{ Divider("#edc9af") }}
     </div>
     {# leader("Want to register? <i class='fas fa-user-plus'></i>") #}
     {# card(content="All you need to do is fill out <a href='https://tritonform.typeform.com/to/PKNkom'>this</a> form and we'll send you a confirmation email once we start rolling out decisions. We thank you for your interest in Super Hack.", title="Registration form") #}
