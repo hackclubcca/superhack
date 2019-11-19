@@ -302,22 +302,27 @@ body {
   max-height: 100px;
 }
 
-/* line 233 */
+/* line 234 */
+.custom-tier img {
+  max-height: 100px;
+}
+
+/* line 239 */
 .community-tier {
   max-width: 200px !important;
 }
 
-/* line 237 */
+/* line 243 */
 #sponsor-images {
   text-align: center;
   background: transparent;
 }
-/* line 241 */
+/* line 247 */
 #sponsor-images .col {
   /* flex-grow: 0 !important; */
 }
 
-/* line 247 */
+/* line 253 */
 #mobile {
   position: fixed;
   bottom: 0;
@@ -325,32 +330,33 @@ body {
   width: 100%;
   font-size: 50pt;
   z-index: 999;
+  height: 60px;
+  line-height: 60px;
 }
 
-/* line 256 */
+/* line 264 */
 h1 {
   margin-bottom: 0;
 }
 
-/* line 260 */
+/* line 268 */
 .mobile-col {
   width: 33%;
   text-align: center;
 }
 
-/* line 265 */
+/* line 273 */
 .mobile-icon {
-  font-size: 30pt !important;
-  padding: 5px;
+  font-size: 16pt !important;
 }
 
-/* line 270 */
+/* line 277 */
 .image-smooth {
   border-radius: 20px !important;
   padding: 5px;
 }
 
-/* line 275 */
+/* line 282 */
 .btn:not(.btn-mobile):not(.btn-footer) {
   border-radius: 500px;
   background: transparent;
@@ -359,28 +365,28 @@ h1 {
   border: 4px solid white !important;
   font-size: 18pt;
 }
-/* line 283 */
+/* line 290 */
 .btn:not(.btn-mobile):not(.btn-footer):hover {
   background: white;
   color: #0071bc;
 }
 
-/* line 289 */
+/* line 296 */
 .calendar {
   overflow-y: scroll;
   height: 400px;
 }
-/* line 293 */
+/* line 300 */
 .calendar::-webkit-scrollbar-track {
   background: transparent !important;
 }
-/* line 297 */
+/* line 304 */
 .calendar::-webkit-scrollbar-thumb {
   border-radius: 0 5px 5px 0;
   background: #100e16;
 }
 
-/* line 303 */
+/* line 310 */
 .leader-text {
   margin-top: 80px !important;
   color: black;
@@ -390,7 +396,7 @@ h1 {
   font-size: 48pt;
 }
 
-/* line 312 */
+/* line 319 */
 .card {
   background: black;
   border: 8px solid black !important;
@@ -401,14 +407,14 @@ h1 {
   margin-bottom: 20px;
   color: white !important;
 }
-/* line 322 */
+/* line 329 */
 .card:hover {
   box-shadow: 8px 8px #222222;
   transform: scale(1.05, 1.05) rotate(-0.18deg);
   cursor: pointer;
 }
 
-/* line 329 */
+/* line 336 */
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -416,67 +422,67 @@ h1 {
   display: flex;
 }
 
-/* line 336 */
+/* line 343 */
 a {
   font-family: "Gilroy Bold";
   color: black;
 }
-/* line 340 */
+/* line 347 */
 a:hover {
   color: #515151;
   text-decoration-style: unset;
 }
 
-/* line 346 */
+/* line 353 */
 .underline {
   text-decoration: underline !important;
 }
 
-/* line 350 */
+/* line 357 */
 .text-light {
   color: white !important;
 }
 
-/* line 354 */
+/* line 361 */
 .text-super {
   color: #22bffb;
 }
 
-/* line 358 */
+/* line 365 */
 .bg-super {
   background: #0071bc;
 }
 
-/* line 362 */
+/* line 369 */
 .transparent {
   background: transparent;
 }
 
-/* line 366 */
+/* line 373 */
 .bg-black {
   background: black !important;
 }
 
-/* line 370 */
+/* line 377 */
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 375 */
+/* line 382 */
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
 }
 
-/* line 380 */
+/* line 387 */
 #logo-helper {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-/* line 386 */
+/* line 393 */
 #logo {
   display: inline-block;
   vertical-align: middle;
@@ -486,87 +492,96 @@ a:hover {
   margin-top: 100px;
 }
 
-/* line 395 */
+/* line 402 */
 #map {
   height: 50vh;
 }
 
-/* line 399 */
+/* line 406 */
 #main-content {
   text-align: center !important;
 }
 
-/* line 403 */
+/* line 410 */
 #meet-the-team-leader {
   margin-top: 100px !important;
 }
 
-/* line 407 */
+/* line 414 */
 .footer {
   padding-top: 50px;
   font-size: 24pt;
 }
-/* line 411 */
+/* line 418 */
 .footer .btn-footer {
   color: white;
   font-size: 24pt !important;
 }
 
-/* line 417 */
+/* line 424 */
 tr {
   transition: background-color 0.1s linear;
   margin: 20px 0px;
   color: black;
 }
-/* line 422 */
+/* line 429 */
 tr td {
   font-family: "Gilroy Bold" !important;
   border-top: 8px solid black !important;
 }
-/* line 428 */
+/* line 435 */
 tr:hover {
   color: #edc9af;
   background-color: black;
   cursor: pointer;
 }
 
-/* line 435 */
+/* line 442 */
 #san-diego {
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 700 500' style='enable-background:new 0 0 700 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bdisplay:none;fill:%23FFFFFF;%7D .st1%7Bfill:%2305003B;%7D%0A%3C/style%3E%3Cimage style='display:none;overflow:visible;' width='3246' height='1855' xlink:href='../../Documents/San_Diego,_CA_USA_-_View_from_Coronado_-_panoramio.jpg' transform='matrix(0.2311 0 0 0.2311 -25 35.1978)'%3E%3C/image%3E%3Cpolyline class='st0' points='0,339 28,339 28,309 32,309 32,303 34,303 34,301 40,301 49,301 51,303 51,310 54,310 54,329 60,324 62,325 72,320 72,310 75,310 75,309 81,309 88,309 88,328 88,330 90,330 90,308 92,306 92,288 94,288 95,283 103,283 103,286 107,286 107,289 107,307 109,309 109,328 113,328 113,324 115,324 115,321 117,321 117,315 120,315 120,298 '/%3E%3Cpath class='st1' d='M-37.5,505.5c0,0,68.4-125,72.2-280H72c0,0-39.5,266-82.1,280H-37.5z'/%3E%3Cpath class='st1' d='M27.5,225.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S27.5,225.5,27.5,225.5z'/%3E%3Cpath class='st1' d='M255.5,506.5c0,0,68.4-125,72.2-280H365c0,0-39.5,266-82.1,280H255.5z'/%3E%3Cpath class='st1' d='M320.5,226.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S320.5,226.5,320.5,226.5z'/%3E%3Cpath class='st1' d='M548.5,510.5c0,0,68.4-125,72.2-280H658c0,0-39.5,266-82.1,280H548.5z'/%3E%3Cpath class='st1' d='M613.5,230.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S613.5,230.5,613.5,230.5z'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 700 500' style='enable-background:new 0 0 700 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bdisplay:none;fill:%23FFFFFF;%7D .st1%7Bfill:%23333333;%7D%0A%3C/style%3E%3Cimage style='display:none;overflow:visible;' width='3246' height='1855' xlink:href='../../Documents/San_Diego,_CA_USA_-_View_from_Coronado_-_panoramio.jpg' transform='matrix(0.2311 0 0 0.2311 -25 35.1978)'%3E%3C/image%3E%3Cpolyline class='st0' points='0,339 28,339 28,309 32,309 32,303 34,303 34,301 40,301 49,301 51,303 51,310 54,310 54,329 60,324 62,325 72,320 72,310 75,310 75,309 81,309 88,309 88,328 88,330 90,330 90,308 92,306 92,288 94,288 95,283 103,283 103,286 107,286 107,289 107,307 109,309 109,328 113,328 113,324 115,324 115,321 117,321 117,315 120,315 120,298 '/%3E%3Cpath class='st1' d='M-37.5,505.5c0,0,68.4-125,72.2-280H72c0,0-39.5,266-82.1,280H-37.5z'/%3E%3Cpath class='st1' d='M27.5,225.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S27.5,225.5,27.5,225.5z'/%3E%3Cpath class='st1' d='M255.5,506.5c0,0,68.4-125,72.2-280H365c0,0-39.5,266-82.1,280H255.5z'/%3E%3Cpath class='st1' d='M320.5,226.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S320.5,226.5,320.5,226.5z'/%3E%3Cpath class='st1' d='M548.5,510.5c0,0,68.4-125,72.2-280H658c0,0-39.5,266-82.1,280H548.5z'/%3E%3Cpath class='st1' d='M613.5,230.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S613.5,230.5,613.5,230.5z'/%3E%3C/svg%3E%0A");
   background-color: black;
   background-position: center center;
   background-size: cover;
+  vertical-align: top;
 }
 
-/* line 442 */
+/* line 450 */
 #time-frame {
   background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 750 500' style='enable-background:new 0 0 750 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bopacity:0.2;fill:none;stroke:%23FFFFFF;stroke-width:20;stroke-miterlimit:10;%7D .st1%7Bopacity:0.2;fill:none;stroke:%23FFFFFF;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Ccircle class='st0' cx='271.5' cy='262.5' r='184.5'/%3E%3Cpolyline class='st1' points='271.5,130.4 271.5,262.5 347.8,337.3 '/%3E%3C/svg%3E");
   background-color: black;
   background-position: center center;
   background-size: cover;
+  vertical-align: top;
 }
 
-/* line 449 */
+/* line 458 */
 #attendees {
   background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 750 500' style='enable-background:new 0 0 750 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%231A1A1A;%7D .st1%7Bopacity:0.4;fill:%23FBB03B;%7D .st2%7Bfill:%23FBB03B;%7D%0A%3C/style%3E%3Crect x='0' width='750' height='500'/%3E%3Cpath class='st0' d='M0,343h34v88l5,1v-9l19-1v-53l25-15l24,12l5,7l6-2v28h11v15l31,1v-10l39-5v-65l18-40v-11h4l24,10v8l18,36v120h5 v-21l24-5l10-24l47-9v-78c0,0,20-65,22-62s28,17,28,17l21,48v97l6-7l22-2v31l19-12v-59l72-2v30h17v19l6-1v-5l16-1v-7l8-5v-59l38-20 v16h8v63h91l4-42h51v142H0V343z'/%3E%3Cpolygon class='st1' points='477.9,106.6 371,259 395.4,274 617.6,214.9 '/%3E%3Cellipse class='st2' cx='574.5' cy='144' rx='110.5' ry='77'/%3E%3Cpath d='M604,103.5c2.6,3.8,15.2,24.5-3.9,33.3c0,0-11.3,6.3-14.2-34l-4.4,6h-6h-6l-4.4-6c-2.8,40.3-14.2,34-14.2,34 c-21.1-9.7-3.5-33.9-3.5-33.9c-28.1,6.2-48.1,21.9-48.1,40.2c0,14.3,12.1,26.9,30.6,34.7c-0.1-0.1-8.6-13.4-0.1-17.1 c8.5-3.8,16,3.1,20.4,11c0,0,4.7-9.7,10.4-8.8c5.7,0.9,13.2,15.4,14.8,23.3c0,0,0,0,0.1,0c1.6-7.9,9.1-22.3,14.8-23.3 c5.7-0.9,10.4,8.8,10.4,8.8c4.4-7.9,11.9-14.8,20.4-11c6.8,3,2.6,12.3,0.7,15.8c16.8-7.9,27.6-19.9,27.6-33.4 C649.5,125.3,630.8,110,604,103.5z'/%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A");
   background-color: black;
   background-position: center center;
   background-size: cover;
+  vertical-align: top;
 }
 
-/* line 456 */
+/* line 466 */
 #welcome {
   font-size: 64px;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
-/* line 462 */
+/* line 472 */
 #header-logo, #zxYzUx {
   display: none;
 }
 
-/* line 466 */
+/* line 476 */
+svg {
+  margin-top: 0px;
+  display: block;
+}
+
+/* line 481 */
 #community-card {
   background-image: url("../images/idea-driven.jpg");
   background-color: black;
@@ -575,7 +590,7 @@ tr:hover {
   height: 350px !important;
 }
 
-/* line 474 */
+/* line 489 */
 #everyone-card {
   background-image: url("../images/DAW_2883.jpg");
   background-color: black;
@@ -584,20 +599,20 @@ tr:hover {
   height: 350px !important;
 }
 
-/* line 482 */
+/* line 497 */
 #header-bg {
   background: url("../svg/head-bg.svg");
   background-size: cover;
   background-position: center center;
 }
-/* line 487 */
+/* line 502 */
 #header-bg span.badge-danger {
   margin-top: 10px;
   border-radius: 16px;
   padding: 8px 16px;
 }
 
-/* line 494 */
+/* line 509 */
 #register-button {
   padding: 8px 32px !important;
   font-size: 24pt !important;
@@ -605,23 +620,23 @@ tr:hover {
   color: white;
   border: 4px solid white;
 }
-/* line 501 */
+/* line 516 */
 #register-button path {
   transition: none !important;
 }
-/* line 505 */
+/* line 520 */
 #register-button:hover {
   background: white;
   color: #0071bc;
 }
 
-/* line 511 */
+/* line 526 */
 .nav-item {
   margin: 0px 10px;
   font-size: 18pt;
   text-transform: uppercase;
 }
-/* line 516 */
+/* line 531 */
 .nav-item:hover:not(.btn) {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 500px;

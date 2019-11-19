@@ -200,6 +200,9 @@ body {
   max-width: 250px !important;
   max-height: 100px; }
 
+.custom-tier img {
+  max-height: 100px; }
+
 .community-tier {
   max-width: 200px !important; }
 
@@ -215,7 +218,9 @@ body {
   background: #001f33;
   width: 100%;
   font-size: 50pt;
-  z-index: 999; }
+  z-index: 999;
+  height: 60px;
+  line-height: 60px; }
 
 h1 {
   margin-bottom: 0; }
@@ -225,8 +230,7 @@ h1 {
   text-align: center; }
 
 .mobile-icon {
-  font-size: 30pt !important;
-  padding: 5px; }
+  font-size: 16pt !important; }
 
 .image-smooth {
   border-radius: 20px !important;
@@ -355,22 +359,25 @@ tr {
     cursor: pointer; }
 
 #san-diego {
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 700 500' style='enable-background:new 0 0 700 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bdisplay:none;fill:%23FFFFFF;%7D .st1%7Bfill:%2305003B;%7D%0A%3C/style%3E%3Cimage style='display:none;overflow:visible;' width='3246' height='1855' xlink:href='../../Documents/San_Diego,_CA_USA_-_View_from_Coronado_-_panoramio.jpg' transform='matrix(0.2311 0 0 0.2311 -25 35.1978)'%3E%3C/image%3E%3Cpolyline class='st0' points='0,339 28,339 28,309 32,309 32,303 34,303 34,301 40,301 49,301 51,303 51,310 54,310 54,329 60,324 62,325 72,320 72,310 75,310 75,309 81,309 88,309 88,328 88,330 90,330 90,308 92,306 92,288 94,288 95,283 103,283 103,286 107,286 107,289 107,307 109,309 109,328 113,328 113,324 115,324 115,321 117,321 117,315 120,315 120,298 '/%3E%3Cpath class='st1' d='M-37.5,505.5c0,0,68.4-125,72.2-280H72c0,0-39.5,266-82.1,280H-37.5z'/%3E%3Cpath class='st1' d='M27.5,225.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S27.5,225.5,27.5,225.5z'/%3E%3Cpath class='st1' d='M255.5,506.5c0,0,68.4-125,72.2-280H365c0,0-39.5,266-82.1,280H255.5z'/%3E%3Cpath class='st1' d='M320.5,226.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S320.5,226.5,320.5,226.5z'/%3E%3Cpath class='st1' d='M548.5,510.5c0,0,68.4-125,72.2-280H658c0,0-39.5,266-82.1,280H548.5z'/%3E%3Cpath class='st1' d='M613.5,230.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S613.5,230.5,613.5,230.5z'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 700 500' style='enable-background:new 0 0 700 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bdisplay:none;fill:%23FFFFFF;%7D .st1%7Bfill:%23333333;%7D%0A%3C/style%3E%3Cimage style='display:none;overflow:visible;' width='3246' height='1855' xlink:href='../../Documents/San_Diego,_CA_USA_-_View_from_Coronado_-_panoramio.jpg' transform='matrix(0.2311 0 0 0.2311 -25 35.1978)'%3E%3C/image%3E%3Cpolyline class='st0' points='0,339 28,339 28,309 32,309 32,303 34,303 34,301 40,301 49,301 51,303 51,310 54,310 54,329 60,324 62,325 72,320 72,310 75,310 75,309 81,309 88,309 88,328 88,330 90,330 90,308 92,306 92,288 94,288 95,283 103,283 103,286 107,286 107,289 107,307 109,309 109,328 113,328 113,324 115,324 115,321 117,321 117,315 120,315 120,298 '/%3E%3Cpath class='st1' d='M-37.5,505.5c0,0,68.4-125,72.2-280H72c0,0-39.5,266-82.1,280H-37.5z'/%3E%3Cpath class='st1' d='M27.5,225.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S27.5,225.5,27.5,225.5z'/%3E%3Cpath class='st1' d='M255.5,506.5c0,0,68.4-125,72.2-280H365c0,0-39.5,266-82.1,280H255.5z'/%3E%3Cpath class='st1' d='M320.5,226.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S320.5,226.5,320.5,226.5z'/%3E%3Cpath class='st1' d='M548.5,510.5c0,0,68.4-125,72.2-280H658c0,0-39.5,266-82.1,280H548.5z'/%3E%3Cpath class='st1' d='M613.5,230.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S613.5,230.5,613.5,230.5z'/%3E%3C/svg%3E%0A");
   background-color: black;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  vertical-align: top; }
 
 #time-frame {
   background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 750 500' style='enable-background:new 0 0 750 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bopacity:0.2;fill:none;stroke:%23FFFFFF;stroke-width:20;stroke-miterlimit:10;%7D .st1%7Bopacity:0.2;fill:none;stroke:%23FFFFFF;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Ccircle class='st0' cx='271.5' cy='262.5' r='184.5'/%3E%3Cpolyline class='st1' points='271.5,130.4 271.5,262.5 347.8,337.3 '/%3E%3C/svg%3E");
   background-color: black;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  vertical-align: top; }
 
 #attendees {
   background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 750 500' style='enable-background:new 0 0 750 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%231A1A1A;%7D .st1%7Bopacity:0.4;fill:%23FBB03B;%7D .st2%7Bfill:%23FBB03B;%7D%0A%3C/style%3E%3Crect x='0' width='750' height='500'/%3E%3Cpath class='st0' d='M0,343h34v88l5,1v-9l19-1v-53l25-15l24,12l5,7l6-2v28h11v15l31,1v-10l39-5v-65l18-40v-11h4l24,10v8l18,36v120h5 v-21l24-5l10-24l47-9v-78c0,0,20-65,22-62s28,17,28,17l21,48v97l6-7l22-2v31l19-12v-59l72-2v30h17v19l6-1v-5l16-1v-7l8-5v-59l38-20 v16h8v63h91l4-42h51v142H0V343z'/%3E%3Cpolygon class='st1' points='477.9,106.6 371,259 395.4,274 617.6,214.9 '/%3E%3Cellipse class='st2' cx='574.5' cy='144' rx='110.5' ry='77'/%3E%3Cpath d='M604,103.5c2.6,3.8,15.2,24.5-3.9,33.3c0,0-11.3,6.3-14.2-34l-4.4,6h-6h-6l-4.4-6c-2.8,40.3-14.2,34-14.2,34 c-21.1-9.7-3.5-33.9-3.5-33.9c-28.1,6.2-48.1,21.9-48.1,40.2c0,14.3,12.1,26.9,30.6,34.7c-0.1-0.1-8.6-13.4-0.1-17.1 c8.5-3.8,16,3.1,20.4,11c0,0,4.7-9.7,10.4-8.8c5.7,0.9,13.2,15.4,14.8,23.3c0,0,0,0,0.1,0c1.6-7.9,9.1-22.3,14.8-23.3 c5.7-0.9,10.4,8.8,10.4,8.8c4.4-7.9,11.9-14.8,20.4-11c6.8,3,2.6,12.3,0.7,15.8c16.8-7.9,27.6-19.9,27.6-33.4 C649.5,125.3,630.8,110,604,103.5z'/%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A");
   background-color: black;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  vertical-align: top; }
 
 #welcome {
   font-size: 64px;
@@ -379,6 +386,10 @@ tr {
 
 #header-logo, #zxYzUx {
   display: none; }
+
+svg {
+  margin-top: 0px;
+  display: block; }
 
 #community-card {
   background-image: url("../images/idea-driven.jpg");
