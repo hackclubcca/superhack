@@ -16,22 +16,23 @@
 
         </div>
     </div>
+    <div id="main-content">
     {{ Divider("#29ABE2") }}
-    <div class="container" id="main-content">
+        <div class="container">
         <h2 class="leader-text important wow animated fadeIn" id="welcome">Welcome to Super Hack '20!</h2>
         <div class="row wow fadeIn display-flex">
             {{ importantcard(title="108", content="attendees from all over San Diego County", class="white-text", id="attendees") }}
             {{ importantcard(title="12 hrs", content="to build, explore, and deploy solutions", class="white-text", id="time-frame") }}
-            {{ importantcard(title="$0", content="Our hackathon is free for all registrants", class="white-text", id="san-diego") }}
+            {{ importantcard(title="$0", content="Our hackathon is free for all registrants", class="black-text", id="san-diego") }}
             <div class="col-sm-6">
                 <div class="card wow animated fadeIn" style=" text-align: center;">
                     <div class="card-body">
-                        <h5 class="card-title important" style="font-size: 30pt;">Idea-Driven Learning</h5>
+                        <h5 class="card-title important" style="font-size: 30pt;">💡 Idea-Driven Learning</h5>
                         <div class="card-content">
                             <p style="font-size: 18pt; text-align: left;">
-                                - Our event teaches participants through experience<br/>
-                                - No idea is too crazy, and thus our participants can truly learn freely<br/>
-                                - Super Hack empowers students to solve the questions that pester their head regardless of how difficult they are<br/>
+                                Our event teaches participants through experience.
+                                We believe that no idea is too crazy, and thus our participants can truly learn freely.
+                                Thus, Super Hack empowers students to solve the questions that pester their head regardless of how difficult they are<br/>
                             </p>
                         </div>
                     </div>
@@ -39,15 +40,23 @@
 
             </div>
             <div class="col-sm-6">
-                <div class="card wow animated fadeIn" id="community-card"></div>
+                <div class="card wow animated fadeIn" id="community-card">
+                    <div class="image-caption">
+                        Flagship Summit '19
+                    </div>
+                </div>
             </div>
             <div class="col-sm-6">
-                <div class="card wow animated fadeIn" id="everyone-card"></div>
+                <div class="card wow animated fadeIn" id="everyone-card">
+                    <div class="image-caption">
+                        Flagship Summit '19
+                    </div>
+                </div>
             </div>
             <div class="col-sm-6">
                 <div class="card wow animated fadeIn" style=" text-align: center;">
                     <div class="card-body">
-                        <h5 class="card-title important" style="font-size: 30pt;">For everyone</h5>
+                        <h5 class="card-title important" style="font-size: 30pt;">🌎 For everyone</h5>
                         <div class="card-content">
                             <p style="font-size: 18pt; text-align: left;">
                                 Our event is inclusive - anyone, regardless of their background, should
@@ -73,7 +82,7 @@
                         {{ collapsiblecard(id="faq1",content="Of course not! In fact, we encourage novices to attend too! We'll hold some workshops and demos to get newcomers caught up to speed - many hackathon attendees are new to programming.",title="Do I need to know how to code?") }}
                     </div>
                     <div class="col-sm-6">
-                        {{ collapsiblecard(id="faq2",content="Any high-schoolers in grades 10-12 (we can make some exceptions)! Unfortunately, parents and teachers may not help students with their projects, though they may mentor.", title="Who can attend?") }}
+                        {{ collapsiblecard(id="faq2",content="Any high-school student may attend! Unfortunately, parents and teachers may not help students with their projects, though they may contact us to be a mentor.", title="Who can attend?") }}
                     </div>
                     <div class="col-sm-6">
                         {{ collapsiblecard(id="faq3",content="Our event's venue will be determined and posted here soon. The hackathon will run from 8AM to 9:30PM.", title="When and where is it?") }}
@@ -168,7 +177,7 @@
         function initMap() {
             // Styles a map in night mode.
             var map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat: 32.8843509, lng: -117.2392354},
+                center: {lat: 32.7157, lng: -117.1161},
                 zoom: 17,
                 styles: [
                     {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
@@ -252,7 +261,7 @@
                 ]
             });
             var marker = new google.maps.Marker({
-                position: {lat: 32.8843509, lng: -117.2392354},
+                position: {lat: 32.7157, lng: -117.1161},
                 map: map,
                 title: 'Super Hack Venue',
                 icon: "https://www.superhack.org/images/favicon-32x32.png"
@@ -263,5 +272,6 @@
             async defer></script>
     <div class="bg-super full-width">
         {{ Divider("#242f3e") }}
+    </div>
     </div>
 {% endblock %}

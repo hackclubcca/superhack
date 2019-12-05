@@ -113,7 +113,7 @@
     <script defer="defer" src="{{ url_for('static', filename='js/main.js') }}"></script>
 </head>
 <body>
-
+<div id="master-content">
 <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand text-light" href="/">
         <img id="zxYzUx" src="{{ url_for('static', filename='svg/superhack-logo.svg') }}" height="60"/>
@@ -153,8 +153,7 @@
 {% block content %}
 {% endblock %}
 {% extends "partials/footer.html" %}
+</div>
 </body>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
 </html>

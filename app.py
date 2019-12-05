@@ -13,8 +13,6 @@ assets.register('scss', scss)
 cmp = Compress(app)
 STATIC_URL = '/static/'
 
-STATIC_URL = "/static/"
-
 
 @app.route('/')
 def index():

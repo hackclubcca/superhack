@@ -110,6 +110,10 @@ html {
 }
 
 body {
+  background: $primary;
+}
+
+#all-content {
   background: $desert-sand !important;
   padding-bottom: 0;
 }
@@ -174,8 +178,10 @@ body {
 
 .team-member {
   min-height: 50px;
-  border-radius: 500px;
-
+  border-radius: 16px;
+  background: darken($desert-sand, 10);
+  margin: 16px;
+  padding: 16px;
   .logo {
     border-radius: 16px;
     overflow: hidden;
@@ -404,11 +410,26 @@ a {
 }
 
 #main-content {
+  background: $desert-sand;
   text-align: center !important;
 }
 
 #meet-the-team-leader {
   margin-top: 100px !important;
+}
+
+.image-caption {
+  background: #fa335b;
+  font-family: $bold;
+  width: calc(100% + 16px);
+  padding: 8px 16px;
+  bottom: -8px;
+  left: -8px;
+  border-radius: 16px;
+  border: 8px solid black;
+  position: absolute;
+  font-size: 16pt;
+  text-transform: uppercase;
 }
 
 .footer {
@@ -440,8 +461,8 @@ tr {
 }
 
 #san-diego {
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 700 500' style='enable-background:new 0 0 700 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bdisplay:none;fill:%23FFFFFF;%7D .st1%7Bfill:%23333333;%7D%0A%3C/style%3E%3Cimage style='display:none;overflow:visible;' width='3246' height='1855' xlink:href='../../Documents/San_Diego,_CA_USA_-_View_from_Coronado_-_panoramio.jpg' transform='matrix(0.2311 0 0 0.2311 -25 35.1978)'%3E%3C/image%3E%3Cpolyline class='st0' points='0,339 28,339 28,309 32,309 32,303 34,303 34,301 40,301 49,301 51,303 51,310 54,310 54,329 60,324 62,325 72,320 72,310 75,310 75,309 81,309 88,309 88,328 88,330 90,330 90,308 92,306 92,288 94,288 95,283 103,283 103,286 107,286 107,289 107,307 109,309 109,328 113,328 113,324 115,324 115,321 117,321 117,315 120,315 120,298 '/%3E%3Cpath class='st1' d='M-37.5,505.5c0,0,68.4-125,72.2-280H72c0,0-39.5,266-82.1,280H-37.5z'/%3E%3Cpath class='st1' d='M27.5,225.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S27.5,225.5,27.5,225.5z'/%3E%3Cpath class='st1' d='M255.5,506.5c0,0,68.4-125,72.2-280H365c0,0-39.5,266-82.1,280H255.5z'/%3E%3Cpath class='st1' d='M320.5,226.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S320.5,226.5,320.5,226.5z'/%3E%3Cpath class='st1' d='M548.5,510.5c0,0,68.4-125,72.2-280H658c0,0-39.5,266-82.1,280H548.5z'/%3E%3Cpath class='st1' d='M613.5,230.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S613.5,230.5,613.5,230.5z'/%3E%3C/svg%3E%0A");
-  background-color: black;
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 700 500' style='enable-background:new 0 0 700 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bdisplay:none;fill:%23FFFFFF;%7D .st1%7Bfill:%23d39e00;%7D%0A%3C/style%3E%3Cimage style='display:none;overflow:visible;' width='3246' height='1855' xlink:href='../../Documents/San_Diego,_CA_USA_-_View_from_Coronado_-_panoramio.jpg' transform='matrix(0.2311 0 0 0.2311 -25 35.1978)'%3E%3C/image%3E%3Cpolyline class='st0' points='0,339 28,339 28,309 32,309 32,303 34,303 34,301 40,301 49,301 51,303 51,310 54,310 54,329 60,324 62,325 72,320 72,310 75,310 75,309 81,309 88,309 88,328 88,330 90,330 90,308 92,306 92,288 94,288 95,283 103,283 103,286 107,286 107,289 107,307 109,309 109,328 113,328 113,324 115,324 115,321 117,321 117,315 120,315 120,298 '/%3E%3Cpath class='st1' d='M-37.5,505.5c0,0,68.4-125,72.2-280H72c0,0-39.5,266-82.1,280H-37.5z'/%3E%3Cpath class='st1' d='M27.5,225.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S27.5,225.5,27.5,225.5z'/%3E%3Cpath class='st1' d='M255.5,506.5c0,0,68.4-125,72.2-280H365c0,0-39.5,266-82.1,280H255.5z'/%3E%3Cpath class='st1' d='M320.5,226.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S320.5,226.5,320.5,226.5z'/%3E%3Cpath class='st1' d='M548.5,510.5c0,0,68.4-125,72.2-280H658c0,0-39.5,266-82.1,280H548.5z'/%3E%3Cpath class='st1' d='M613.5,230.5c0,0-80-2-84,39c0,0,0-93,72-92c0,0-30-36-80-16c0,0,45-63,100-30c0,0-10-40-40-44c0,0,75-7,104,55 c0,0,36-35,78,36c0,0-74-24-85,13c0,0,68,10,85,72c0,0-98-53-103-26S613.5,230.5,613.5,230.5z'/%3E%3C/svg%3E%0A");
+  background-color: #d3b138;
   background-position: center center;
   background-size: cover;
   vertical-align: top;
@@ -449,7 +470,7 @@ tr {
 
 #time-frame {
   background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 750 500' style='enable-background:new 0 0 750 500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bopacity:0.2;fill:none;stroke:%23FFFFFF;stroke-width:20;stroke-miterlimit:10;%7D .st1%7Bopacity:0.2;fill:none;stroke:%23FFFFFF;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Ccircle class='st0' cx='271.5' cy='262.5' r='184.5'/%3E%3Cpolyline class='st1' points='271.5,130.4 271.5,262.5 347.8,337.3 '/%3E%3C/svg%3E");
-  background-color: black;
+  background-color: #003fb3;
   background-position: center center;
   background-size: cover;
   vertical-align: top;

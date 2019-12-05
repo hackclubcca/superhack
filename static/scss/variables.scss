@@ -65,8 +65,8 @@ $baby-blue: #93d4f0;
     100%{background-position: 0% 50%}
 }
 
-$bold: 'Gilroy Bold';
-$normal: 'Gilroy';
+$bold: -apple-system, 'Gilroy Bold';
+$normal: -apple-system, 'Gilroy';
 $off-black: #100e16;
 $link: #5058b3;
 $desert-sand: #edc9af;
