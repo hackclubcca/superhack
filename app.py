@@ -1,5 +1,4 @@
 from datetime import datetime, timedelta
-
 from flask import Flask, render_template, make_response
 from flask_assets import Environment, Bundle
 from flask_compress import Compress

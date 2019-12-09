@@ -6,10 +6,13 @@
 {% block content %}
     <div class="center" id="header-bg" style="margin-top:-1px; height: calc(100vh - 60px)">
         <div class="container">
-            <img alt="Logo" src="{{ url_for('static', filename='svg/superhack-logo.svg') }} " alt="Logo" id="logo"
+            <img alt="Logo" src="{{ url_for('static', filename='svg/superhack-logo.svg') }} " id="logo"
                  class="rellax" data-rellax-speed="1"/>
-            <h1 class="important text-light">Super Hack</h1>
-            <h2 class="text-light">Spring 2020, San Diego</h2>
+            <!--<h1 class="important text-light">Super Hack</h1>-->
+            <img alt="Super Hack" src="{{ url_for('static', filename='svg/superhack-text.svg') }} " id="logo-text"
+                 />
+            <img alt="March 21 @ ResMed HQ" src="{{ url_for('static', filename='svg/superhack-sub-text.svg') }} " id="logo-sub-text"
+                 />
             <a role="button" href="https://superhack.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">Apply
                 <i class="fas fa-arrow-right"></i></a>
             <h5 class="text-light"><span class="badge badge-danger">Preregister Now</span></h5>
@@ -111,8 +114,11 @@
                     <div class="row">
                         <div class="col">
                             <a class="wow fadeInUp">
-                                <h1 class="superhero-tier">Data Science Alliance</h1>
+                                <h2 class="superhero-tier">Data Science Alliance</h2>
                             </a>
+                        </div>
+                        <div class="col">
+                            {{ sponsor(url="https://surcle.io", file="logo-resmed-white.svg", tier="superhero") }}
                         </div>
                     </div>
                     <div class="row">
@@ -148,7 +154,7 @@
                             {{ sponsor(url="http://wolfram.com/", file="wolfram.svg") }}
                         </div>
                         <div class="col">
-                            {{ sponsor(url="https://desmos.com/", file="desmos.png") }}
+                            {{ sponsor(url="https://desmos.com/", file="desmos.svg") }}
                         </div>
                         <div class="col">
                             {{ sponsor(url="https://blockstack.com/", file="blockstack.svg") }}
@@ -161,10 +167,16 @@
                         </div>
                     </div>
                 </div>
-                {{ leader("Organizers <i class='fas fa-money-check-alt'></i>", id="organizers") }}
-                <h3 class="black-text"><a class="underline" href="/organizers">Click here to view the full team!</a></h3>
-
-            </div>
+                {{ leader("Organizers <i class='fas fa-address-book'></i>", id="organizers") }}
+                        <div class="row">
+                                {{ team_member(name="Harris Beg", role="President", email="harris@superhack.org", file="IMG_6074.jpg") }}
+                                {{ team_member(name="Eli Morris", role="Logistics", email="contact@superhack.org", file="513746ea-5044-43a0-b73e-e61c03f1da59.jpg") }}
+                                {{ team_member(name="Gary Peng", role="Sponsorships", email="gary@superhack.org", file="IMG_6075.jpg") }}
+                                {{ team_member(name="Brandon Chao", role="Outreach", email="contact@superhack.org", file="IMG_20191029.jpg") }}
+                                {{ team_member(name="Saikat Thakur", role="Advisor", email="schakrabortythakur@ucsd.edu") }}
+                                {{ team_member(name="Tony Mauro", role="Advisor", email="contact@superhack.org") }}
+                        </div>
+                    </div>
         </div>
     </div>
     <div class="full-width" style="background: #242f3e;">
@@ -176,8 +188,9 @@
     <script>
         function initMap() {
             // Styles a map in night mode.
+            let resmed = {lat: 32.8257882, lng: -117.1345012};
             var map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat: 32.7157, lng: -117.1161},
+                center: resmed,
                 zoom: 17,
                 styles: [
                     {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
@@ -261,10 +274,10 @@
                 ]
             });
             var marker = new google.maps.Marker({
-                position: {lat: 32.7157, lng: -117.1161},
+                position: resmed,
                 map: map,
                 title: 'Super Hack Venue',
-                icon: "https://www.superhack.org/images/favicon-32x32.png"
+                icon: "https://www.superhack.org/images/favicon-96x96.png"
             });
         }
     </script>
