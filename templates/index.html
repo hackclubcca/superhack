@@ -11,11 +11,11 @@
             <!--<h1 class="important text-light">Super Hack</h1>-->
             <img alt="Super Hack" src="{{ url_for('static', filename='svg/superhack-text.svg') }} " id="logo-text"
                  />
-            <img alt="March 21 @ ResMed HQ" src="{{ url_for('static', filename='svg/superhack-sub-text.svg') }} " id="logo-sub-text"
+            <img alt="March 21, 2020 @ ResMed HQ" src="{{ url_for('static', filename='svg/superhack-sub-text.svg') }} " id="logo-sub-text"
                  />
             <a role="button" href="https://superhack.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">Apply
                 <i class="fas fa-arrow-right"></i></a>
-            <h5 class="text-light"><span class="badge badge-danger">Preregister Now</span></h5>
+            <h5 class="text-light"><span class="badge badge-danger">Register until Jan. 30, 2020</span></h5>
 
         </div>
     </div>
@@ -24,8 +24,8 @@
         <div class="container">
         <h2 class="leader-text important wow animated fadeIn" id="welcome">Welcome to Super Hack '20!</h2>
         <div class="row wow fadeIn display-flex">
-            {{ importantcard(title="108", content="attendees from all over San Diego County", class="white-text", id="attendees") }}
-            {{ importantcard(title="12 hrs", content="to build, explore, and deploy solutions", class="white-text", id="time-frame") }}
+            {{ importantcard(title="100", content="attendees from all over San Diego County", class="white-text", id="attendees") }}
+            {{ importantcard(title="10 hrs", content="to build, explore, and deploy solutions", class="white-text", id="time-frame") }}
             {{ importantcard(title="$0", content="Our hackathon is free for all registrants", class="black-text", id="san-diego") }}
             <div class="col-sm-6">
                 <div class="card wow animated fadeIn" style=" text-align: center;">
@@ -35,7 +35,7 @@
                             <p style="font-size: 18pt; text-align: left;">
                                 Our event teaches participants through experience.
                                 We believe that no idea is too crazy, and thus our participants can truly learn freely.
-                                Thus, Super Hack empowers students to solve the questions that pester their head regardless of how difficult they are<br/>
+                                Thus, Super Hack empowers students to solve the questions that pester their head regardless of how difficult they are.
                             </p>
                         </div>
                     </div>
@@ -62,8 +62,8 @@
                         <h5 class="card-title important" style="font-size: 30pt;">🌎 For everyone</h5>
                         <div class="card-content">
                             <p style="font-size: 18pt; text-align: left;">
-                                Our event is inclusive - anyone, regardless of their background, should
-                                be allow to pursue their ideas. That's why our event is free
+                                Our event is inclusive - anyone, regardless of their background, will
+                                be allowed to pursue their ideas. That's why our event is free
                                 and open to every high-school student out there.
                             </p>
                         </div>
@@ -79,7 +79,7 @@
                         {{ collapsiblecard(id="faq4",content="A hackathon is not a cybersecurity competition, as is often thought - it's an invention marathon in which students come up with ideas and deploy them.",title="What's a hackathon?") }}
                     </div>
                     <div class="col-sm-6">
-                        {{ collapsiblecard(id="faq0",content="Registration officially opens in December, though you may pre-register now. We'll notify you over whether or not you've been admitted 3-4 weeks after you apply.", title="When can I apply?") }}
+                        {{ collapsiblecard(id="faq0",content="Registration officially opened December 9, and you have up to January 30 to apply. We'll notify you over whether or not you've been admitted 3-4 weeks after registration closes.", title="When can I apply?") }}
                     </div>
                     <div class="col-sm-6">
                         {{ collapsiblecard(id="faq1",content="Of course not! In fact, we encourage novices to attend too! We'll hold some workshops and demos to get newcomers caught up to speed - many hackathon attendees are new to programming.",title="Do I need to know how to code?") }}
@@ -88,10 +88,7 @@
                         {{ collapsiblecard(id="faq2",content="Any high-school student may attend! Unfortunately, parents and teachers may not help students with their projects, though they may contact us to be a mentor.", title="Who can attend?") }}
                     </div>
                     <div class="col-sm-6">
-                        {{ collapsiblecard(id="faq3",content="Our event's venue will be determined and posted here soon. The hackathon will run from 8AM to 9:30PM.", title="When and where is it?") }}
-                    </div>
-                    <div class="col-sm-6">
-                        {{ collapsiblecard(id="faq5",content="We will not be offering reimbursements at this time, though we encourage everyone to apply in case this changes.", title="Do you reimburse travel?") }}
+                        {{ collapsiblecard(id="faq3",content="Our event's venue will be at the ResMed HQ (9001 Spectrum Center Blvd, San Diego, CA 92123). The hackathon will run from 8AM to 7:30PM on March 21, 2020.", title="When and where is it?") }}
                     </div>
                     <div class="col-sm-6">
                         {{ collapsiblecard(id="faq6",content="We'll release the official theme on the day of the event to ensure that all projects are organic. The project must not violate <a href='https://hackclub.com/conduct/' class='text-light'>Hack Club's Code of Conduct</a>.", title="What's the theme?") }}
@@ -168,11 +165,13 @@
                     </div>
                 </div>
                 {{ leader("Organizers <i class='fas fa-address-book'></i>", id="organizers") }}
+                <h3 class="black-text">Run by students at Canyon Crest Academy.</h3>
                         <div class="row">
                                 {{ team_member(name="Harris Beg", role="President", email="harris@superhack.org", file="IMG_6074.jpg") }}
-                                {{ team_member(name="Eli Morris", role="Logistics", email="contact@superhack.org", file="513746ea-5044-43a0-b73e-e61c03f1da59.jpg") }}
+                                {{ team_member(name="Eli Morris", role="Outreach", email="contact@superhack.org", file="513746ea-5044-43a0-b73e-e61c03f1da59.jpg") }}
                                 {{ team_member(name="Gary Peng", role="Sponsorships", email="gary@superhack.org", file="IMG_6075.jpg") }}
-                                {{ team_member(name="Brandon Chao", role="Outreach", email="contact@superhack.org", file="IMG_20191029.jpg") }}
+                                {{ team_member(name="Brandon Chao", role="Budget", email="contact@superhack.org", file="IMG_20191029.jpg") }}
+                                {{ team_member(name="Aniket Pratap", role="Logistics", email="contact@superhack.org", file="02337814-1c29-4711-b0bd-886bfc5de304.jpg") }}
                                 {{ team_member(name="Saikat Thakur", role="Advisor", email="schakrabortythakur@ucsd.edu") }}
                                 {{ team_member(name="Tony Mauro", role="Advisor", email="contact@superhack.org") }}
                         </div>
@@ -182,8 +181,6 @@
     <div class="full-width" style="background: #242f3e;">
         {{ Divider("#edc9af") }}
     </div>
-    {# leader("Want to register? <i class='fas fa-user-plus'></i>") #}
-    {# card(content="All you need to do is fill out <a href='https://tritonform.typeform.com/to/PKNkom'>this</a> form and we'll send you a confirmation email once we start rolling out decisions. We thank you for your interest in Super Hack.", title="Registration form") #}
     <div id="map"></div>
     <script>
         function initMap() {
