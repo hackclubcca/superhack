@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="" />
+    <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +244,7 @@
       <workItem from="1575770353393" duration="1106000" />
       <workItem from="1575834746913" duration="2193000" />
       <workItem from="1575863179695" duration="548000" />
-      <workItem from="1575941902239" duration="2118000" />
+      <workItem from="1575941902239" duration="2388000" />
     </task>
     <servers />
   </component>
@@ -262,7 +265,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/superhack$SUPERHACK.coverage" NAME="SUPERHACK Coverage Results" MODIFIED="1575944130689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/superhack$SUPERHACK.coverage" NAME="SUPERHACK Coverage Results" MODIFIED="1575944987087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/superhack$raven_hack.coverage" NAME="raven-hack Coverage Results" MODIFIED="1575744336719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
