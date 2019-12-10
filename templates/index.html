@@ -4,7 +4,7 @@
 {% from "partials/leader.html" import leader, sponsor with context %}
 {% from "partials/divider.html" import Divider with context %}
 {% block content %}
-    <div class="center" id="header-bg" style="margin-top:-1px; height: calc(100vh - 60px)">
+    <div class="center" id="header-bg" style="margin-top:-1px; height: calc(100vh)">
         <div class="container">
             <img alt="Logo" src="{{ url_for('static', filename='svg/superhack-logo.svg') }} " id="logo"
                  class="rellax" data-rellax-speed="1"/>
@@ -13,8 +13,10 @@
                  />
             <img alt="March 21, 2020 @ ResMed HQ" src="{{ url_for('static', filename='svg/superhack-sub-text.svg') }} " id="logo-sub-text"
                  />
-            <a role="button" href="https://superhack.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">Apply
-                <i class="fas fa-arrow-right"></i></a>
+            <a role="button" href="https://superhack.typeform.com/to/PKNkom" class="btn btn-light" id="register-button">
+                Apply
+                <i class="fas fa-arrow-right"></i>
+            </a>
             <h5 class="text-light"><span class="badge badge-danger">Register until Jan. 30, 2020</span></h5>
 
         </div>
