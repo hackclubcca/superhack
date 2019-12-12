@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/images/sponsors/surcle.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/sponsors/cer-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/sponsors/cer-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,19 +46,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/images" />
-      <recent name="$PROJECT_DIR$/static/images/sponsors" />
-      <recent name="$PROJECT_DIR$/static/svg" />
-      <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\images\sponsors" />
-      <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/images/sponsors" />
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\images\sponsors" />
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\images" />
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\pdf" />
       <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\gen" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/static/images/sponsors" />
+      <recent name="$PROJECT_DIR$/static/svg" />
+      <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\images\sponsors" />
+      <recent name="C:\Users\legos\OneDrive\Desktop\Work\raven-hack\static\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,7 +248,8 @@
       <workItem from="1575863179695" duration="548000" />
       <workItem from="1575941902239" duration="2845000" />
       <workItem from="1575998870851" duration="276000" />
-      <workItem from="1576115031949" duration="632000" />
+      <workItem from="1576115031949" duration="1685000" />
+      <workItem from="1576185733772" duration="261000" />
     </task>
     <servers />
   </component>
@@ -267,7 +270,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/superhack$SUPERHACK.coverage" NAME="SUPERHACK Coverage Results" MODIFIED="1575944987087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/superhack$SUPERHACK.coverage" NAME="SUPERHACK Coverage Results" MODIFIED="1576126866172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/superhack$raven_hack.coverage" NAME="raven-hack Coverage Results" MODIFIED="1575744336719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
