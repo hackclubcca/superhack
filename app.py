@@ -24,7 +24,7 @@ def organizers():
 
 
 @app.route('/document/prospectus.pdf')
-def document(name):
+def document():
     return render_template("document.html", document_name="prospectus.pdf")
 
 
