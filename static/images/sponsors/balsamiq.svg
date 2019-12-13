@@ -4,7 +4,7 @@
 <svg version="1.1" id="balsamiq-logo-print" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" width="360px" height="115px" viewBox="0 0 360 115" enable-background="new 0 0 360 115" xml:space="preserve">
 <g>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#CC0000" d="M0,103c0,6.627,5.373,12,12,12h336c6.627,0,12-5.373,12-12V12
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#000" d="M0,103c0,6.627,5.373,12,12,12h336c6.627,0,12-5.373,12-12V12
 		c0-6.627-5.373-12-12-12H12C5.373,0,0,5.373,0,12V103z"/>
 	<g>
 		<path fill="#FFFFFF" d="M57.416,76.436c0.128-2.112,0.256-5.248,0.256-8V31h5.567v19.455h0.128
