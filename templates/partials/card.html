@@ -49,8 +49,7 @@
     <div class="col team-member">
         <div class="row">
             <div class="col-md-auto logo">
-                <img alt="{{ name }}" src="
-                        {% if file %}{{ url_for('static', filename='images/'+file) }}{% else %}https://icon-library.net/images/default-profile-icon/default-profile-icon-16.jpg{% endif %}"
+                <img alt="{{ name }}" src="{% if file %}{{ url_for('static', filename='images/'+file) }}{% else %}https://icon-library.net/images/default-profile-icon/default-profile-icon-16.jpg{% endif %}"
                      class="profile-image"/>
             </div>
             <div class="col">
