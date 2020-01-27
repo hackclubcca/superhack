@@ -253,6 +253,9 @@
       <workItem from="1578615648797" duration="710000" />
       <workItem from="1578628625110" duration="2000" />
       <workItem from="1578683114379" duration="48000" />
+      <workItem from="1578974224380" duration="88000" />
+      <workItem from="1579020885202" duration="483000" />
+      <workItem from="1580147616278" duration="1348000" />
     </task>
     <servers />
   </component>
@@ -273,7 +276,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/superhack$SUPERHACK.coverage" NAME="SUPERHACK Coverage Results" MODIFIED="1578616684798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/superhack$SUPERHACK.coverage" NAME="SUPERHACK Coverage Results" MODIFIED="1580147618666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/superhack$raven_hack.coverage" NAME="raven-hack Coverage Results" MODIFIED="1575744336719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
