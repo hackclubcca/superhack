@@ -18,7 +18,7 @@
                 Apply
                 <i class="fas fa-arrow-right"></i>
             </a>
-            <h5 class="text-light"><span class="badge badge-danger">Register until Jan. 30, 2020</span></h5>
+            <h5 class="text-light"><span class="badge badge-danger">Register until Feb. 21, 2020</span></h5>
 
         </div>
     </div>
@@ -120,12 +120,15 @@
                 <div id="sponsor-images">
                     <div class="row">
                         <div class="col">
-                            <a class="wow fadeInUp">
-                                <h2 class="superhero-tier">Data Science Alliance</h2>
-                            </a>
+                            {{ sponsor(url="https://resmed.com", file="logo-resmed-white.svg", tier="superhero") }}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            {{ sponsor(url="http://www.sci-ed-ga.org/", file="ga.svg", tier="superhero") }}
                         </div>
                         <div class="col">
-                            {{ sponsor(url="https://resmed.com", file="logo-resmed-white.svg", tier="superhero") }}
+                           {{ sponsor(url="#", file="dsa.svg", tier="superhero") }}
                         </div>
                     </div>
                     <div class="row">
