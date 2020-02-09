@@ -666,7 +666,7 @@ svg {
   background-size: cover;
 }
 /* line 554 */
-#header-bg span.badge-danger {
+#header-bg span[class^="badge"] {
   margin-top: 10px;
   border-radius: 16px;
   padding: 8px 16px;

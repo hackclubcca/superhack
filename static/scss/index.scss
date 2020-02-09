@@ -551,7 +551,7 @@ svg {
   background: url("../svg/head-bg.svg");
   background-size: cover;
 
-  span.badge-danger {
+  span[class^="badge"] {
     margin-top: 10px;
     border-radius: 16px;
     padding: 8px 16px;
