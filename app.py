@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-from flask import Flask, render_template, make_response
+from flask import Flask, render_template, make_response, redirect
 from flask_assets import Environment, Bundle
 from flask_compress import Compress
 
@@ -21,6 +21,11 @@ def index():
 @app.route('/organizers')
 def organizers():
     return render_template("organizers.html")
+
+
+@app.route('/live')
+def live():
+    return redirect('https://live.superhack.org')
 
 
 @app.route('/document/prospectus.pdf')
