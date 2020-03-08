@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8f66988-a4c5-4b12-bf92-a0dcece0be96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/superhack-text.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/svg/superhack-text.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,7 +259,10 @@
       <workItem from="1580147616278" duration="1628000" />
       <workItem from="1580164352150" duration="2545000" />
       <workItem from="1581185705160" duration="756000" />
-      <workItem from="1582434774864" duration="84000" />
+      <workItem from="1582434774864" duration="598000" />
+      <workItem from="1582591143415" duration="2580000" />
+      <workItem from="1582671059126" duration="493000" />
+      <workItem from="1583687894386" duration="31000" />
     </task>
     <servers />
   </component>
